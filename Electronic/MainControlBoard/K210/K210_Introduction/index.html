@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../../../../img/favicon.ico">
+        <title>K21初步了解 - WEEEMAKE WIKI</title>
+        <link href="../../../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../../../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css">
+        <link href="../../../../css/extra.css" rel="stylesheet">
+
+        <script src="../../../../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../../../../js/bootstrap.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/languages/c.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/languages/c++.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/languages/nginx.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/languages/java.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/languages/python.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/languages/shell session.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/languages/yaml.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="../../../..">WEEEMAKE WIKI</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="navitem">
+                                <a href="../../../.." class="nav-link">首页</a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">软件 <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../../../Software/" class="dropdown-item">软件首页</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown active">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">电子 <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../../" class="dropdown-item">电子首页</a>
+</li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">主控板类</a>
+    <ul class="dropdown-menu">
+            
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Arduino平台系列</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../Arduino/ELF_MainControlBoard/" class="dropdown-item">ELF主控板</a>
+</li>
+            
+<li>
+    <a href="../../Arduino/ELF_MINI_MainControlBoard/" class="dropdown-item">ELF MINI主控板</a>
+</li>
+            
+<li>
+    <a href="../../Arduino/ELF_PI_MainControlBoard/" class="dropdown-item">ELF PI主控板</a>
+</li>
+            
+<li>
+    <a href="../../Arduino/ELF_UNO_MainControlBoard/" class="dropdown-item">ELF UNO主控板</a>
+</li>
+    </ul>
+  </li>
+            
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Micro:bit平台系列</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../Microbit/Microbit_MainControlBoard/" class="dropdown-item">micro:bit主控板</a>
+</li>
+            
+<li>
+    <a href="../../Microbit/Microbit_ExpandBoard/" class="dropdown-item">micro:bit扩展版</a>
+</li>
+    </ul>
+  </li>
+            
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">K210平台系列</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="./" class="dropdown-item active">K21初步了解</a>
+</li>
+            
+<li>
+    <a href="../K210_AI_MainControlBoard/" class="dropdown-item">K210 AI 主控板</a>
+</li>
+    </ul>
+  </li>
+    </ul>
+  </li>
+                                </ul>
+                            </li>
+                            <li class="navitem">
+                                <a href="../../../../Structure/" class="nav-link">结构（待建设）</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../../../../Robot_Kits/" class="nav-link">套件（待建设）</a>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../../Microbit/Microbit_ExpandBoard/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../K210_AI_MainControlBoard/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="2"><a href="#k210" class="nav-link">K210简要概述</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#k210_1" class="nav-link">K210系统架构</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<div class="text-center">
+<h1 class="text-center">初步了解K210</h1>
+</div>
+
+<p><img src="K210.gif" alt="show" /></p>
+<h2 id="k210">K210简要概述<a class="headerlink" href="#k210" title="Permanent link">#</a></h2>
+<div class=WordSection1 style='layout-grid:15.6pt'>
+
+<p class=MsoNormal style='text-indent:30.0pt'><span lang=EN-US
+style='font-size:15.0pt;color:#495057;background:white'>Kendryte K210 </span><span
+style='font-size:15.0pt;color:#495057;background:white'>是集成<span
+style='background:yellow'>机器视觉</span>与<span style='background:yellow'>机器听觉</span>能力的系统级芯片<span
+lang=EN-US>(SoC)</span>。使用台积电<span lang=EN-US>(TSMC)</span>超低功耗的<span
+lang=EN-US style='background:yellow'>28</span><span style='background:yellow'>纳米</span>先进制程，具有<span
+style='background:yellow'>双核<span lang=EN-US>64</span>位</span>处理器，拥有较好的功耗性能，稳定性与可靠性。该方案力求零门槛开发，可在最短时效部署于用户的产品中，赋予产品人工智能。</span></p>
+
+<p class=MsoNormal style='text-indent:30.0pt'><span lang=EN-US
+style='font-size:15.0pt;color:#495057;background:white'>Kendryte K210 </span><span
+style='font-size:15.0pt;color:#495057;background:white'>定位于<span lang=EN-US
+style='background:yellow'>AI </span><span style='background:yellow'>与<span
+lang=EN-US>IoT</span></span><span lang=EN-US> </span>市场的<span lang=EN-US>SoC</span>，同时是使用非常方便的<span
+lang=EN-US>MCU</span>。</span></span></p>
+
+<p class=MsoNormal style='text-indent:30.0pt'><span lang=EN-US
+style='font-size:15.0pt;color:#495057;background:white'>Kendryte </span><span
+style='font-size:15.0pt;color:#495057;background:white'>中文含义为<span
+style='background:yellow'>勘智</span>，而勘智取自勘物探智。这颗芯片主要应用领域为物联网领域，在物联网领域进行开发，因此为勘物；这颗芯片主要提供的是人工智能解决方案，在人工智能领域探索，因此为探智。</span></p>
+
+<p class=MsoListParagraph align=left style='margin-left:63.0pt;text-align:left;
+text-indent:-21.0pt;text-autospace:none'><span lang=EN-US style='font-size:
+15.0pt;font-family:Wingdings;color:#495057'>l<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span><span style='font-size:15.0pt;color:#495057;background:white'>具备机器视觉能力</span></p>
+
+<p class=MsoListParagraph align=left style='margin-left:63.0pt;text-align:left;
+text-indent:-21.0pt;text-autospace:none'><span lang=EN-US style='font-size:
+15.0pt;font-family:Wingdings;color:#495057'>l<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span><span style='font-size:15.0pt;color:#495057;background:white'>具备机器听觉能力</span></p>
+
+<p class=MsoListParagraph align=left style='margin-left:63.0pt;text-align:left;
+text-indent:-21.0pt;text-autospace:none'><span lang=EN-US style='font-size:
+15.0pt;font-family:Wingdings;color:#495057'>l<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span><span style='font-size:15.0pt;color:#495057;background:white'>更好的低功耗视觉处理速度与准确率</span></p>
+
+<p class=MsoListParagraph align=left style='margin-left:63.0pt;text-align:left;
+text-indent:-21.0pt;text-autospace:none'><span lang=EN-US style='font-size:
+15.0pt;font-family:Wingdings;color:#495057'>l<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span><span style='font-size:15.0pt;color:#495057;background:white'>具备卷积人工神经网络硬件加速器<span
+lang=EN-US>KPU</span>，可高性能进行卷积人工神经网络运算</span></p>
+
+<p class=MsoListParagraph align=left style='margin-left:63.0pt;text-align:left;
+text-indent:-21.0pt;text-autospace:none'><span lang=EN-US style='font-size:
+15.0pt;font-family:Wingdings;color:#495057'>l<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span><span lang=EN-US style='font-size:15.0pt;color:#495057;
+background:white'>TSMC 28nm </span><span style='font-size:15.0pt;color:#495057;
+background:white'>先进制程，温度范围<span lang=EN-US>-40</span>°<span lang=EN-US>C </span>到<span
+lang=EN-US>125</span>°<span lang=EN-US>C</span>，稳定可靠</span></p>
+
+<p class=MsoListParagraph align=left style='margin-left:63.0pt;text-align:left;
+text-indent:-21.0pt;text-autospace:none'><span lang=EN-US style='font-size:
+15.0pt;font-family:Wingdings;color:#495057'>l<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span><span style='font-size:15.0pt;color:#495057;background:white'>支持固件加密，难以使用普通方法破解</span></p>
+
+<p class=MsoListParagraph align=left style='margin-left:63.0pt;text-align:left;
+text-indent:-21.0pt;text-autospace:none'><span lang=EN-US style='font-size:
+15.0pt;font-family:Wingdings;color:#495057'>l<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span><span style='font-size:15.0pt;color:#495057;background:white'>独特的可编程<span
+lang=EN-US>IO </span>阵列，使产品设计更加灵活</span></p>
+
+<p class=MsoListParagraph align=left style='margin-left:63.0pt;text-align:left;
+text-indent:-21.0pt;text-autospace:none'><span lang=EN-US style='font-size:
+15.0pt;font-family:Wingdings;color:#495057'>l<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span><span style='font-size:15.0pt;color:#495057;background:white'>低电压，与相同处理能力的系统相比具有更低功耗</span></p>
+
+<p class=MsoListParagraph style='margin-left:63.0pt;text-indent:-21.0pt'><span
+lang=EN-US style='font-size:15.0pt;font-family:Wingdings;color:#495057'>l<span
+style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span lang=EN-US
+style='font-size:15.0pt;color:#495057;background:white'>3.3V/1.8V </span><span
+style='font-size:15.0pt;color:#495057;background:white'>双电压支持，无需电平转换，节约成本</span></p>
+
+<p class=MsoNormal style='text-indent:30.0pt'><span style='font-size:15.0pt;
+color:#495057;background:white'>更多介绍可前往官网查看：<b><span lang=EN-US><a
+href="https://canaan-creative.com/product/kendryteai" target="_blank"><span lang=EN-US><span
+lang=EN-US>勘智K210</span></span></a></span></b></span></p>
+
+<p class=MsoNormal style='text-indent:30.0pt'><span style='font-size:15.0pt;
+color:#495057;background:white'>芯片手册：<b><span lang=EN-US><a href="kendryte_datasheet_20180919020633.pdf" target="_blank">kendryte_k210_datasheet</a></span></b></span></p>
+
+</div>
+
+<h2 id="k210_1">K210系统架构<a class="headerlink" href="#k210_1" title="Permanent link">#</a></h2>
+<p><img src="K210_Architecture.png" alt="show" /></p>
+<p class=MsoNormal style='text-indent:30.0pt'><span lang=EN-US
+style='font-size:15.0pt;color:#495057;background:white'>K210 </span><span
+style='font-size:15.0pt;color:#495057;background:white'>包含<span lang=EN-US>RISC-V
+64 </span>位双核<span lang=EN-US>CPU</span>，每个核心内置独立<span lang=EN-US>FPU. K210 </span>的核心功能是机器视觉与听觉，其包含用于计算卷积人工神经网络的<span
+lang=EN-US>KPU </span>与用于处理麦克风阵列输入的<span lang=EN-US>APU. </span>同时<span
+lang=EN-US>K210 </span>具备快速傅里叶变换加速器，可以进行高性能复数<span lang=EN-US>FFT </span>计算。因此对于大多数机器学习算法，<span
+lang=EN-US>K210 </span>具备高性能处理能力。</span></p>
+
+<p class=MsoNormal style='text-indent:30.0pt'><span lang=EN-US
+style='font-size:15.0pt;color:#495057;background:white'>K210 </span><span
+style='font-size:15.0pt;color:#495057;background:white'>内嵌<span lang=EN-US>AES </span>与<span
+lang=EN-US>SHA256 </span>算法加速器，为用户提供基本安全功能。</span></p>
+
+<p class=MsoNormal style='text-indent:30.0pt'><span lang=EN-US
+style='font-size:15.0pt;color:#495057;background:white'>K210 </span><span
+style='font-size:15.0pt;color:#495057;background:white'>拥有高性能、低功耗的<span
+lang=EN-US>SRAM</span>，以及功能强大的<span lang=EN-US>DMA</span>，在数据吞吐能力方面性能优异。</span></p>
+
+<p class=MsoNormal style='text-indent:30.0pt'><span lang=EN-US
+style='font-size:15.0pt;color:#495057;background:white'>K210 </span><span
+style='font-size:15.0pt;color:#495057;background:white'>具备丰富的外设单元，分别是：<span
+lang=EN-US>DVP</span>、<span lang=EN-US>JTAG</span>、<span lang=EN-US>OTP</span>、<span
+lang=EN-US>FPIOA</span>、<span lang=EN-US>GPIO</span>、<span lang=EN-US>UART</span>、<span
+lang=EN-US>SPI</span>、<span lang=EN-US>RTC</span>、<span lang=EN-US>I</span>&sup2;<span
+lang=EN-US>S</span>、<span lang=EN-US>I</span>&sup2;<span lang=EN-US>C</span>、</span></p>
+
+<p class=MsoNormal style='text-indent:30.0pt'><span lang=EN-US
+style='font-size:15.0pt;color:#495057;background:white'>WDT</span><span
+style='font-size:15.0pt;color:#495057;background:white'>、<span lang=EN-US>Timer
+</span>与<span lang=EN-US>PWM</span>，可满足海量应用场景。</span></p>
+
+<p><img src="K210.jpg" alt="show" /></p>
+<!-- ## K210参数介绍
+
+
+
+## K210应用例举 --></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+                <p>Copyright &copy; 2022 - 2023 WEEEMAKE</p>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "../../../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../../../js/base.js" defer></script>
+        <script src="../../../../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
