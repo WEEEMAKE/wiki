@@ -1,42 +1,8 @@
 
+# 官网+论坛
 
-<p align="center" style="color:blue">
-  <a href="https://mp.weixin.qq.com/s/ePhaYezFblgt0NgbvtWqww" target="_blank">
-    <h2 align="center">
-        仓库内容持续更新中...
-    </h2>
-  </a>
-</p>
-
-<!-- <p>
-  <br>
-</p> -->
-
-<p align="center">
-    <a href="https://mp.weixin.qq.com/s/ePhaYezFblgt0NgbvtWqww" target="_blank">
-        <img src="https://cdn.jsdelivr.net/gh/justacoder99/r2coding@master/img/r2coding_logo_index.15y992dieibg.png" width=""/>
-    </a>
-</p>
-
-
-<p align="center">
-  <a href="https://github.com/rd2coding/Road2Coding" target="_blank"><img src="https://img.shields.io/badge/Github-r2coding-red.svg"></a>
-  <a href="https://gitee.com/rd2coding/Road2Coding" target="_blank"><img src="https://img.shields.io/badge/Gitee-r2coding-blue.svg"></a>
-  <a href="https://space.bilibili.com/384068749" target="_blank"><img src="https://img.shields.io/badge/bilibili-哔哩哔哩-critical"></a>
-  <a href="https://mp.weixin.qq.com/s/ePhaYezFblgt0NgbvtWqww" target="_blank">
-    <img src="https://img.shields.io/badge/微信联系作者-WeChat-green.svg" alt="微信联系">
-  </a>
-</p>
-
-自学之路漫又长，唯有不断总结，不断回味，不断分享，才能成长！
-
-联系我可以[【微信】](#微信)私我
-
----
-# **为什么会有这个开源仓库**
----
-
-本仓库取名 **r2coding**，即 **Road To Coding**，意为「编程自学之路」，是自学编程以来所用资源和分享内容的大聚合。
+- [**进入官网**](https://www.weeemake.com.cn)
+- [**进入论坛**](https://www.weeemake.com.cn/bbs/)
 
 旨在为编程自学者提供一系列：
 >  - **清晰的编程自学路线**
