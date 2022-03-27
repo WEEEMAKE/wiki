@@ -1,5 +1,4 @@
-- 首页
-  - [**网站首页**](README.md)
+- [**主页**](README.md)
 - STEAM教育套件
   - [**WeeeBot mini酷跑侠**](https://www.weeemake.com.cn/weeebot-mini/)
   - [**WeeeBot mini教育版**](https://www.weeemake.com.cn/weeebot-mini-edu/)
@@ -16,13 +15,4 @@
   - [**全国青少年机器人等级考试一二级**](https://www.weeemake.com.cn/youth-level-test-1-2/)
   - [**全国青少年机器人等级考试三四级**](https://www.weeemake.com.cn/youth-level-test-3-4/)
   - [**AI机器学习初级套件**](https://www.weeemake.com.cn/ai-machine-learning-educational-starter-kit/)
-
-- 主控板
-  - [**在线画图工具**](https://www.processon.com/)
   
-- 电子模块
-  - [**0x00000001**](https://www.bilibili.com/)
-- 机械零件
-  - [**Git中文教程**](https://git-scm.com/book/zh/v2)
-- 一些案例
-  - [**K210主控图传**](https://www.jenkins.io/zh/doc/)
