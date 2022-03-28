@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+	
+<head>
+<meta charset="UTF-8">
+<title>Vb代码实例-高亮demo</title>
+<script type="text/javascript" src="syntaxhighlighter_2.1.364/scripts/shCore.js"></script>
+<script type="text/javascript" src="syntaxhighlighter_2.1.364/scripts/shBrushVb.js"></script>
+<link type="text/css" rel="stylesheet" href="syntaxhighlighter_2.1.364/styles/shCore.css"/>
+<!--高亮显示 主题CSS文件-->
+<link type="text/css" rel="stylesheet" href="syntaxhighlighter_2.1.364/styles/shThemeMidnight.css"/>
+<script type="text/javascript">
+	SyntaxHighlighter.config.clipboardSwf = 'syntaxhighlighter_2.1.364/scripts/clipboard.swf';
+	SyntaxHighlighter.config.strings = {//该为中文配置
+            expandSource : '展开代码',
+            viewSource : '查看代码',
+            copyToClipboard : '复制代码',
+            copyToClipboardConfirmation : '代码复制成功',
+            print : '打印',
+            help: '?',
+            alert: '语法高亮\n\n',
+            noBrush: '不能找到刷子: ',
+            brushNotHtmlScript: '刷子没有配置html-script选项',
+            aboutDialog: '<div></div>'
+        };
+	SyntaxHighlighter.all();
+</script>
+</head>
+
+<body>
+<h1>Vb代码实例 - 高亮demo<br /></h1>
+
+<pre class="brush:vb;">
+VERSION 5.00
+Object = "{648A5603-2C6E-101B-82B6-000000000014}#1.1#0"; "MSCOMM32.OCX"
+Begin VB.Form Form1 
+   Caption         =   "Bar Code Reader"
+   ClientHeight    =   3465
+   ClientLeft      =   2250
+   ClientTop       =   2370
+   ClientWidth     =   7080
+   LinkTopic       =   "Form1"
+   ScaleHeight     =   3465
+   ScaleWidth      =   7080
+   Begin VB.ListBox List1 
+      BeginProperty Font 
+         Name            =   "Times New Roman"
+         Size            =   14.25
+         Charset         =   0
+         Weight          =   400
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
+      Height          =   2580
+      Left            =   3465
+      TabIndex        =   4
+      Top             =   450
+      Width           =   3435
+   End
+   Begin VB.CommandButton Command2 
+      Caption         =   "结束系统"
+      BeginProperty Font 
+         Name            =   "宋体"
+         Size            =   12
+         Charset         =   134
+         Weight          =   400
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
+      Height          =   855
+      Left            =   495
+      TabIndex        =   2
+      Top             =   2280
+      Width           =   1935
+   End
+   Begin MSCommLib.MSComm MSComm1 
+      Left            =   2700
+      Top             =   2430
+      _ExtentX        =   1005
+      _ExtentY        =   1005
+      _Version        =   393216
+      CommPort        =   2
+      DTREnable       =   -1  'True
+      RThreshold      =   1
+   End
+   Begin VB.Label lblCode 
+      AutoSize        =   -1  'True
+      Caption         =   "?????"
+      BeginProperty Font 
+         Name            =   "Times New Roman"
+         Size            =   14.25
+         Charset         =   0
+         Weight          =   700
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
+      ForeColor       =   &H000000FF&
+      Height          =   330
+      Left            =   270
+      TabIndex        =   3
+      Top             =   450
+      Width           =   750
+   End
+   Begin VB.Label Label1 
+      AutoSize        =   -1  'True
+      Caption         =   "条形码列表"
+      BeginProperty Font 
+         Name            =   "宋体"
+         Size            =   12
+         Charset         =   134
+         Weight          =   400
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
+      Height          =   240
+      Index           =   1
+      Left            =   3480
+      TabIndex        =   1
+      Top             =   120
+      Width           =   1200
+   End
+   Begin VB.Label Label1 
+      AutoSize        =   -1  'True
+      Caption         =   "现在条形码值"
+      BeginProperty Font 
+         Name            =   "宋体"
+         Size            =   12
+         Charset         =   134
+         Weight          =   400
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
+      Height          =   240
+      Index           =   0
+      Left            =   240
+      TabIndex        =   0
+      Top             =   120
+      Width           =   1440
+   End
+End
+Attribute VB_Name = "Form1"
+Attribute VB_GlobalNameSpace = False
+Attribute VB_Creatable = False
+Attribute VB_PredeclaredId = True
+Attribute VB_Exposed = False
+Dim GotStr$  '接收到的数据
+ 
+''''''''''''''''''''''''''''''''''''''''''''''
+'使用命令按钮控件
+'将OFF字符串指令以Output指令送出，关闭噪音计
+'接着关闭通信端口，并结束系统
+'''''''''''''''''''''''''''''''''''''''''''''
+Private Sub Command2_Click()
+  MSComm1.PortOpen = False
+  End
+End Sub
+ 
+''''''''''''''''''''''''''''''''''''''''''''''
+'窗体的加载事件
+'清空ListBox控件
+'首先打开通信端口
+'''''''''''''''''''''''''''''''''''''''''''''
+Private Sub Form_Load()
+  List1.Clear
+  MSComm1.PortOpen = True
+End Sub
+ 
+''''''''''''''''''''''''''''''''''''''''''''''
+'通信控件的事件程序
+'由读条形码器所传的信息均以事件的方式接收
+'确定一笔数据接收完毕后，就清空缓冲区
+'''''''''''''''''''''''''''''''''''''''''''''
+Private Sub MSComm1_OnComm()
+  Dim CrPos%
+  Select Case MSComm1.CommEvent
+    ' 借着取代底下每一个 case 语句来处理每个事件与错误
+    ' 事件
+        Case comEvCD    ' CD 线的状态发生变化.
+        Case comEvCTS   ' CTS 线的状态发生变化.
+        Case comEvDSR   ' DSR 线的状态发生变化.
+        Case comEvRing  ' Ring Indicator 变化.
+        Case comEvReceive   ' 收到 RThreshold # of
+            GotStr = GotStr   Trim(MSComm1.Input)  '将数据不断地接入
+            CrPos = InStr(1, GotStr, Chr(13)) '判断是否遇到结尾字符
+            '若已收到结尾字符则进行以下的作业
+            If CrPos <> 0 Then
+              '显示新值
+              lblCode.Caption = GotStr
+              '填入List控件
+              List1.AddItem Mid(GotStr, 1, CrPos - 1)
+              List1.ListIndex = List1.ListCount - 1
+              GotStr = ""  '清空接收字符串
+            End If
+        Case comEvSend  ' 传输缓存区有 Sthreshold 个字符                            '
+    End Select
+ 
+End Sub
+
+	
+</pre>
+
+
+</body>
+
+</html>

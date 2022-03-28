@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	
+<head>
+<meta charset="UTF-8">
+<title>XML高亮demo</title>
+<script type="text/javascript" src="syntaxhighlighter_2.1.364/scripts/shCore.js"></script>
+<script type="text/javascript" src="syntaxhighlighter_2.1.364/scripts/shBrushXml.js"></script>
+<link type="text/css" rel="stylesheet" href="syntaxhighlighter_2.1.364/styles/shCore.css"/>
+<!--高亮显示 主题CSS文件-->
+<link type="text/css" rel="stylesheet" href="syntaxhighlighter_2.1.364/styles/shThemeMidnight.css"/>
+<script type="text/javascript">
+	SyntaxHighlighter.config.clipboardSwf = 'syntaxhighlighter_2.1.364/scripts/clipboard.swf';
+	SyntaxHighlighter.config.strings = {//该为中文配置
+            expandSource : '展开代码',
+            viewSource : '查看代码',
+            copyToClipboard : '复制代码',
+            copyToClipboardConfirmation : '代码复制成功',
+            print : '打印',
+            help: '?',
+            alert: '语法高亮\n\n',
+            noBrush: '不能找到刷子: ',
+            brushNotHtmlScript: '刷子没有配置html-script选项',
+            aboutDialog: '<div></div>'
+        };
+	SyntaxHighlighter.all();
+</script>
+</head>
+
+<body>
+<h1>XML代码高亮 - demo<br /></h1>
+
+<pre class="brush:xml;">
+	<!-- XML 中的注释 -->
+	
+	<!-- XML 对大小写敏感 -->
+	<Message>这是错误的</message>
+	<message>这是正确的</message>
+	
+	<!--  Edited by XMLSpy®  -->
+	<?xml version="1.0" encoding="UTF-8"?>
+	<note>
+	  <to>Tove</to>
+	  <from>Jani</from>
+	  <heading>Reminder</heading>
+	  <body>Don't forget me this weekend!</body>
+	</note>
+	
+</pre>
+
+
+</body>
+
+</html>

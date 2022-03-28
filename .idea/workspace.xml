@@ -5,13 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d18aedd9-efd3-4ee1-a858-b0e5e318d0a1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/css/vue.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/electronic_modules/rj11/rgb_ultrasonic_sensor/img_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/electronic_modules/rj11/rgb_ultrasonic_sensor/img_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/electronic_modules/rj11/rgb_ultrasonic_sensor/img_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/include.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/electronic_modules/rj11/rgb_ultrasonic_sensor/P1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/electronic_modules/rj11/rgb_ultrasonic_sensor/P2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/electronic_modules/rj11/rgb_ultrasonic_sensor/P3.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/electronic_modules/rj11/rgb_ultrasonic_sensor/rgb_ultrasonic_sensor.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/electronic_modules/rj11/rgb_ultrasonic_sensor/rgb_ultrasonic_sensor.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -26,7 +42,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/index.html" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/docs/electronic_modules/rj11/rgb_ultrasonic_sensor/rgb_ultrasonic_sensor.md" root0="SKIP_HIGHLIGHTING" root1="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/docs/electronic_modules/rj11/rgb_ultrasonic_sensor/rgb_ultrasonic_sensor.md" root0="SKIP_INSPECTION" root1="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -56,7 +72,7 @@
       <option name="presentableId" value="Default" />
       <updated>1648375863505</updated>
       <workItem from="1648375865729" duration="16331000" />
-      <workItem from="1648397942942" duration="3558000" />
+      <workItem from="1648397942942" duration="28775000" />
     </task>
     <servers />
   </component>

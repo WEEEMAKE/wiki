@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	
+<head>
+<meta charset="UTF-8">
+<title>PHP高亮demo</title>
+<script type="text/javascript" src="syntaxhighlighter_2.1.364/scripts/shCore.js"></script>
+<script type="text/javascript" src="syntaxhighlighter_2.1.364/scripts/shBrushPHP.js"></script>
+<link type="text/css" rel="stylesheet" href="syntaxhighlighter_2.1.364/styles/shCore.css"/>
+<!--高亮显示 主题CSS文件-->
+<link type="text/css" rel="stylesheet" href="syntaxhighlighter_2.1.364/styles/shThemeMidnight.css"/>
+<script type="text/javascript">
+	SyntaxHighlighter.config.clipboardSwf = 'syntaxhighlighter_2.1.364/scripts/clipboard.swf';
+	SyntaxHighlighter.config.strings = {//该为中文配置
+            expandSource : '展开代码',
+            viewSource : '查看代码',
+            copyToClipboard : '复制代码',
+            copyToClipboardConfirmation : '代码复制成功',
+            print : '打印',
+            help: '?',
+            alert: '语法高亮\n\n',
+            noBrush: '不能找到刷子: ',
+            brushNotHtmlScript: '刷子没有配置html-script选项',
+            aboutDialog: '<div></div>'
+        };
+	SyntaxHighlighter.all();
+</script>
+</head>
+
+<body>
+<h1>PHP代码高亮 - demo<br /></h1>
+
+<pre class="brush:php;">
+<?php
+	defined('IN_PHPCMS') or exit('No permission resources.');
+	//模型缓存路径
+	define('CACHE_MODEL_PATH',CACHE_PATH.'caches_model'.DIRECTORY_SEPARATOR.'caches_data'.DIRECTORY_SEPARATOR);
+	
+	pc_base::load_app_func('util','content');
+	class tag {
+		private $db;
+		function __construct() {
+			$this->db = pc_base::load_model('content_model');
+			$this->keyword_db = pc_base::load_model('keyword_model');
+			$this->siteid = get_siteid();
+		}
+		
+		public function init() {
+	
+			$page = max($_GET['page'], 1);
+			$pagesize = 20;
+			$where = '`siteid`='.$this->siteid;
+			$infos = $this->keyword_db->listinfo($where, '`searchnums` DESC, `videonum` DESC', $page, $pagesize);
+			$pages = $this->keyword_db->pages;
+			include template('content', 'tag');
+		}
+	
+		
+	}
+?>
+</pre>
+
+
+</body>
+
+</html>
