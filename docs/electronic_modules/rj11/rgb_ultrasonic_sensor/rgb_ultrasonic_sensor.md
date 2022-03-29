@@ -104,21 +104,95 @@ text{
     <td>测量距离（3~500cm）</td><td>(1个参数)端口</td><td><img src="docs/electronic_modules/rj11/rgb_ultrasonic_sensor/img_1.png"></img></td>
 </tr>
 <tr>
-    <td>设置内置RGB灯</td><td>（5个参数）端口、灯的位置、RGB三原色分量值</td><td><img src="docs/electronic_modules/rj11/rgb_ultrasonic_sensor/img_2.png"></img></td>
+    <td>驱动探头内置RGB灯</td><td>（5个参数）端口、灯的位置、RGB三原色分量值</td><td><img src="docs/electronic_modules/rj11/rgb_ultrasonic_sensor/img_2.png"></img></td>
 </tr>
 <tr>
-    <td>LED灯设置（Mini RGB超声波模块独有）</td><td>（3个参数）端口、灯的位置、LED灯状态</td><td><img src="docs/electronic_modules/rj11/rgb_ultrasonic_sensor/img_3.png"></img></td>
+    <td>驱动LED灯(Mini RGB超声波模块可用)</td><td>（3个参数）端口、灯的位置、LED灯状态</td><td><img src="docs/electronic_modules/rj11/rgb_ultrasonic_sensor/img_3.png"></img></td>
 </tr>
 </table>
 
 ## **3.2 文本代码编程指南**
 
-<include src="js/10751382_ByGGIUaTpIGYGIXJPOzLagrkl/Brush_Python.html"></include>
+<!-- tabs:start -->
 
+### **Arduino-IDE编程API**
+
+<table class="imagetable">
+<tr>
+    <th>头文件</th><td>WeUltrasonicSensor.h</th><th>调用示例</th>
+</tr>
+<tr>
+    <th>对象类</th><td>WeUltrasonicSensor</td><td>WeUltrasonicSensor ultrasonic_A(PORT_A);</td>
+</tr>
+<tr>
+    <th>测距</th><td>double distanceCm(void);</td><td>ultrasonic_A.distanceCm();</td>
+</tr>
+<tr>
+    <th>驱动探头内置RGB灯</th><td>void setColor(uint8_t index, uint8_t red, uint8_t green, uint8_t blue);</td><td>ultrasonic_A.setColor(3, 255, 255, 255);</td>
+</tr>
+<tr>
+    <th>驱动LED灯(Mini RGB超声波模块可用)</th><td>void setLed(uint8_t index, bool isOn);</td><td>ultrasonic_A.setLed(3, true);</td>
+</tr>
+</table>
+
+> - <font size=5 >详情链接 **→** [RGB超声波传感器Arduino库-API源文件](https://mp.weixin.qq.com/s/rAoamIey7cARMES7kfIaLw)</font>
+
+### **Micropython-micro:bit-v1编程API**
+
+<table class="imagetable">
+<tr>
+    <th>导入库</th><td>from elfshield import *</th><th>调用示例</th>
+</tr>
+<tr>
+    <th>测距</th><td>ultrasonic_getDistance(port)</td><td>ultrasonic_getDistance(PORT_A)</td>
+</tr>
+<tr>
+    <th>驱动探头内置RGB灯</th><td>ultrasonic_setColor(port, index, red, green, blue)</td><td>ultrasonic_setColor(PORT_A, 3, 255, 255, 255)</td>
+</tr>
+</table>
+
+### **Micropython-micro:bit-v2/ESP32/mPython/K210编程API**
+
+<table class="imagetable">
+<tr>
+    <th>导入库</th><td>from WeUltrasonicSensor import *</th><th>调用示例</th>
+</tr>
+<tr>
+    <th>对象类</th><td>WeUltrasonicSensor</td><td>ultrasonic_A = WeUltrasonicSensor(PORT_A)</td>
+</tr>
+<tr>
+    <th>测距</th><td>distanceCM()</td><td>ultrasonic_A.distanceCM()</td>
+</tr>
+<tr>
+    <th>驱动探头内置RGB灯</th><td>rgbShow(index, red, green, blue)</td><td>ultrasonic_A.rgbShow(3, 255, 255, 255)</td>
+</tr>
+</table>
+
+> [!NOTE]
+> - <font size=5 >PORT_X的引用需要导入库：</font><font size=5 color=green >from WePort import *</font>
+
+<!-- tabs:end -->
 
 ## **3.3 模块入手自测**
 
+<font size=5 >模块上手使用，遇到问题时，可用WeeeCode编程测试，测试方案如下：</font>
+<!-- tabs:start -->
+
+### **使用Arduino-C/C++编程的主控**
+
+<font size=5>RGB超声波传感器支持在线调试，可使用<font size=5 color=red>在线调试方式</font>测试该模块，测试图形化代码如下：</font>
+
+
+
+
+
+
+### **使用Micropython编程的主控**
+
+
+<!-- tabs:end -->
 ---
 # **4. 注意事项**
+
 > [!NOTE]
 > <font size=5 color=red>RGB超声波传感器上集成有6颗RGB灯，功耗相对比较大，使用时最好外接电源。</font>
