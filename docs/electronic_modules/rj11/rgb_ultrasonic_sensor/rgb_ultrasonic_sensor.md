@@ -182,8 +182,11 @@ text{
 
 <font size=5>RGB超声波传感器支持在线调试，可使用<font size=5 color=red>在线调试方式</font>测试该模块，测试图形化代码如下：</font>
 
+<div align=center>
+<img src="docs/electronic_modules/rj11/rgb_ultrasonic_sensor/test_code_1_zh.png"></img>
+</div>
 
-
+> - <font size=5 >代码下载 **→** [RGB超声波传感器测试代码.sb3](RGB超声波传感器测试代码.sb3)</font>
 
 
 
