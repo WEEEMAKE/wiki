@@ -31,12 +31,12 @@ lang=EN-US>2.0</span>版本的学习不会影响<span lang=EN-US>3.0</span>的�
 ### **WeeeCode 3**
 
 <div align="center">
-    <img src="img\weeecode.png"></img>
+    <img src="https://cdn.jsdelivr.net/gh/weeemake/wiki@master/docs/software_usage/weeecode/weeecode3.png"></img>
 </div>
 
 ### **WeeeCode 2**
 <div align="center">
-    <img src="docs\software_usage\weeecode\weeecode2.png"></img>
+    <img src="https://cdn.jsdelivr.net/gh/weeemake/wiki@master/docs/software_usage/weeecode/weeecode2.png"></img>
 </div>
 
 <!-- tabs:end -->
@@ -95,7 +95,7 @@ line-height:18.0pt'><span style='font-size:16.0pt;font-family:宋体'><a href="h
 > <font size=5 color=blue><b>WeeeCode3</b></font><font size=5>不需要安装，下载软件压缩包，解压后根目录可执行文件：</font><font size=5 color=blue><b>WeeeCode.exe</b></font><font size=5> 即为软件入口。</font>
 
 <div align="center">
-    <img src="docs\software_usage\weeecode\weeecode3_exe.png"></img>
+    <img src="https://cdn.jsdelivr.net/gh/weeemake/wiki@master/docs/software_usage/weeecode/weeecode3_exe.png"></img>
 </div>
 
 ### **WeeeCode 2**
