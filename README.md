@@ -12,7 +12,7 @@
 ## **WeeeCode**
 
 <div align=center>
-<img src="img\weeecode.png"></img>
+<img src="https://cdn.jsdelivr.net/gh/weeemake/wiki@master/img/weeecode.png"></img>
 </div>
 
 > [!NOTE]
@@ -23,7 +23,7 @@
 ## **Arduino IDE**
 
 <div align=center>
-<img src="img\arduino_ide.png"></img>
+<img src="https://cdn.jsdelivr.net/gh/weeemake/wiki@master/img/arduino_ide.png"></img>
 </div>
 
 > [!NOTE]
