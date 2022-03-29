@@ -92,7 +92,7 @@ line-height:18.0pt'><span style='font-size:16.0pt;font-family:宋体'><a href="h
 ### **WeeeCode 3**
 
 > [!NOTE]
-> <font size=5 color=blue><b>WeeeCode3</b></font><font size=5>不需要安装，下载软件压缩包，解压后根目录可执行文件：</font><font size=5 color=blue><b>WeeeCode.exe</b></font><font size=5> 即为软件入口。</font>
+> <font size=5 color=blue><b>WeeeCode 3 </b></font><font size=5>不需要安装，下载软件压缩包，解压后根目录可执行文件：</font><font size=5 color=blue><b>WeeeCode.exe</b></font><font size=5> 即为软件入口。</font>
 
 <div align="center">
     <img src="https://cdn.jsdelivr.net/gh/weeemake/wiki@master/docs/software_usage/weeecode/weeecode3_exe.png"></img>
@@ -100,10 +100,30 @@ line-height:18.0pt'><span style='font-size:16.0pt;font-family:宋体'><a href="h
 
 ### **WeeeCode 2**
 > [!NOTE]
-> <font size=5 color=blue><b>WeeeCode2</b></font><font size=5>是安装包，需要安装，安装也很简单，一路next就好。</font>
+> <font size=5 color=blue><b>WeeeCode 2 </b></font><font size=5>是安装包，需要安装，安装也很简单，一路next就好。</font>
 
 <video  controls width="100%">
   <source src="http://download.weeemake.com.cn/video/weeecode%E8%BD%AF%E4%BB%B6%E6%93%8D%E4%BD%9C%E8%AF%B4%E6%98%8EV1.0.mp4"  type="video/mp4">
 </video>
+
+<!-- tabs:end -->
+
+## **2.3-WeeeCode的使用**
+
+<!-- tabs:start -->
+
+### **WeeeCode 3**
+
+> [!NOTE]
+> <font size=5 color=blue><b>WeeeCode 3 </b></font><font size=5>不需要安装，下载软件压缩包，解压后根目录可执行文件：</font><font size=5 color=blue><b>WeeeCode.exe</b></font><font size=5> 即为软件入口。</font>
+
+<div align="center">
+    <img src="https://cdn.jsdelivr.net/gh/weeemake/wiki@master/docs/software_usage/weeecode/weeecode3_exe.png"></img>
+</div>
+
+### **WeeeCode 2**
+> [!NOTE]
+> <font size=5 color=blue><b>WeeeCode 2 </b></font><font size=5>已不再更新维护，推荐使用 </font><font size=5 color=blue><b>WeeeCode3</b></font><font size=5>。</font>
+
 
 <!-- tabs:end -->
