@@ -10,16 +10,21 @@
 <!-- tabs:start -->
 
 ## **WeeeCode**
-![](https://www.weeemake.com.cn/wp-content/uploads/2018/08/screen.png)
+
+<div align=center>
+<img src="img\weeecode.png"></img>
+</div>
 
 > [!NOTE]
 > - <font size=5 >支持的主控板：</font><font size=5 color=green >全平台</font>
 >
-> - <font size=5 >详情链接 **→** [WeeeCode详细介绍](https://mp.weixin.qq.com/s/rAoamIey7cARMES7kfIaLw)</font>
+> - <font size=5 >详情链接 **→** [WeeeCode详细介绍](docs\software_usage\weeecode\weeecode.md)</font>
 
 ## **Arduino IDE**
 
-[//]: # (![]&#40;https://cdn.jsdelivr.net/gh/justacoder99/r2coding@master/img/front.6uquir77a6c0.png&#41;)
+<div align=center>
+<img src="img\arduino_ide.png"></img>
+</div>
 
 > [!NOTE]
 > - <font size=5 >支持的主控板：</font><font size=5 color=green >ELF 328P、ELF 2560、ELF MINI、ELF PI、ELF UNO、ELF UNO Shield</font>

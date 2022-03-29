@@ -135,7 +135,7 @@ text{
 </tr>
 </table>
 
-> - <font size=5 >详情链接 **→** [RGB超声波传感器Arduino库-API源文件](https://mp.weixin.qq.com/s/rAoamIey7cARMES7kfIaLw)</font>
+> - <font size=5 >详情链接 **→** [RGB超声波传感器Arduino库-API头文件-WeUltrasonicSensor.h](https://github.com/WEEEMAKE/Weeemake_Libraries_for_Arduino/blob/master/Weeemake/src/WeUltrasonicSensor.h)</font>
 
 ### **Micropython-micro:bit-v1编程API**
 
@@ -175,23 +175,23 @@ text{
 
 ## **3.3 模块入手自测**
 
-<font size=5 >模块上手使用，遇到问题时，可用WeeeCode编程测试，测试方案如下：</font>
-<!-- tabs:start -->
-
-### **使用Arduino-C/C++编程的主控**
-
-<font size=5>RGB超声波传感器支持在线调试，可使用<font size=5 color=red>在线调试方式</font>测试该模块，测试图形化代码如下：</font>
+<font size=5 >模块上手使用，遇到问题时，可用WeeeCode编程测试，测试代码如下：</font>
 
 <div align=center>
 <img src="docs/electronic_modules/rj11/rgb_ultrasonic_sensor/test_code_1_zh.png"></img>
 </div>
 
-> - <font size=5 >代码下载 **→** [RGB超声波传感器测试代码.sb3](RGB超声波传感器测试代码.sb3)</font>
+> <font size=5 >代码下载 **→** <a href = "docs/electronic_modules/rj11/rgb_ultrasonic_sensor/RGB超声波传感器测试代码.sb3">RGB超声波传感器测试代码.sb3</a></font>
 
+<!-- tabs:start -->
 
+### **使用Arduino-C/C++编程的主控**
+
+<font size=5>RGB超声波传感器支持在线调试，可使用<font size=5 color=red>在线调试方式</font>测试该模块，测试现象如下：</font>
 
 ### **使用Micropython编程的主控**
 
+<font size=5>RGB超声波传感器支持在线调试，可使用<font size=5 color=red>在线调试方式</font>测试该模块，测试现象如下：</font>
 
 <!-- tabs:end -->
 ---
