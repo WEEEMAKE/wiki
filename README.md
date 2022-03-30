@@ -261,6 +261,31 @@
 
 ## **KF2510系列**
 
+<!-- panels:start -->
+<!-- div:left-panel -->
+- <font size=4>[声音传感器](docs\electronic_modules\kf2510\sound_sensor\sound_sensor.md)</font>
+- <font size=4>[红外接收传感器](https://mp.weixin.qq.com/s/NqG7GzsPhwI76h3nujTCgQ)</font>
+- <font size=4>[LM35温度传感器](https://mp.weixin.qq.com/s/NqG7GzsPhwI76h3nujTCgQ)</font>
+- <font size=4>[单色LED灯模块](https://mp.weixin.qq.com/s/NqG7GzsPhwI76h3nujTCgQ)</font>
+- <font size=4>[限位开关模块](https://mp.weixin.qq.com/s/NqG7GzsPhwI76h3nujTCgQ)</font>
+- <font size=4>[旋转电位器模块](https://mp.weixin.qq.com/s/NqG7GzsPhwI76h3nujTCgQ)</font>
+- <font size=4>[无源蜂鸣器模块](https://mp.weixin.qq.com/s/NqG7GzsPhwI76h3nujTCgQ)</font>
+- <font size=4>[MP3模块](https://mp.weixin.qq.com/s/NqG7GzsPhwI76h3nujTCgQ)</font>
+- <font size=4>[数码管模块](https://mp.weixin.qq.com/s/NqG7GzsPhwI76h3nujTCgQ)</font>
+
+<!-- div:right-panel -->
+- <font size=4>[光线传感器](https://mp.weixin.qq.com/s/NqG7GzsPhwI76h3nujTCgQ)</font>
+- <font size=4>[按键模块](https://mp.weixin.qq.com/s/-MYQ-meSUcr-wZhfUbGq3Q)</font>
+- <font size=4>[温湿度传感器](https://mp.weixin.qq.com/s/NqG7GzsPhwI76h3nujTCgQ)</font>
+- <font size=4>[RGB彩灯模块](https://mp.weixin.qq.com/s/-MYQ-meSUcr-wZhfUbGq3Q)</font>
+- <font size=4>[全向摇杆模块](https://mp.weixin.qq.com/s/NqG7GzsPhwI76h3nujTCgQ)</font>
+- <font size=4>[巡线传感器](https://mp.weixin.qq.com/s/NqG7GzsPhwI76h3nujTCgQ)</font>
+- <font size=4>[有源蜂鸣器模块](https://mp.weixin.qq.com/s/NqG7GzsPhwI76h3nujTCgQ)</font>
+- <font size=4>[130风扇模块](https://mp.weixin.qq.com/s/NqG7GzsPhwI76h3nujTCgQ)</font>
+- <font size=4>[无源蜂鸣器模块](https://mp.weixin.qq.com/s/NqG7GzsPhwI76h3nujTCgQ)</font>
+
+<!-- panels:end -->
+
 ## **其他模块**
 
 

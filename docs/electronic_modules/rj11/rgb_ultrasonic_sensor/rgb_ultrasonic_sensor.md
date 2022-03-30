@@ -3,7 +3,7 @@
 <h1 class="text-center">RGB超声波传感器</h1>
 </div>
 
-# **1. 简介**
+# **1-简介**
 
 <font size=5>RGB超声波传感器是一个用来测量距离的电子模块，测量范围是 4 cm 到 500 cm。可以用来帮助小车避开障碍或其他有关测距避障的项目。超声波发射器向某一方向发射超声波，在发射的同时开始计时，超声波在空气中传播，途中碰到障碍物就立即返回来，超声波接收器收到反射波就立即停止计时。声波在空气中的传播速度为 340m/s，根据计时器记录的时间 t，就可以计算出发射点距障碍物的距离 s，即：s=340*t/2。</font>
 
@@ -21,7 +21,7 @@
 
 <!-- tabs:end -->
 
-# **2. 参数规格**
+# **2-参数规格**
 
 <!-- CSS goes in the document HEAD or added to your external stylesheet -->
 <style type="text/css">
@@ -178,10 +178,10 @@ text{
 <font size=5 >模块上手使用，遇到问题时，可用WeeeCode编程测试，测试代码如下：</font>
 
 <div align=center>
-<img src="docs/electronic_modules/rj11/rgb_ultrasonic_sensor/test_code_1_zh.png"></img>
+<img src="https://cdn.jsdelivr.net/gh/weeemake/wiki@master/docs/electronic_modules/rj11/rgb_ultrasonic_sensor/test_code_1_zh.png"></img>
 </div>
 
-> <font size=5 >代码下载 **→** <a href = "docs/electronic_modules/rj11/rgb_ultrasonic_sensor/RGB超声波传感器测试代码.sb3">RGB超声波传感器测试代码.sb3</a></font>
+> <font size=5 >代码下载 **→** <a href = "https://cdn.jsdelivr.net/gh/weeemake/wiki@master/docs/electronic_modules/rj11/rgb_ultrasonic_sensor/RGB%E8%B6%85%E5%A3%B0%E6%B3%A2%E4%BC%A0%E6%84%9F%E5%99%A8%E6%B5%8B%E8%AF%95%E4%BB%A3%E7%A0%81.sb3">RGB超声波传感器测试代码.sb3</a></font>
 
 <!-- tabs:start -->
 
