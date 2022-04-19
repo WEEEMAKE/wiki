@@ -118,7 +118,7 @@ line-height:18.0pt'><span style='font-size:16.0pt;font-family:宋体'><a href="h
 > <font size=5 color=blue><b>WeeeCode 3 </b></font><font size=5>不需要安装，下载软件压缩包，解压后根目录可执行文件：</font><font size=5 color=blue><b>WeeeCode.exe</b></font><font size=5> 即为软件入口。</font>
 
 <div align="center">
-    <img src="https://cdn.jsdelivr.net/gh/weeemake/wiki@master/docs/software_usage/weeecode/weeecode3_exe.png"></img>
+    <img src="https://cdn.jsdelivr.net/gh/weeemake/wiki@master/docs/software_usage/weeecode/Weeecode3%E4%BD%BF%E7%94%A8.mp4"></img>
 </div>
 
 ### **WeeeCode 2**
