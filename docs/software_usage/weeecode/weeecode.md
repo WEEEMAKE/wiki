@@ -103,7 +103,7 @@ line-height:18.0pt'><span style='font-size:16.0pt;font-family:宋体'><a href="h
 > <font size=5 color=blue><b>WeeeCode 2 </b></font><font size=5>是安装包，需要安装，安装也很简单，一路next就好。</font>
 
 <video  controls width="100%">
-  <source src="http://download.weeemake.com.cn/video/weeecode%E8%BD%AF%E4%BB%B6%E6%93%8D%E4%BD%9C%E8%AF%B4%E6%98%8EV1.0.mp4"  type="video/mp4">
+  <source src="http://download.weeemake.com.cn/video/Weeecode2%E4%BD%BF%E7%94%A8.mp4"  type="video/mp4">
 </video>
 
 <!-- tabs:end -->
