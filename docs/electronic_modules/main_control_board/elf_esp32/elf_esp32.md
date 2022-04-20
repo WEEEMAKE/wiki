@@ -100,5 +100,8 @@ text{
 
 # **6-编程指南**
 
+<div class="block" data-fx="1">
+    <a class="block__title" data-img="docs\electronic_modules\main_control_board\elf_esp32\P2.png">Effect 1</a>
+</div>
 
 
