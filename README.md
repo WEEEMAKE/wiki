@@ -131,7 +131,12 @@
 
 ### **ELF ESP32**
 
+<div align=center>
+<img src="docs\electronic_modules\main_control_board\elf_esp32\elf_esp32.png" width=50%></img>
+</div>
 
+> [!NOTE]
+> - <font size=5 >详情链接 **→** [ELF ESP32详细介绍](docs\electronic_modules\main_control_board\elf_esp32\elf_esp32.md)</font>
 
 <!-- tabs:end -->
 
