@@ -147,9 +147,23 @@
 ### **传感类**
 <!-- panels:start -->
 <!-- div:left-panel -->
+<style>
+  li > img {
+    display: none;
+    position: absolute;
+    border: 1px solid black;
+    width: 300px;
+    box-shadow: black 10px 10px 20px 0px;
+   margin-left: 50px;
+  } 
 
-- <font size=4>[RGB超声波传感器](docs/electronic_modules/rj11/rgb_ultrasonic_sensor/rgb_ultrasonic_sensor.md)</font>
-- <font size=4>[温湿度传感器]()</font>
+  li > font:hover + img {
+    display: inline;
+  }
+
+</style>
+- <font size=4>[RGB超声波传感器](docs/electronic_modules/rj11/rgb_ultrasonic_sensor/rgb_ultrasonic_sensor.md)</font><img src="docs/robot_kits/Weather_Kit/气压传感器.png">
+- <font size=4>[温湿度传感器]()</font><img src="docs/robot_kits/Weather_Kit/OLED显示器.png" />
 - <font size=4>[火焰传感器]()</font>
 - <font size=4>[人体红外传感器]()</font>
 - <font size=4>[单路触摸传感器]()</font>
