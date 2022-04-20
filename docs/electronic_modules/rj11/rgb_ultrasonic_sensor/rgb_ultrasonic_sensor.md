@@ -56,7 +56,7 @@ text{
 </style>
 
 <!-- Table goes in the document BODY -->
-<table class="imagetable">
+<table class="imagetable" style="display: table; text-align: left;">
 <tr>
     <th>参数</th><th>值/描述</th>
 </tr>
@@ -96,7 +96,7 @@ text{
 <font size=5>该模块支持的图形化编程平台有WeeeCode、编程猫平台、Mixly_Arduino、MakeCode等，其图形化编程大同小异，区别不会很大。</font>
 
 <!-- Table goes in the document BODY -->
-<table class="imagetable">
+<table class="imagetable" style="display: table; text-align: left;">
 <tr>
     <th>模块功能</th><th>需设参数</th><th>图形化编程块举例(其他平台图形化编程块大同小异)</th>
 </tr>
@@ -117,7 +117,7 @@ text{
 
 ### **Arduino-IDE编程API**
 
-<table class="imagetable">
+<table class="imagetable" style="display: table; text-align: left;">
 <tr>
     <th>头文件</th><td>WeUltrasonicSensor.h</th><th>调用示例</th>
 </tr>
@@ -139,7 +139,7 @@ text{
 
 ### **Micropython-micro:bit-v1编程API**
 
-<table class="imagetable">
+<table class="imagetable" style="display: table; text-align: left;">
 <tr>
     <th>导入库</th><td>from elfshield import *</th><th>调用示例</th>
 </tr>
@@ -153,7 +153,7 @@ text{
 
 ### **Micropython-micro:bit-v2/ESP32/mPython/K210编程API**
 
-<table class="imagetable">
+<table class="imagetable" style="display: table; text-align: left;">
 <tr>
     <th>导入库</th><td>from WeUltrasonicSensor import *</th><th>调用示例</th>
 </tr>
