@@ -764,7 +764,7 @@ section.cover blockquote>p>a:hover {
     white-space:inherit
 }
 .markdown-section code:after,.markdown-section code:before {
-    letter-spacing:.05rem
+    letter-spacing:.0rem
 }
 code .token {
     -moz-osx-font-smoothing:initial;

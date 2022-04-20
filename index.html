@@ -10,7 +10,6 @@
   <link rel="icon" href="https://cdn.jsdelivr.net/gh/weeemake/wiki@master/img/favicon.ico">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/weeemake/wiki@master/css/vue.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/weeemake/wiki@master/css/style.css">
-  <link rel="https://cdn.jsdelivr.net/npm/docsify-highlight@1.2.4/dist/docsify-highlight.min.css">
   <script>
     var _hmt = _hmt || [];
     (function() {
@@ -69,7 +68,13 @@
           }
         });
       }
-    ]
+    ],
+    search: {
+        paths: 'auto',
+        placeholder: '搜索',
+        noData: '找不到结果',
+        depth: 3,
+      },
 
   }
 </script>
@@ -83,8 +88,9 @@
 <script src="https://cdn.jsdelivr.net/gh/weeemake/wiki@master/js/docsify-themeable.min.js"></script>
 <script src="https://cdn.jsdelivr.net/gh/weeemake/wiki@master/js/zoom-image.min.js"></script>
 <script src="https://cdn.jsdelivr.net/gh/weeemake/wiki@master/js/index.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/docsify-highlight@1.2.4/docsify-highlight.min.css"></script>
 <script src="https://cdn.jsdelivr.net/npm/docsify-scroll-to-top@1.0.2/dist/docsify-scroll-to-top.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/docsify-copy-code"></script>
 
 </body>
 </html>

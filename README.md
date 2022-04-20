@@ -288,5 +288,47 @@
 
 ## **其他模块**
 
+# **机器人套件**
 
+## **STEAM教育套件**
+
+<!-- panels:start -->
+<!-- div:left-panel -->
+- <font size=4>[WeeeBot mini酷跑侠](https://www.weeemake.com.cn/weeebot-mini/)</font>
+- <font size=4>[WeeeBot mini教育版](https://www.weeemake.com.cn/weeebot-mini-edu/)</font>
+- <font size=4>[WeeeBot 巡线侠](https://www.weeemake.com.cn/weeebot/)</font>
+- <font size=4>[WeeeBot Jeep](https://www.weeemake.com.cn/weeebot-jeep/)</font>
+
+<!-- div:right-panel -->
+- <font size=4>[6合1探索者机器人](https://www.weeemake.com.cn/weeebot-evolution/)</font>
+- <font size=4>[12合1机器人风暴](https://www.weeemake.com.cn/12-in-1-robotstorm/)</font>
+- <font size=4>[智能家居小电子套装](https://www.weeemake.com.cn/home-inventor-kit/)</font>
+- <font size=4>[科学高级套件](https://www.weeemake.com.cn/science-kit/)</font>
+
+<!-- panels:end -->
+
+## **课后服务解决方案**
+
+<!-- panels:start -->
+<!-- div:left-panel -->
+- <font size=4>[百变创意机械套装](https://www.weeemake.com.cn/variety-of-creative-machinery-kit/)</font>
+- <font size=4>[趣味火星探险套件](https://www.weeemake.com.cn/mars-rover-kit/)</font>
+- <font size=4>[Python编程学习套装](https://www.weeemake.com.cn/python-educational-robot-kit/)</font>
+
+<!-- div:right-panel -->
+- <font size=4>[全国青少年机器人等级考试一二级](https://www.weeemake.com.cn/youth-level-test-1-2/)</font>
+- <font size=4>[全国青少年机器人等级考试三四级](https://www.weeemake.com.cn/youth-level-test-3-4/)</font>
+- <font size=4>[AI机器学习初级套件](https://www.weeemake.com.cn/ai-machine-learning-educational-starter-kit/)</font>
+
+<!-- panels:end -->
+
+## **其他趣味套件**
+
+<!-- panels:start -->
+<!-- div:left-panel -->
+- <font size=4>[气象站小套件](docs\robot_kits\Weather_Kit\Weather_Kit.md)</font>
+
+<!-- div:right-panel -->
+
+<!-- panels:end -->
 

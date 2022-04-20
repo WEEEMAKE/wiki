@@ -199,3 +199,4 @@ text{
 
 > [!NOTE]
 > <font size=5 color=red>RGB超声波传感器上集成有6颗RGB灯，功耗相对比较大，使用时最好外接电源。</font>
+
