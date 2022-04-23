@@ -99,7 +99,3 @@ text{
 <embed class="pdfobject" src="docs\electronic_modules\main_control_board\elf_esp32\ESP32_430.pdf" style="overflow: auto; width: 100%; height: 50rem;">
 
 # **6-编程指南**
-
-<div class="geeks"> 
-<img src="https://media.geeksforgeeks.org/wp-content/uploads/20200403151026/adblur_gfg.png" alt="Geeks Image" ></img>    
-</div> 

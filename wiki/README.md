@@ -174,7 +174,7 @@
 - <font size=4>[陀螺仪传感器]()</font>
 - <font size=4>[雨滴传感器]()</font>
 - <font size=4>[气压传感器]()</font>
-- <font size=4>[语音识别传感器]()</font>
+- <font size=4>[语音识别传感器V1](docs\electronic_modules\rj11\speech_recognition_v1\speech_recognition_v1.md)</font>
 - <font size=4>[紫外线传感器]()</font>
 
 <!-- div:right-panel -->
@@ -186,7 +186,9 @@
 - <font size=4>[电子指南针传感器]()</font>
 - <font size=4>[PM2.5传感器]()</font>
 - <font size=4>[手势识别传感器]()</font>
-- <font size=4>[图像识别传感器]()</font>
+- <font size=4>[语音识别传感器V2]()</font>
+- <font size=4>[图像识别传感器V1]()</font>
+- <font size=4>[图像识别传感器V2]()</font>
 
 <!-- panels:end -->
 
