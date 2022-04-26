@@ -14,10 +14,13 @@
 
 ## **RGB Ultrasonic Sensor**
 
-![q](rgb_ultrasonic_sensor.png)
+<div align=center>
+<img src="docs\electronic_modules\rj11\rgb_ultrasonic_sensor\rgb_ultrasonic_sensor.png">
+</div>
 
 ## **Mini RGB Ultrasonic Sensor**
 
+<font size=5>图片未上传</font>
 
 <!-- tabs:end -->
 
@@ -178,10 +181,10 @@ text{
 <font size=5 >模块上手使用，遇到问题时，可用WeeeCode编程测试，测试代码如下：</font>
 
 <div align=center>
-<img src="https://cdn.jsdelivr.net/gh/weeemake/wiki@master/docs/electronic_modules/rj11/rgb_ultrasonic_sensor/test_code_1_zh.png"></img>
+<img src="docs/electronic_modules/rj11/rgb_ultrasonic_sensor/test_code_1_zh.png"></img>
 </div>
 
-> <font size=5 >代码下载 **→** <a href = "https://cdn.jsdelivr.net/gh/weeemake/wiki@master/docs/electronic_modules/rj11/rgb_ultrasonic_sensor/RGB%E8%B6%85%E5%A3%B0%E6%B3%A2%E4%BC%A0%E6%84%9F%E5%99%A8%E6%B5%8B%E8%AF%95%E4%BB%A3%E7%A0%81.sb3">RGB超声波传感器测试代码.sb3</a></font>
+> <font size=5 >代码下载 **→** <a href = "docs/electronic_modules/rj11/rgb_ultrasonic_sensor/RGB%E8%B6%85%E5%A3%B0%E6%B3%A2%E4%BC%A0%E6%84%9F%E5%99%A8%E6%B5%8B%E8%AF%95%E4%BB%A3%E7%A0%81.sb3">RGB超声波传感器测试代码.sb3</a></font>
 
 <!-- tabs:start -->
 

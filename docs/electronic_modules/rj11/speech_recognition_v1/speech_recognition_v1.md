@@ -130,125 +130,29 @@ lang=ZH-CN style='font-size:16.0pt;color:black;background:white'>该模块支持
 style='font-size:16.0pt;color:black;background:white'>WeeeCode 3.0<span
 lang=ZH-CN>，其图形化编程指南如下：</span></span></p>
 
-<div align=center>
-
-<table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0
- style='border-collapse:collapse'>
- <tr>
-  <td width=257 valign=top style='width:193.1pt;border:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b><span
-  lang=ZH-CN style='font-size:14.0pt;font-family:华文楷体;color:black;background:
-  white'>模块功能</span></b></p>
-  </td>
-  <td width=222 valign=top style='width:166.5pt;border:solid windowtext 1.0pt;
-  border-left:none;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b><span
-  lang=ZH-CN style='font-size:14.0pt;font-family:华文楷体;color:black;background:
-  white'>需传参数</span></b></p>
-  </td>
-  <td width=654 valign=top style='width:490.8pt;border:solid windowtext 1.0pt;
-  border-left:none;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b><span
-  lang=ZH-CN style='font-size:14.0pt;font-family:华文楷体;color:black;background:
-  white'>图形化编程块举例</span></b><b><span style='font-size:14.0pt;font-family:华文楷体;
-  color:black;background:white'>(</span><span lang=ZH-CN>其他平台图形化编程块大同小异</span>)</b></p>
-  </td>
- </tr>
- <tr style='height:79.55pt'>
-  <td width=257 style='width:193.1pt;border:solid windowtext 1.0pt;border-top:
-  none;padding:0in 5.4pt 0in 5.4pt;height:79.55pt'>
-  <p class=MsoNormal align=center style='text-align:center'><span lang=ZH-CN
-  style='font-size:14.0pt;font-family:华文楷体;color:black;background:white'>选择工作模式</span></p>
-  </td>
-  <td width=222 style='width:166.5pt;border-top:none;border-left:none;
-  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt;height:79.55pt'>
-  <p class=MsoNormal><span style='font-size:14.0pt;font-family:华文楷体;color:black;
-  background:white'>(2<span lang=ZH-CN>个参数）端口、选择模式</span></span></p>
-  </td>
-  <td width=654 style='width:490.8pt;border-top:none;border-left:none;
-  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt;height:79.55pt'>
-  <p class=MsoNormal align=center style='text-align:center'><img width=480
-  height=126
-  src="lib/exe/fetch.php?media=wm_wiki:speech_recognition_sensor:pasted:20190807-112424.png"></p>
-  </td>
- </tr>
- <tr style='height:79.55pt'>
-  <td width=257 style='width:193.1pt;border:solid windowtext 1.0pt;border-top:
-  none;padding:0in 5.4pt 0in 5.4pt;height:79.55pt'>
-  <p class=MsoNormal align=center style='text-align:center'><span lang=ZH-CN
-  style='font-size:14.0pt;font-family:华文楷体;color:black;background:white'>设置需要识别的口令语句</span></p>
-  </td>
-  <td width=222 style='width:166.5pt;border-top:none;border-left:none;
-  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt;height:79.55pt'>
-  <p class=MsoNormal><span style='font-size:14.0pt;font-family:华文楷体;color:black;
-  background:white'>(2<span lang=ZH-CN>个参数）端口、口令语句</span></span></p>
-  </td>
-  <td width=654 style='width:490.8pt;border-top:none;border-left:none;
-  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt;height:79.55pt'>
-  <p class=MsoNormal align=center style='text-align:center'><img width=504
-  height=61
-  src="lib/exe/fetch.php?media=wm_wiki:speech_recognition_sensor:pasted:20190807-112459.png"></p>
-  </td>
- </tr>
- <tr style='height:66.95pt'>
-  <td width=257 style='width:193.1pt;border:solid windowtext 1.0pt;border-top:
-  none;padding:0in 5.4pt 0in 5.4pt;height:66.95pt'>
-  <p class=MsoNormal align=center style='text-align:center'><span lang=ZH-CN
-  style='font-size:14.0pt;font-family:华文楷体;color:black;background:white'>设置需要识别的语句及序号</span></p>
-  </td>
-  <td width=222 style='width:166.5pt;border-top:none;border-left:none;
-  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt;height:66.95pt'>
-  <p class=MsoNormal><span style='font-size:14.0pt;font-family:华文楷体;color:black;
-  background:white'>(3<span lang=ZH-CN>个参数）端口、语句序号、识别拼音语句</span></span></p>
-  </td>
-  <td width=654 style='width:490.8pt;border-top:none;border-left:none;
-  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt;height:66.95pt'>
-  <p class=MsoNormal>&nbsp;</p>
-  <p class=MsoNormal align=center style='text-align:center'><img width=585
-  height=379
-  src="lib/exe/fetch.php?media=wm_wiki:speech_recognition_sensor:pasted:20190807-112601.png"></p>
-  <p class=MsoNormal>&nbsp;</p>
-  </td>
- </tr>
- <tr style='height:79.55pt'>
-  <td width=257 style='width:193.1pt;border:solid windowtext 1.0pt;border-top:
-  none;padding:0in 5.4pt 0in 5.4pt;height:79.55pt'>
-  <p class=MsoNormal align=center style='text-align:center'><span lang=ZH-CN
-  style='font-size:14.0pt;font-family:华文楷体;color:black;background:white'>当识别有效的语句后返回相应的序号（</span><span
+<!-- Table goes in the document BODY -->
+<table class="imagetable" style="display: table; text-align: left;">
+<tr>
+    <th>模块功能</th><th>需设参数</th><th>图形化编程块举例(其他平台图形化编程块大同小异)</th>
+</tr>
+<tr>
+    <td>选择工作模式</td><td>(2个参数）端口、选择模式</td><td><img src="docs\electronic_modules\rj11\speech_recognition_v1\20190807-112424.png"></img></td>
+</tr>
+<tr>
+    <td>设置需要识别的口令语句</td><td>(2个参数）端口、口令语句</td><td><img src="docs\electronic_modules\rj11\speech_recognition_v1\20190807-112459.png"></img></td>
+</tr>
+<tr>
+    <td>设置需要识别的语句及序号</td><td>(3个参数）端口、语句序号、识别拼音语句</td><td><img src="docs\electronic_modules\rj11\speech_recognition_v1\20190807-112601.png"></img></td>
+</tr>
+<tr>
+    <td><p class=MsoNormal align=center style='text-align:center'><span lang=ZH-CN
+  style='font-size:14.0pt;font-family:华文楷体;color:black;'>当识别有效的语句后返回相应的序号（</span><span
   lang=ZH-CN style='font-size:14.0pt;font-family:华文楷体;color:red;background:
   yellow'>备注：</span><span lang=ZH-CN style='font-size:14.0pt;font-family:华文楷体;
-  color:red;background:white'>需要新建一个变量来储存该返回值</span><span lang=ZH-CN
-  style='font-size:14.0pt;font-family:华文楷体;color:black;background:white'>）</span></p>
-  </td>
-  <td width=222 style='width:166.5pt;border-top:none;border-left:none;
-  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt;height:79.55pt'>
-  <p class=MsoNormal><span style='font-size:14.0pt;font-family:华文楷体;color:black;
-  background:white'>(1<span lang=ZH-CN>个参数）端口</span></span></p>
-  </td>
-  <td width=654 style='width:490.8pt;border-top:none;border-left:none;
-  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt;height:79.55pt'>
-  <p class=MsoNormal align=center style='text-align:center'><img width=293
-  height=47
-  src="lib/exe/fetch.php?media=wm_wiki:speech_recognition_sensor:pasted:20190807-112638.png"></p>
-  </td>
- </tr>
+  color:red;'>需要新建一个变量来储存该返回值</span><span lang=ZH-CN
+  style='font-size:14.0pt;font-family:华文楷体;color:black;'>）</span></p></td><td>(1个参数）端口</td><td><img src="docs\electronic_modules\rj11\speech_recognition_v1\20190807-112638.png"></img></td>
+</tr>
 </table>
-
-</div>
-<p class=MsoNormal align=center style='text-align:center;text-indent:21.0pt'>&nbsp;</p>
-<p class=MsoNormal style='text-indent:21.0pt'><span style='font-size:16.0pt;
-font-family:华文楷体;color:white'>&nbsp;</span><span lang=ZH-CN style='font-size:
-16.0pt;font-family:宋体'>编程示例：</span></p>
-</body></html>
 
 ## 3.3-文本代码编程指南
 

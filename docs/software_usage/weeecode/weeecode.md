@@ -31,12 +31,12 @@ lang=EN-US>2.0</span>版本的学习不会影响<span lang=EN-US>3.0</span>的�
 ### **WeeeCode 3**
 
 <div align="center">
-    <img src="https://cdn.jsdelivr.net/gh/weeemake/wiki@master/docs/software_usage/weeecode/weeecode3.png"></img>
+    <img src="docs/software_usage/weeecode/weeecode3.png"></img>
 </div>
 
 ### **WeeeCode 2**
 <div align="center">
-    <img src="https://cdn.jsdelivr.net/gh/weeemake/wiki@master/docs/software_usage/weeecode/weeecode2.png"></img>
+    <img src="docs/software_usage/weeecode/weeecode2.png"></img>
 </div>
 
 <!-- tabs:end -->
@@ -92,7 +92,7 @@ line-height:18.0pt'><span style='font-size:16.0pt;font-family:宋体'><a href="h
 ### **WeeeCode 3**
 
 <div align="center">
-    <img src="https://cdn.jsdelivr.net/gh/weeemake/wiki@master/docs/software_usage/weeecode/weeecode3_exe.png"></img>
+    <img src="docs/software_usage/weeecode/weeecode3_exe.png"></img>
 </div>
 
 > [!NOTE]
@@ -112,7 +112,7 @@ line-height:18.0pt'><span style='font-size:16.0pt;font-family:宋体'><a href="h
 ### **WeeeCode 3**
 
 <video  controls width="100%">
-  <source src="https://cdn.jsdelivr.net/gh/weeemake/wiki@master/docs/software_usage/weeecode/Weeecode3%E4%BD%BF%E7%94%A8.mp4"  type="video/mp4">
+  <source src="docs/software_usage/weeecode/Weeecode3%E4%BD%BF%E7%94%A8.mp4"  type="video/mp4">
 </video>
 
 > [!NOTE]
@@ -122,7 +122,7 @@ line-height:18.0pt'><span style='font-size:16.0pt;font-family:宋体'><a href="h
 ### **WeeeCode 2**
 
 <video  controls width="100%">
-  <source src="https://cdn.jsdelivr.net/gh/weeemake/wiki@master/docs/software_usage/weeecode/WeeeCode2%E4%BD%BF%E7%94%A8.mp4"  type="video/mp4">
+  <source src="docs/software_usage/weeecode/WeeeCode2%E4%BD%BF%E7%94%A8.mp4"  type="video/mp4">
 </video>
 
 > [!NOTE]

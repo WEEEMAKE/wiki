@@ -13,7 +13,7 @@
 ## **WeeeCode**
 
 <div align=center>
-<img src="https://cdn.jsdelivr.net/gh/weeemake/wiki@master/docs/software_usage/weeecode/weeecode3.png"></img>
+<img src="docs/software_usage/weeecode/weeecode3.png"></img>
 </div>
 
 > [!NOTE]
@@ -24,7 +24,7 @@
 ## **Arduino IDE**
 
 <div align=center>
-<img src="https://cdn.jsdelivr.net/gh/weeemake/wiki@master/docs/software_usage/arduino_ide/arduino_ide.png"></img>
+<img src="docs/software_usage/arduino_ide/arduino_ide.png"></img>
 </div>
 
 > [!NOTE]
@@ -166,9 +166,9 @@
 ### **传感类**
 <!-- panels:start -->
 <!-- div:left-panel -->
-- <font size=4>[RGB超声波传感器](docs/electronic_modules/rj11/rgb_ultrasonic_sensor/rgb_ultrasonic_sensor.md)</font>
+- <font size=4>[RGB超声波传感器](docs/electronic_modules/rj11/rgb_ultrasonic_sensor/rgb_ultrasonic_sensor.md)</font><img src="docs\electronic_modules\rj11\rgb_ultrasonic_sensor\rgb_ultrasonic_sensor.png">
 - <font size=4>[温湿度传感器](docs\electronic_modules\rj11\temperature_and_humidity\temperature_and_humidity.md)</font>
-- <font size=4>[火焰传感器]()</font>
+- <font size=4>[火焰传感器](docs\electronic_modules\rj11\flame_sensor\flame_sensor.md)</font>
 - <font size=4>[人体红外传感器]()</font>
 - <font size=4>[单路触摸传感器]()</font>
 - <font size=4>[陀螺仪传感器]()</font>

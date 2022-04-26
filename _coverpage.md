@@ -1,5 +1,5 @@
 
-<img src="https://cdn.jsdelivr.net/gh/weeemake/wiki@master/img/logo_cover.png" width="400">
+<img src="img/logo_cover.png" width="400">
 
 - 欢迎您访问本站，本站为 **WEEEMAKE WIKI**，即 **WEEEMAKE平台的相关产品手册**，这里记录着WEEEMAKE平台的电子、软件、机械等参数的介绍、使用方法，旨在为使用WEEEMAKE平台的用户提供学习之便。**网站内容会持续保持更新，欢迎收藏品鉴！**
 
