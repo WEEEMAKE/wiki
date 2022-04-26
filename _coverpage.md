@@ -5,6 +5,6 @@
 
 ## 记住，一定要善用 `Ctrl+F` 哦！
 
-[**进入网站**](https://www.weeemake.com.cn)
+[**进入官网**](https://www.weeemake.com.cn)
 [**进入论坛**](https://www.weeemake.com.cn/bbs/)
 [**开启阅读**](README.md)
