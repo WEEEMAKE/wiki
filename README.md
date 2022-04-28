@@ -107,7 +107,12 @@
 
 ### **ELF K210**
 
+<div align=center>
+<img src="docs\electronic_modules\main_control_board\elf_k210\20220428160124.png" width = 50%>
+</div>
 
+> [!NOTE]
+> - <font size=5 >详情链接 **→** [ELF K210详细介绍](docs\electronic_modules\main_control_board\elf_k210\elf_k210.md)</font>
 
 <!-- tabs:end -->
 
@@ -133,7 +138,7 @@
 ### **ELF ESP32**
 
 <div align=center>
-<img src="docs\electronic_modules\main_control_board\elf_esp32\elf_esp32.png" width=50%></img>
+<img src="docs\electronic_modules\main_control_board\elf_esp32\elf_esp32.png" width=50%>
 </div>
 
 > [!NOTE]
@@ -167,12 +172,12 @@
 <!-- panels:start -->
 <!-- div:left-panel -->
 - <font size=4>[RGB超声波传感器](docs/electronic_modules/rj11/rgb_ultrasonic_sensor/rgb_ultrasonic_sensor.md)</font><img src="docs\electronic_modules\rj11\rgb_ultrasonic_sensor\rgb_ultrasonic_sensor.png">
-- <font size=4>[温湿度传感器](docs\electronic_modules\rj11\temperature_and_humidity\temperature_and_humidity.md)</font><img src="docs\electronic_modules\rj11\temperature_and_humidity\20220427150314.png">
+- <font size=4>[温湿度传感器](docs\electronic_modules\rj11\temperature_and_humidity\temperature_and_humidity.md)</font><img src="docs\electronic_modules\rj11\temperature_and_humidity\20190515-154203.png">
 - <font size=4>[火焰传感器](docs\electronic_modules\rj11\flame_sensor\flame_sensor.md)</font><img src="docs\electronic_modules\rj11\flame_sensor\20220427150517.png">
-- <font size=4>[人体红外传感器]()</font><img src="docs\electronic_modules\rj11\pir_sensor\20220427151625.png">
-- <font size=4>[单路触摸传感器]()</font><img src="docs\electronic_modules\rj11\touch_sensor\20220427151835.png">
-- <font size=4>[陀螺仪传感器]()</font><img src="docs\electronic_modules\rj11\gyro_sensor\20220427151723.png">
-- <font size=4>[雨滴传感器]()</font><img src="docs\electronic_modules\rj11\water_sensor\20220427152025.png">
+- <font size=4>[人体红外传感器](docs\electronic_modules\rj11\pir_sensor\pir_sensor.md)</font><img src="docs\electronic_modules\rj11\pir_sensor\20190517-142034.png">
+- <font size=4>[单路触摸传感器](docs\electronic_modules\rj11\touch_sensor\touch_sensor.md)</font><img src="docs\electronic_modules\rj11\touch_sensor\20220427151835.png">
+- <font size=4>[陀螺仪传感器](docs\electronic_modules\rj11\gyro_sensor\gyro_sensor.md)</font><img src="docs\electronic_modules\rj11\gyro_sensor\20200303-164653.png">
+- <font size=4>[雨滴传感器](docs\electronic_modules\rj11\water_sensor\water_sensor.md)</font><img src="docs\electronic_modules\rj11\water_sensor\20220427152025.png">
 - <font size=4>[气压传感器](docs\electronic_modules\rj11\barometer_sensor\barometer_sensor.md)</font><img src="docs\electronic_modules\rj11\barometer_sensor\20200313-115217.png">
 - <font size=4>[语音识别传感器V1](docs\electronic_modules\rj11\speech_recognition_v1\speech_recognition_v1.md)</font><img src="docs\electronic_modules\rj11\speech_recognition_v1\Picture1.png">
 - <font size=4>[紫外线传感器]()</font>

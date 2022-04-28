@@ -76,7 +76,7 @@ text{
     <td>气压测量范围</td><td>30KPa~110KPa</td>
 </tr>
 <tr>
-    <td>模块尺寸</td><td>100mm*32mm*30mm(长*宽*高)</td>
+    <td>模块尺寸</td><td>55mm*24mm*18.5mm(长*宽*高)</td>
 </tr>
 </table>
 
@@ -122,7 +122,7 @@ white'>该模块支持的图形化编程平台有<span lang=EN-US>WeeeCode</span
 </tr>
 </table>
 
-> - <font size=5 >详情链接 **→** [气压传感器Arduino库-API头文件-WeBarometerSensor.h](https://github.com/WEEEMAKE/Weeemake_Libraries_for_Arduino/blob/master/Weeemake/src/WeBarometerSensor.h)</font>
+> <font size=4 >详情链接 **→** [气压传感器Arduino库-API头文件-WeBarometerSensor.h](https://github.com/WEEEMAKE/Weeemake_Libraries_for_Arduino/blob/master/Weeemake/src/WeBarometerSensor.h)</font>
 
 ### **Micropython-micro:bit-v1编程API**
 

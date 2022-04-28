@@ -111,6 +111,12 @@ text{
 
 ### **3.1-模块功能及编程指南**
 
+<p class=MsoNormal style='text-indent:21.0pt'><span style='font-size:16.0pt;
+font-family:华文楷体;color:#222222;background:white'>&nbsp;&nbsp;&nbsp; </span><span
+lang=ZH-CN style='font-size:16.0pt;font-family:宋体;color:#222222;background:
+white'>该模块支持的图形化编程平台有</span><span style='font-size:16.0pt;font-family:宋体;
+color:#222222;background:white'>WeeeCode<span lang=ZH-CN>、</span>Mixly_Arduino<span lang=ZH-CN>等，其图形化编程大同小异，区别不会很大。</span></span></p>
+
 <table class="imagetable" style="display: table; text-align: left;">
 <tr>
     <th>模块功能</th><th>需设参数</th><th>图形化编程块举例(其他平台图形化编程块大同小异)</th>
@@ -144,7 +150,7 @@ text{
 </tr>
 </table>
 
-> - <font size=5 >详情链接 **→** [电子指南针传感器Arduino库-API头文件-WeCompassSensor.h](https://github.com/WEEEMAKE/Weeemake_Libraries_for_Arduino/blob/master/Weeemake/src/WeCompassSensor.h)</font>
+> <font size=4 >详情链接 **→** [电子指南针传感器Arduino库-API头文件-WeCompassSensor.h](https://github.com/WEEEMAKE/Weeemake_Libraries_for_Arduino/blob/master/Weeemake/src/WeCompassSensor.h)</font>
 
 ### **Micropython-micro:bit-v1编程API**
 

@@ -3,9 +3,9 @@
 <h1 class="text-center">RGB超声波传感器</h1>
 </div>
 
-# **1-简要介绍**
+## **1-简要介绍**
 
-<font size=5>RGB超声波传感器是一个用来测量距离的电子模块，测量范围是 4 cm 到 500 cm。可以用来帮助小车避开障碍或其他有关测距避障的项目。超声波发射器向某一方向发射超声波，在发射的同时开始计时，超声波在空气中传播，途中碰到障碍物就立即返回来，超声波接收器收到反射波就立即停止计时。声波在空气中的传播速度为 340m/s，根据计时器记录的时间 t，就可以计算出发射点距障碍物的距离 s，即：s=340*t/2。</font>
+<font size=4>RGB超声波传感器是一个用来测量距离的电子模块，测量范围是 4 cm 到 500 cm。可以用来帮助小车避开障碍或其他有关测距避障的项目。超声波发射器向某一方向发射超声波，在发射的同时开始计时，超声波在空气中传播，途中碰到障碍物就立即返回来，超声波接收器收到反射波就立即停止计时。声波在空气中的传播速度为 340m/s，根据计时器记录的时间 t，就可以计算出发射点距障碍物的距离 s，即：s=340*t/2。</font>
 
 >  <font size=4>应用参考：避障小车，手持测距仪，水位监测，超声波计数器等。</font>
 
@@ -24,7 +24,7 @@
 
 <!-- tabs:end -->
 
-# **2-参数规格**
+## **2-参数规格**
 
 <!-- CSS goes in the document HEAD or added to your external stylesheet -->
 <style type="text/css">
@@ -93,10 +93,10 @@ text{
 </table>
 
 ---
-# **3. 编程指南**
-## **3.1 模块功能及图形化编程指南**
+## **3. 编程指南**
+### **3.1 模块功能及图形化编程指南**
 
-<font size=5>该模块支持的图形化编程平台有WeeeCode、编程猫平台、Mixly_Arduino、MakeCode等，其图形化编程大同小异，区别不会很大。</font>
+<font size=4>该模块支持的图形化编程平台有WeeeCode、编程猫平台、Mixly_Arduino、MakeCode等，其图形化编程大同小异，区别不会很大。</font>
 
 <!-- Table goes in the document BODY -->
 <table class="imagetable" style="display: table; text-align: left;">
@@ -114,11 +114,11 @@ text{
 </tr>
 </table>
 
-## **3.2 文本代码编程指南**
+### **3.2 文本代码编程指南**
 
 <!-- tabs:start -->
 
-### **Arduino-IDE编程API**
+#### **Arduino-IDE编程API**
 
 <table class="imagetable" style="display: table; text-align: left;">
 <tr>
@@ -138,9 +138,9 @@ text{
 </tr>
 </table>
 
-> - <font size=5 >详情链接 **→** [RGB超声波传感器Arduino库-API头文件-WeUltrasonicSensor.h](https://github.com/WEEEMAKE/Weeemake_Libraries_for_Arduino/blob/master/Weeemake/src/WeUltrasonicSensor.h)</font>
+> <font size=4 >详情链接 **→** [RGB超声波传感器Arduino库-API头文件-WeUltrasonicSensor.h](https://github.com/WEEEMAKE/Weeemake_Libraries_for_Arduino/blob/master/Weeemake/src/WeUltrasonicSensor.h)</font>
 
-### **Micropython-micro:bit-v1编程API**
+#### **Micropython-micro:bit-v1编程API**
 
 <table class="imagetable" style="display: table; text-align: left;">
 <tr>
@@ -154,7 +154,7 @@ text{
 </tr>
 </table>
 
-### **Micropython-micro:bit-v2/ESP32/mPython/K210编程API**
+#### **Micropython-micro:bit-v2/ESP32/mPython/K210编程API**
 
 <table class="imagetable" style="display: table; text-align: left;">
 <tr>
@@ -176,15 +176,15 @@ text{
 
 <!-- tabs:end -->
 
-## **3.3 模块入手自测**
+### **3.3 模块入手自测**
 
-<font size=5 >模块上手使用，遇到问题时，可用WeeeCode编程测试，测试代码如下：</font>
+<font size=4 >模块上手使用，遇到问题时，可用WeeeCode编程测试，测试代码如下：</font>
 
 <div align=center>
 <img src="docs/electronic_modules/rj11/rgb_ultrasonic_sensor/test_code_1_zh.png"></img>
 </div>
 
-> <font size=5 >代码下载 **→** <a href = "docs/electronic_modules/rj11/rgb_ultrasonic_sensor/RGB%E8%B6%85%E5%A3%B0%E6%B3%A2%E4%BC%A0%E6%84%9F%E5%99%A8%E6%B5%8B%E8%AF%95%E4%BB%A3%E7%A0%81.sb3">RGB超声波传感器测试代码.sb3</a></font>
+> <font size=4 >代码下载 **→** <a href = "docs/electronic_modules/rj11/rgb_ultrasonic_sensor/RGB%E8%B6%85%E5%A3%B0%E6%B3%A2%E4%BC%A0%E6%84%9F%E5%99%A8%E6%B5%8B%E8%AF%95%E4%BB%A3%E7%A0%81.sb3">RGB超声波传感器测试代码.sb3</a></font>
 
 <!-- tabs:start -->
 
@@ -198,7 +198,7 @@ text{
 
 <!-- tabs:end -->
 ---
-# **4. 注意事项**
+## **4. 注意事项**
 
 > [!NOTE]
 > <font size=5 color=red>RGB超声波传感器上集成有6颗RGB灯，功耗相对比较大，使用时最好外接电源。</font>
