@@ -2,27 +2,83 @@
 <h1 class="text-center">气象站小套件</h1>
 </div>
 
-# **1-效果展示**
+## **1-简要介绍**
 
+<font size=4>本小型气象站模拟室外气象站，用于室内演示和学习气象站知识。本设备整体采用铝合
+金结构搭建而成，可以探测温度、湿度、气压、风速、光线、噪音等6要素，并用一个OLED
+模块实时显示出来。设备自带锂电池和一个ELFmini主控器，可以通过arduinoIDE和
+weeecode图形化编程，出厂内置程序，开机即可运行。</font>
 
----
-# **2-电子清单**
-
-> [!NOTE]
-> <font size=5>这里只列出主要电子模块清单，线材和机械结构不列出。</font>
-
-<!-- Table goes in the document BODY -->
-
- - <font size=5>[ELF MINI V3]() * 1Pcs </font>
- - <font size=5>[0.96寸OLED显示屏]() * 1Pcs </font>
- - <font size=5>[温湿度传感器]() * 1Pcs </font>
- - <font size=5>[气压传感器]() * 1Pcs </font>
- - <font size=5>[18650锂电池包]() * 1Pcs </font>
+<div align="center">
+<img src = "docs\robot_kits\Weather_Kit\迷你气象套件实拍图 (1).jpg">
+</div>
 
 ---
-# **3-代码实现**
+## **2-性能参数**
 
-## **3.1-图像化代码（西文显示）**
+### **2.1-电子清单**
+
+> [!TIP]
+> <font size=4>这里只列出主要电子模块清单，线材和机械结构不列出。</font>
+
+- <font size=4>ELF MINI V3 * 1Pcs </font>
+- <font size=4>0.96寸OLED显示屏 * 1Pcs </font>
+- <font size=4>[温湿度传感器](docs/electronic_modules/rj11/temperature_and_humidity/temperature_and_humidity.md) * 1Pcs </font>
+- <font size=4>[气压传感器](docs/electronic_modules/rj11/barometer_sensor/barometer_sensor.md) * 1Pcs </font>
+- <font size=4>风速模块 * 1Pcs </font>
+- <font size=4>18650锂电池包 * 1Pcs </font>
+
+### **2.2-性能参数**
+
+- <font size=4>**主控：**</font>
+ - <font size=4>锂电池电压：DC8.4V（满电）</font>
+ - <font size=4>主控工作电压：DC5V </font>
+ - <font size=4>工作电流：<500mA </font>
+ - <font size=4>锂电池充电电流：<1A </font>
+
+- <font size=4>**传感器：**</font>
+ - <font size=4>温度：
+   - 测量范围：-40℃~60℃  
+   - 误差：±1℃（0~60℃）  
+   - 分辨率：0.1℃</font>
+
+ - <font size=4>湿度：
+   - 测量范围：0%-99%
+   - 误差：+-5%（0-50℃）
+   - 分辨率：1% </font>
+
+ - <font size=4>气压：
+   - 测量范围：30KPa-110KPa
+   - 绝对精度：±100Pa
+   - 相对精度：±4Pa
+   - 分辨率：0.6Pa </font>
+
+ - <font size=4>风速：
+    - 测量范围：0-1024 </font>
+
+ - <font size=4>光线：
+    - 测量范围：0-1024 </font>
+    
+ - <font size=4>噪声：
+    - 测量范围：0-1024 </font>
+
+- <font size=4>**通讯方式：WM单总线+模拟输入**</font>
+
+## **3-使用方法**
+
+<font size=4>接线方式：OLED模块接A口，温湿度传感器接B口，风速传感器接C口，气压传感器接D口。</font>
+
+<font size=4>开机运行默认程序在OLED模块上显示6要素。用户可以自己编写程序显示输出。风速、光线、噪音为模拟输入，读取对应管脚的模拟值即可。</font>
+
+<font size=4>演示时可以用自带的锂电池供电，也可以通过主控上的usb口自动给锂电池充电，主控上有4个LED灯显示电量。也可以用专用的锂电池充电器充电。</font>
+
+## **4-代码实现**
+
+<font size=4>以下代码为出厂默认代码，分别为图形化程序和C语言。图形化程序用weeecode打开，C语言用weeecode里面集成的arduinoIDE打开。</font>
+
+<font size=4>用图形化编程时，传感器用英文简写代替，C语言编程时为中文，因为程序中需要为中文显示取字模，所以代码比较多。</font>
+
+### **4.1-图像化代码（西文显示）**
 
 <div align="center">
 <img src = "docs\robot_kits\Weather_Kit\气象站Demo_EN.png">
@@ -30,7 +86,7 @@
 
 > <font size=5 >代码下载 **→** <a href = "docs\robot_kits\Weather_Kit\气象站Demo_EN.sb3">气象站Demo_EN.sb3</a></font>
 
-## **3.2-Arduino代码（中文显示）**
+### **4.2-Arduino代码（中文显示）**
 
 <font size=5>在上面图形化程序的基础上，使用代码做中文显示的扩展，代码如下：</font>
 
@@ -38,7 +94,13 @@
 </section>
 
 ---
-# **4-注意事项**
+# **5-注意事项**
+
+> [!TIP]
+> - <font size=4>风速、光线、噪音为相对值，不是实际值。</font>
+> - <font size=4>风速传感器顺时针转时才有数值，逆时针转动时数值为0。给风速传感器插上叶片时，注意
+转动时不要干涉。</font>
 
 > [!NOTE]
-> <font size=5 color=red>使用时最好外接电源，如果只用USB供电，OLED的初始化显示无法显示。</font>
+> - <font size=5 color=red>使用时最好外接电源，如果只用USB供电，OLED的初始化显示可能无法显示。</font>
+
