@@ -91,24 +91,8 @@ text{
 
 ## **3-编程指南**
 
-### **3.1-模块功能及图形化编程指南**
+### **3.1-图形化编程**
 
-<html><body>
-<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US
-style='font-size:16.0pt;font-family:华文楷体;color:#222222;background:white'>&nbsp;&nbsp;&nbsp;
-</span><span style='font-size:16.0pt;font-family:宋体;color:#222222;background:
-white'>该模块支持的图形化编程平台有<span lang=EN-US><span style='box-sizing: border-box;
-font-variant-ligatures: normal;font-variant-caps: normal;orphans: 2;text-align:
-start;widows: 2;-webkit-text-stroke-width: 0px;text-decoration-style: initial;
-text-decoration-color: initial;word-spacing:0px'>WeeeCode</span></span><span
-style='box-sizing: border-box;font-variant-ligatures: normal;font-variant-caps: normal;
-orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
-text-decoration-style: initial;text-decoration-color: initial;word-spacing:
-0px'>、<span lang=EN-US>Mixly_Arduino</span></span><span style='box-sizing: border-box;
-font-variant-ligatures: normal;font-variant-caps: normal;orphans: 2;text-align:
-start;widows: 2;-webkit-text-stroke-width: 0px;text-decoration-style: initial;
-text-decoration-color: initial;word-spacing:0px'>等，其图形化编程大同小异，区别不会很大。</span></span><span
-lang=EN-US style='font-size:16.0pt;font-family:华文楷体'>&nbsp;</span></p>
 
 <table class="imagetable" style="display: table; text-align: left;">
 <tr>
@@ -123,7 +107,7 @@ lang=EN-US style='font-size:16.0pt;font-family:华文楷体'>&nbsp;</span></p>
 > <font size=4 >目前支持陀螺仪传感器的平台：</font>
 > - [x] Arduino系列主控 -->
 
-### **3.2-文本代码编程指南**
+### **3.2-文本代码编程**
 
 <!-- tabs:start -->
 <!-- 

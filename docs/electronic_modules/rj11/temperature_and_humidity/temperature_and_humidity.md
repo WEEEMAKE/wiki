@@ -91,34 +91,7 @@ text{
 
 ## **3-编程指南**
 
-### **3.1-模块功能及图形化编程指南**
- 
-<html><body>
-<p class=MsoNormal style='text-indent:21.0pt'><span style='font-size:16.0pt;
-font-family:华文楷体;color:#222222;background:white'>&nbsp;&nbsp;&nbsp; </span><span
-lang=ZH-CN style='font-size:16.0pt;font-family:宋体;color:#222222;background:
-white'>该模块支持的图形化编程平台有</span><span style='font-size:16.0pt;font-family:宋体;
-color:#222222;background:white'><span style='box-sizing: border-box;font-variant-ligatures: normal;
-font-variant-caps: normal;orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
-text-decoration-style: initial;text-decoration-color: initial;word-spacing:
-0px'>WeeeCode</span><span lang=ZH-CN><span style='box-sizing: border-box;
-font-variant-ligatures: normal;font-variant-caps: normal;orphans: 2;text-align:
-start;widows: 2;-webkit-text-stroke-width: 0px;text-decoration-style: initial;
-text-decoration-color: initial;word-spacing:0px'>、编程猫平台、</span></span><span
-style='box-sizing: border-box;font-variant-ligatures: normal;font-variant-caps: normal;
-orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
-text-decoration-style: initial;text-decoration-color: initial;word-spacing:
-0px'>Mixly_Arduino</span><span lang=ZH-CN><span style='box-sizing: border-box;
-font-variant-ligatures: normal;font-variant-caps: normal;orphans: 2;text-align:
-start;widows: 2;-webkit-text-stroke-width: 0px;text-decoration-style: initial;
-text-decoration-color: initial;word-spacing:0px'>、</span></span><span
-style='box-sizing: border-box;font-variant-ligatures: normal;font-variant-caps: normal;
-orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
-text-decoration-style: initial;text-decoration-color: initial;word-spacing:
-0px'>MakeCode</span><span lang=ZH-CN><span style='box-sizing: border-box;
-font-variant-ligatures: normal;font-variant-caps: normal;orphans: 2;text-align:
-start;widows: 2;-webkit-text-stroke-width: 0px;text-decoration-style: initial;
-text-decoration-color: initial;word-spacing:0px'>等，其图形化编程大同小异，区别不会很大。</span></span></span></p>
+### **3.1-图形化编程**
 
 <!-- Table goes in the document BODY -->
 <table class="imagetable" style="display: table; text-align: left;">
@@ -130,5 +103,6 @@ text-decoration-color: initial;word-spacing:0px'>等，其图形化编程大同�
 </tr>
 </table>
 
-### **3.2-文本代码编程指南**
+### **3.2-文本代码编程**
 
+### **3.3-模块入手自测**

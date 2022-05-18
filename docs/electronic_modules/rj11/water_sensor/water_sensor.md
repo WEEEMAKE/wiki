@@ -56,10 +56,10 @@ text{
     <td>接口类型</td><td>RJ11</td>
 </tr>
 <tr>
-    <td>通信方式</td><td>10~90% RH(不结露)</td>
+    <td>通信方式</td><td>WM单总线</td>
 </tr>
 <tr>
-    <td>工作湿度</td><td>0℃~+70℃</td>
+    <td>工作湿度</td><td>10~90% RH(不结露)</td>
 </tr>
 <tr>
     <td>返值范围</td><td>0~255</td>

@@ -213,12 +213,12 @@
 ### **执行类**
 <!-- panels:start -->
 <!-- div:left-panel -->
-- <font size=4>[MP3模块]()</font>
+- <font size=4>[MP3模块](docs/electronic_modules/rj11/mp3_module/mp3_module.md)</font><img src = "docs/electronic_modules/rj11/mp3_module/20190511-165917.png">
 - <font size=4>[继电器模块]()</font>
 - <font size=4>[语音合成模块]()</font>
 
 <!-- div:right-panel -->
-- <font size=4>[130直流电机模块]()</font>
+- <font size=4>[130直流电机模块](docs/electronic_modules/rj11/130_dc_motor/130_dc_motor.md)</font>
 - <font size=4>[雾化器模块]()</font>
 
 <!-- panels:end -->
@@ -281,9 +281,6 @@
 
 <!-- div:right-panel -->
 - <font size=4>[42步进电机]()</font>
-  - ![img.png](img.png)
-  - 42 BYG
-  - DC 12V
 - <font size=4>[25MM编码电机]()</font>
 - <font size=4>[9克舵机]()</font>
 
