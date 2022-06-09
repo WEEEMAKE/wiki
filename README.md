@@ -290,8 +290,8 @@
 
 <!-- panels:start -->
 <!-- div:left-panel -->
-- <font size=4>[声音传感器](docs/electronic_modules/kf2510/sound_sensor/sound_sensor.md)</font>
-- <font size=4>[红外接收传感器]()</font>
+- <font size=4>[声音传感器](docs/electronic_modules/kf2510/sound_sensor/sound_sensor.md)</font><img src="docs/electronic_modules/kf2510/sound_sensor/sound_sensor.png">
+- <font size=4>[红外接收传感器](docs/electronic_modules/kf2510/ir_receiver_sensor/ir_receiver_sensor.md)</font><img src="docs/electronic_modules/kf2510/ir_receiver_sensor/IR_Receiver_Sensor.png">
 - <font size=4>[LM35温度传感器]()</font>
 - <font size=4>[单色LED灯模块]()</font>
 - <font size=4>[限位开关模块]()</font>

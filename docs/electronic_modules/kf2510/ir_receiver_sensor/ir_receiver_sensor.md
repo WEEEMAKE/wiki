@@ -1,11 +1,11 @@
 <div align=center>
-<h1 class="text-center">声音传感器</h1>
+<h1 class="text-center">红外接收传感器</h1>
 </div>
 
 # **1-简介**
 
 <div align=center>
-<img src="docs\electronic_modules\kf2510\sound_sensor\sound_sensor.png" width="50%"></img>
+<img src="docs/electronic_modules/kf2510/ir_receiver_sensor/IR_Receiver_Sensor.png" width="50%"></img>
 </div>
 
 # **2-参数规格**
