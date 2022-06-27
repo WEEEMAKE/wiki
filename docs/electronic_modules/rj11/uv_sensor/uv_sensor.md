@@ -1,14 +1,12 @@
 <div align=center>
-<h1 class="text-center">雨滴传感器</h1>
+<h1 class="text-center">紫外线传感器</h1>
 </div>
 
-## **1-简要介绍**
+## **1-简要概述**
 
-<html><body>
 <p class=MsoNormal style='text-indent:36.0pt'><span style='font-size:16.0pt;
-font-family:宋体;color:#222222;background:white'>雨滴传感器<span lang=EN-US>(Water
-Sensor)</span>是通过测量电导率指示传感器是否干燥，潮湿或完全浸入水中。可用于降雨检测、液体泄漏等情景。</span></p>
-</body></html>
+font-family:宋体;color:#222222;background:white'>紫外线传感器<span lang=EN-US>(UV
+Sensor)</span>是用于检测射入紫外线（<span lang=EN-US>UV</span>）辐射的强度，可用于检测室内和室外的紫外线强度。紫外线传感器的理论是：在阳光下，紫外线指数和光电流是线性相关的关系。制作紫外线等级检测仪等作品。</span></p>
 
 ## **2-参数规格**
 
@@ -56,13 +54,10 @@ text{
     <td>接口类型</td><td>RJ11</td>
 </tr>
 <tr>
-    <td>通信方式</td><td>WM单总线</td>
+    <td>工作温度</td><td>-30℃~+85℃</td>
 </tr>
 <tr>
-    <td>工作湿度</td><td>10~90% RH(不结露)</td>
-</tr>
-<tr>
-    <td>返值范围</td><td>0~255</td>
+    <td>响应波长</td><td>240~370nm</td>
 </tr>
 <tr>
     <td>模块尺寸</td><td>55mm*24mm*18.5mm(长*宽*高)</td>
@@ -78,9 +73,8 @@ text{
     <th>模块功能</th><th>需设参数</th><th>图形化编程块举例(其他平台图形化编程块大同小异)</th>
 </tr>
 <tr>
-    <td>读取传感器检测值（0~255）</td><td>（1个参数）端口</td><td><img src="docs\electronic_modules\rj11\water_sensor\20200306-112103.png"></td>
+    <td>读取传感器检测值</td><td>（1个参数）端口</td><td><img src="docs/electronic_modules/rj11/uv_sensor/20200304-153305.png"></td>
 </tr>
 </table>
 
 ### **3.2-文本代码编程指南**
-
