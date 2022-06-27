@@ -185,7 +185,7 @@
 
 <!-- div:right-panel -->
 - <font size=4>[巡线传感器]()</font><img src="docs/electronic_modules/rj11/linefollower_sensor/20220427145858.png">
-- <font size=4>[多路巡线传感器]()</font>
+- <font size=4>[多路巡线传感器](docs/electronic_modules/rj11/multiple_linefollower/multiple_linefollower.md)</font>
 - <font size=4>[倾斜开关传感器]()</font>
 - <font size=4>[可燃气体传感器]()</font>
 - <font size=4>[颜色识别传感器]()</font>

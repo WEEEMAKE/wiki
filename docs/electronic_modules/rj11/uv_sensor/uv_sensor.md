@@ -54,6 +54,9 @@ text{
     <td>接口类型</td><td>RJ11</td>
 </tr>
 <tr>
+    <td>通信方式</td><td>WM单总线</td>
+</tr>
+<tr>
     <td>工作温度</td><td>-30℃~+85℃</td>
 </tr>
 <tr>

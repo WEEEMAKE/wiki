@@ -170,10 +170,10 @@ lang=ZH-CN>、</span>MakeCode<span lang=ZH-CN>等，其图形化编程大同小�
 <font size=4 >模块上手使用，遇到问题时，可用WeeeCode编程测试，测试代码如下：</font>
 
 <div align=center>
-<img src="docs\electronic_modules\rj11\flame_sensor\20220428110747.png"></img>
+<img src="docs/electronic_modules/rj11/flame_sensor/20220428110747.png"></img>
 </div>
 
-> <font size=4 >代码下载 **→** <a href = "docs\electronic_modules\rj11\flame_sensor\火焰传感器测试代码.sb3">火焰传感器测试代码.sb3</a></font>
+> <font size=4 >代码下载 **→** <a href = "docs/electronic_modules/rj11/flame_sensor/火焰传感器测试代码.sb3">火焰传感器测试代码.sb3</a></font>
 
 <!-- tabs:start -->
 
