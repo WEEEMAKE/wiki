@@ -185,7 +185,7 @@
 
 <!-- div:right-panel -->
 - <font size=4>[巡线传感器]()</font><img src="docs/electronic_modules/rj11/linefollower_sensor/20220427145858.png">
-- <font size=4>[多路巡线传感器](docs/electronic_modules/rj11/multiple_linefollower/multiple_linefollower.md)</font>
+- <font size=4>[多路巡线传感器](docs/electronic_modules/rj11/multiple_linefollower/multiple_linefollower.md)</font><img src="docs/electronic_modules/rj11/multiple_linefollower/multiple_linefollower.png">
 - <font size=4>[倾斜开关传感器]()</font>
 - <font size=4>[可燃气体传感器]()</font>
 - <font size=4>[颜色识别传感器]()</font>
@@ -215,12 +215,12 @@
 <!-- panels:start -->
 <!-- div:left-panel -->
 - <font size=4>[MP3模块](docs/electronic_modules/rj11/mp3_module/mp3_module.md)</font><img src = "docs/electronic_modules/rj11/mp3_module/20190511-165917.png">
-- <font size=4>[继电器模块]()</font>
+- <font size=4>[继电器模块](docs/electronic_modules/rj11/relay_module/relay_module.md)</font>
 - <font size=4>[语音合成模块]()</font>
 
 <!-- div:right-panel -->
 - <font size=4>[130直流电机模块](docs/electronic_modules/rj11/130_dc_motor/130_dc_motor.md)</font>
-- <font size=4>[雾化器模块]()</font>
+- <font size=4>[雾化器模块](docs/electronic_modules/rj11/atomizer_module/atomizer_module.md)</font>
 
 <!-- panels:end -->
 
@@ -260,7 +260,7 @@
 ### **驱动类**
 <!-- panels:start -->
 <!-- div:left-panel -->
-- <font size=4>[6路舵机驱动模块]()</font>
+- <font size=4>[6路舵机驱动模块](docs/electronic_modules/rj11/six_servo_driver_module/six_servo_driver_module.md)</font><img src="docs/electronic_modules/rj11/six_servo_driver_module/six_servo_driver_module.png">
 
 <!-- div:right-panel -->
 - <font size=4>[大功率编码电机驱动模块]()</font>

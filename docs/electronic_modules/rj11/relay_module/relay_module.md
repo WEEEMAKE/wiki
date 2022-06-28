@@ -1,12 +1,13 @@
 <div align=center>
-<h1 class="text-center">紫外线传感器</h1>
+<h1 class="text-center">继电器模块</h1>
 </div>
 
 ## **1-简要概述**
 
-<p class=MsoNormal style='text-indent:36.0pt'><span style='font-size:16.0pt;
-font-family:宋体;color:#222222;background:white'>紫外线传感器<span lang=EN-US>(UV
-Sensor)</span>是用于检测射入紫外线（<span lang=EN-US>UV</span>）辐射的强度，可用于检测室内和室外的紫外线强度。紫外线传感器的理论是：在阳光下，紫外线指数和光电流是线性相关的关系。制作紫外线等级检测仪等作品。</span></p>
+<p class=MsoNormal style='text-indent:21.0pt'><span style='font-size:16.0pt;
+font-family:等线'>继电器模块板载固定继电器元器件，它是一种可用小电流控制大电流运作的一种“自动开关<span lang=EN-US>”</span>，</span><span
+style='font-size:10.5pt;font-family:"Arial",sans-serif;color:#333333;
+background:white'> </span><span style='font-size:16.0pt;font-family:等线'>故在电路中起着自动调节、安全保护、转换电路等作用。</span></p>
 
 ## **2-参数规格**
 
@@ -57,10 +58,13 @@ text{
     <td>通信方式</td><td>WM单总线</td>
 </tr>
 <tr>
-    <td>工作温度</td><td>-30℃~+85℃</td>
+    <td>最大切换电压</td><td>250VAC/30VDC</td>
 </tr>
 <tr>
-    <td>响应波长</td><td>240~370nm</td>
+    <td>额定通过电流</td><td>10A</td>
+</tr>
+<tr>
+    <td>指示灯</td><td>2个蓝色LED指示状态</td>
 </tr>
 <tr>
     <td>模块尺寸</td><td>55mm*24mm*18.5mm(长*宽*高)</td>
@@ -76,7 +80,7 @@ text{
     <th>模块功能</th><th>需设参数</th><th>图形化编程块举例(其他平台图形化编程块大同小异)</th>
 </tr>
 <tr>
-    <td>读取传感器检测值</td><td>（1个参数）端口</td><td><img src="docs/electronic_modules/rj11/uv_sensor/20200304-153305.png"></td>
+    <td>设置继电器导通状态<br>NC打开：COM与NC通<br>NC关闭：COM与NO通</td><td>（2个参数）端口、状态</td><td><img src="docs/electronic_modules/rj11/relay_module/20200302-121113.png"></td>
 </tr>
 </table>
 

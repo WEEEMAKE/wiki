@@ -1,12 +1,14 @@
 <div align=center>
-<h1 class="text-center">紫外线传感器</h1>
+<h1 class="text-center">雾化器模块</h1>
 </div>
 
 ## **1-简要概述**
 
-<p class=MsoNormal style='text-indent:36.0pt'><span style='font-size:16.0pt;
-font-family:宋体;color:#222222;background:white'>紫外线传感器<span lang=EN-US>(UV
-Sensor)</span>是用于检测射入紫外线（<span lang=EN-US>UV</span>）辐射的强度，可用于检测室内和室外的紫外线强度。紫外线传感器的理论是：在阳光下，紫外线指数和光电流是线性相关的关系。制作紫外线等级检测仪等作品。</span></p>
+<p class=MsoNormal style='text-indent:32.0pt;mso-char-indent-count:2.0'><span
+style='font-size:16.0pt;line-height:105%;font-family:等线;mso-ascii-theme-font:
+minor-fareast;mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-fareast'>雾化器模块(Water Atomizer)是一个利用高频超声震动片将液态的物质雾化成气态的模块，因此可制作加湿器等。</span><span
+lang=EN-US style='font-family:等线;mso-ascii-theme-font:minor-fareast;mso-fareast-theme-font:
+minor-fareast;mso-hansi-theme-font:minor-fareast'></span></p>
 
 ## **2-参数规格**
 
@@ -57,10 +59,16 @@ text{
     <td>通信方式</td><td>WM单总线</td>
 </tr>
 <tr>
-    <td>工作温度</td><td>-30℃~+85℃</td>
+    <td>输出电压</td><td>24V</td>
 </tr>
 <tr>
-    <td>响应波长</td><td>240~370nm</td>
+    <td>最大功率</td><td>2W</td>
+</tr>
+<tr>
+    <td>工作频率</td><td>105±5kHz</td>
+</tr>
+<tr>
+    <td>电源芯片</td><td>XL6008</td>
 </tr>
 <tr>
     <td>模块尺寸</td><td>55mm*24mm*18.5mm(长*宽*高)</td>
@@ -76,7 +84,7 @@ text{
     <th>模块功能</th><th>需设参数</th><th>图形化编程块举例(其他平台图形化编程块大同小异)</th>
 </tr>
 <tr>
-    <td>读取传感器检测值</td><td>（1个参数）端口</td><td><img src="docs/electronic_modules/rj11/uv_sensor/20200304-153305.png"></td>
+    <td>设置雾化器工作状态<br>打开：开始雾化<br>关闭：关闭雾化</td><td>（2个参数）端口、状态</td><td><img src="docs/electronic_modules/rj11/atomizer_module/20200302-162529.png"></td>
 </tr>
 </table>
 
