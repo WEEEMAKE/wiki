@@ -8,7 +8,6 @@
 <img src="docs/electronic_modules/rj11/six_servo_driver_module/six_servo_driver_module.png" width=50%>
 </div>
 
-
 <p style="white-space: normal;">
     <span style="font-size: 20px; font-family: 宋体, SimSun;">&nbsp; &nbsp;6路舵机驱动模块内置<strong><span style="background-color: rgb(255, 255, 0);">大功率DCDC降压模组</span></strong>，可以实现<span style="background-color: rgb(255, 255, 0);"><strong>10A</strong></span>电流输出，可以同时带动6个PWM舵机，或者少数功率更大的PWM舵机。内置MCU，通过1个PORT口即可控制，同时也能控制WS2812RGB灯条，实现最多6条各30个灯的灯条一起点亮，也可以只点亮任意数量的灯。</span>
 </p>
@@ -107,3 +106,24 @@ text{
 </table>
 
 ### **3.2-文本代码编程**
+
+## **4-注意事项**
+
+> [!Note]
+> <ul class=" list-paddingleft-2" style="list-style-type: disc;">
+    <li>
+        <p>
+            <strong><span style="font-size: 20px; color: rgb(255, 0, 0);"><span style="font-size: 20px; font-family: 宋体;">模块需要单独供电，控制端和电机端的电是隔离的，拨动开关只能控制外接电源，不能关闭</span>RJ11<span style="font-size: 20px; font-family: 宋体;">控制端的电源。</span></span></strong>
+        </p>
+    </li>
+    <li>
+        <p>
+            <strong><span style="font-family: 宋体; font-size: 20px; color: rgb(255, 0, 0);">本模块元器件比较密集，注意要防止螺丝等导电物体掉落其上，导致短路。</span></strong>
+        </p>
+    </li>
+    <li>
+        <p>
+            <strong><span style="font-family: 宋体; font-size: 20px; color: rgb(255, 0, 0);">电源的供电功率要大于用电功率的总数（舵机按堵转功率算），这样才不会触发电池的过流保护或者损坏电池。</span></strong>
+        </p>
+    </li>
+</ul>

@@ -253,7 +253,7 @@
 - <font size=4>[RJ11转插针模块]()</font>
 
 <!-- div:right-panel -->
-
+- <font size=4>[无刷电机转接模块]()</font>
 
 <!-- panels:end -->
 
@@ -263,7 +263,7 @@
 - <font size=4>[6路舵机驱动模块](docs/electronic_modules/rj11/six_servo_driver_module/six_servo_driver_module.md)</font><img src="docs/electronic_modules/rj11/six_servo_driver_module/six_servo_driver_module.png">
 
 <!-- div:right-panel -->
-- <font size=4>[大功率编码电机驱动模块]()</font>
+- <font size=4>[大功率编码电机驱动模块](docs/electronic_modules/rj11/36encoder_motor_driver/36encoder_motor_driver.md)</font><img src="docs/electronic_modules/rj11/36encoder_motor_driver/img.png">
 
 <!-- panels:end -->
 
@@ -325,6 +325,14 @@
 <!-- panels:end -->
 
 ## **其他模块**
+
+<!-- panels:start -->
+<!-- div:left-panel -->
+- <font size=4>[电源管理模块](docs/electronic_modules/other_modules/power_management_module/power_management_module.md)</font><img src="docs/electronic_modules/other_modules/power_management_module/power_management_module.png">
+
+<!-- div:right-panel -->
+
+<!-- panels:end -->
 
 # **机器人套件**
 
