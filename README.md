@@ -253,7 +253,7 @@
 - <font size=4>[RJ11转插针模块]()</font>
 
 <!-- div:right-panel -->
-- <font size=4>[无刷电机转接模块]()</font>
+
 
 <!-- panels:end -->
 
@@ -261,6 +261,7 @@
 <!-- panels:start -->
 <!-- div:left-panel -->
 - <font size=4>[6路舵机驱动模块](docs/electronic_modules/rj11/six_servo_driver_module/six_servo_driver_module.md)</font><img src="docs/electronic_modules/rj11/six_servo_driver_module/six_servo_driver_module.png">
+- <font size=4>[无刷电机转接模块](docs/electronic_modules/rj11/brushless_motor_adapter/brushless_motor_adapter.md)</font>
 
 <!-- div:right-panel -->
 - <font size=4>[大功率编码电机驱动模块](docs/electronic_modules/rj11/36encoder_motor_driver/36encoder_motor_driver.md)</font><img src="docs/electronic_modules/rj11/36encoder_motor_driver/img.png">
