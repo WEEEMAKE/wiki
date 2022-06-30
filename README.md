@@ -134,6 +134,13 @@
 ## **ESP32系列**
 
 <!-- tabs:start -->
+### **ELF ESP32 Pro**
+<div align=center>
+<img src="docs/electronic_modules/main_control_board/elf_esp32_pro/IMG_20220630_113447.jpg" width=50%>
+</div>
+
+> [!NOTE]
+> - <font size=5 >详情链接 **→** [ELF ESP32 Pro详细介绍](docs/electronic_modules/main_control_board/elf_esp32_pro/elf_esp32_pro.md)</font>
 
 ### **ELF ESP32**
 
@@ -142,7 +149,7 @@
 </div>
 
 > [!NOTE]
-> - <font size=5 >详情链接 **→** [ELF ESP32详细介绍](docs\electronic_modules\main_control_board\elf_esp32\elf_esp32.md)</font>
+> - <font size=5 >详情链接 **→** [ELF ESP32详细介绍](docs/electronic_modules/main_control_board/elf_esp32/elf_esp32.md)</font>
 
 <!-- tabs:end -->
 
@@ -253,7 +260,7 @@
 - <font size=4>[RJ11转插针模块]()</font>
 
 <!-- div:right-panel -->
-
+- <font size=4>[蓝牙转接模块](docs/electronic_modules/rj11/wireless_adapter_module/wireless_adapter_module.md)</font><img src="docs/electronic_modules/rj11/wireless_adapter_module/35D730A2-87CB-49fd-AFA1-4EFEEE388A44.png">
 
 <!-- panels:end -->
 
