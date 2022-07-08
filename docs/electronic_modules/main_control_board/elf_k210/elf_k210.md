@@ -360,15 +360,14 @@ lang=EN-US>IO</span>管脚，所以当按下按键时会对<span lang=EN-US>M4</
 lang=EN-US>2</span>个功能。</span></b></p>
 
 <p class=MsoNormal style='text-indent:32.0pt'><span lang=EN-US
-style='font-size:16.0pt;font-family:宋体'>RET</span><span style='font-size:16.0pt;
-font-family:宋体'>和<span lang=EN-US>BOOT</span>按键用于控制<span lang=EN-US>K210</span>，串口指示灯也是用于指示电脑和<span
+style='font-size:16.0pt;font-family:宋体'>RST</span><span style='font-size:16.0pt;
+font-family:宋体'>和<span lang=EN-US>BOOT</span>按键用于控制<span lang=EN-US>K210</span>复位，串口指示灯也是用于指示电脑和<span
 lang=EN-US>K210</span>的通信情况。<span lang=EN-US>K210</span>和<span lang=EN-US>ESP32</span>通过串口相连，两者都通过<span
 lang=EN-US>SPI</span>连接<span lang=EN-US>SD</span>卡槽。</span></p>
 
 <p class=MsoNormal style='text-indent:32.0pt'><span style='font-size:16.0pt;
 font-family:宋体'>主控板会固定在一块亚力克上，这样方便固定安装和保护主板。另外还有一个旋转摄像头支架，摄像头既可以固定在主控板上，也可以配合延长线固定在旋转支架上，这样就可以随意转动摄像头（<span
 lang=EN-US>0-180</span>°）到需要的角度。摄像头和屏幕都采用<span lang=EN-US>FPC</span>座连接，这样方便更换不同的摄像头和屏幕。</span></p>
-
 
 <div align=center>
 <img src="docs\electronic_modules\main_control_board\elf_k210\K210_AI_MainControlBoard\image005.png">
@@ -780,7 +779,71 @@ lang=EN-US>f2</span>”，并在后面显示相似度。</span></p>
 <p class=MsoNormal style='text-indent:32.0pt'><span style='font-size:16.0pt;
 font-family:宋体'>注：此特征学习可以用于物体分类或卡片识别等，但不能输出识别物体的方位信息，不能用于定位功能。</span></p>
 
-
 </div>
 
 <!-- tabs:end -->
+
+### **2.8-目前固件说明**
+
+<p>
+    <span style="font-family: 宋体, SimSun; font-size: 20px;"><span style="font-family: 宋体, SimSun; color: rgb(52, 73, 94); word-spacing: 0.8px;">&nbsp; 目前发布两个固件</span><span style="font-family: 宋体, SimSun; -webkit-font-smoothing: antialiased; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-size-adjust: none; box-sizing: border-box; color: rgb(44, 62, 80); font-weight: 600; word-spacing: 0.8px;">Basic</span><span style="font-family: 宋体, SimSun; color: rgb(52, 73, 94); word-spacing: 0.8px;">和</span><span style="font-family: 宋体, SimSun; -webkit-font-smoothing: antialiased; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-size-adjust: none; box-sizing: border-box; color: rgb(44, 62, 80); font-weight: 600; word-spacing: 0.8px;">Advance</span><span style="font-family: 宋体, SimSun; color: rgb(52, 73, 94); word-spacing: 0.8px;">，因为K210本身内存有限，不可能将所有的功能集于一个固件之内，所以分为两个固件，两个固件的区别：</span></span>
+</p>
+<p>
+    <span style="color: rgb(52, 73, 94); word-spacing: 0.8px; font-family: 宋体, SimSun; font-size: 20px;"></span>
+</p>
+<ul style="-webkit-font-smoothing: antialiased; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-size-adjust: none; box-sizing: border-box; font-size: 15px; line-height: 1.6rem; word-spacing: 0.05rem; padding-left: 1.5rem; color: rgb(52, 73, 94); font-family: &quot;Source Sans Pro&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif; white-space: normal;" class=" list-paddingleft-2">
+    <li>
+        <p>
+            <span style="font-family: 宋体, SimSun; font-size: 20px;"><span style="font-family: 宋体, SimSun; font-size: 24px; -webkit-font-smoothing: antialiased; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-size-adjust: none; box-sizing: border-box; color: rgb(44, 62, 80); font-weight: 600;">Basic</span>固件支持的固件功能比较多，仅<span style="font-family: 宋体, SimSun; font-size: 24px; -webkit-font-smoothing: antialiased; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-size-adjust: none; box-sizing: border-box; color: rgb(44, 62, 80); font-weight: 600;">OpenMV</span>的功能就占用比较大的一部分空间，所以<span style="font-family: 宋体, SimSun; font-size: 24px; -webkit-font-smoothing: antialiased; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-size-adjust: none; box-sizing: border-box; color: rgb(44, 62, 80); font-weight: 600;">Basic</span>固件如果需要调用<span style="font-family: 宋体, SimSun; font-size: 24px; -webkit-font-smoothing: antialiased; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-size-adjust: none; box-sizing: border-box; color: rgb(44, 62, 80); font-weight: 600;">KPU</span>，模型文件需要相当小才能正常使用；</span>
+        </p>
+    </li>
+    <li>
+        <p>
+            <span style="font-family: 宋体, SimSun; font-size: 20px;"><span style="font-family: 宋体, SimSun; font-size: 24px; -webkit-font-smoothing: antialiased; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-size-adjust: none; box-sizing: border-box; color: rgb(44, 62, 80); font-weight: 600;">Advance</span>固件去掉<span style="font-family: 宋体, SimSun; font-size: 24px; -webkit-font-smoothing: antialiased; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-size-adjust: none; box-sizing: border-box; color: rgb(44, 62, 80); font-weight: 600;">OpenMV</span>功能和<span style="font-family: 宋体, SimSun; font-size: 24px; -webkit-font-smoothing: antialiased; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-size-adjust: none; box-sizing: border-box; color: rgb(44, 62, 80); font-weight: 600;">Video</span>的功能，以便能调用稍微大一点的模型文件。</span>
+        </p>
+    </li>
+    <li>
+        <p>
+            <span style="font-family: 宋体, SimSun; font-size: 20px;">常用功能对比见下表：</span>
+        </p>
+    </li>
+</ul>
+
+<table class="imagetable" style="display: table; text-align: left;">
+<tr>
+    <th width=300>功能</th><th>Basic</th><th>Advance</th>
+</tr>
+<tr>
+  <td >Maixpy IDE</td><td >√</td><td>√</td>
+</tr>
+<tr>
+  <td >_thread</td><td >×</td><td>×</td>
+</tr>
+<tr>
+  <td >NES</td><td >×</td><td>×</td>
+</tr>
+<tr>
+  <td >Video</td><td >√</td><td>×</td>
+</tr>
+<tr>
+  <td >OpenMV</td><td >√</td><td>×</td>
+</tr>
+<tr>
+  <td >Little LVGL</td><td >×</td><td>×</td>
+</tr>
+<tr>
+  <td >Mic Array</td><td >×</td><td>×</td>
+</tr>
+<tr>
+  <td >WS2812</td><td >√</td><td>√</td>
+</tr>
+<tr>
+  <td >Speech Recognizer</td><td >√</td><td >√</td>
+</tr>
+<tr>
+  <td >Https SSL</td><td >√</td><td >√</td>
+</tr>
+<tr>
+  <td >Weeemake Module</td><td >√</td><td >√</td>
+</tr>
+</table>
