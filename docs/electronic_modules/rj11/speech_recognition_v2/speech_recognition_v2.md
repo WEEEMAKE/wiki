@@ -86,7 +86,7 @@ text{
     <span style="font-size: 24px; font-family: 宋体, SimSun;">&nbsp; 本模块有一个喇叭接口，可以接一个最大4欧2.9W或者8欧1.8W的喇叭，模块上电后和识别到命令词后会有语音提示，当然不接喇叭语音识别也是可以正常工作的。</span>
 </p>
 <p>
-    <span style="font-size: 24px; font-family: 宋体, SimSun;">&nbsp; 模块必须先唤醒后才能识别命令词，唤醒词包括：小美小美|你好小美|叮当象，这3个中的任意一个。唤醒后，可以连续识别命令词，当识别到唤醒词或命令词后15秒内，没有识别到任何命令词，则模块进入睡眠模式，需要重新唤醒。</span>
+    <span style="font-size: 24px; font-family: 宋体, SimSun;">&nbsp; 模块必须先唤醒后才能识别命令词，唤醒词包括：<b>小美小美|你好小美|叮当象</b>，这3个中的任意一个。唤醒后，可以连续识别命令词，当识别到唤醒词或命令词后15秒内，没有识别到任何命令词，则模块进入睡眠模式，需要重新唤醒。</span>
 </p>
 <p>
     <span style="font-size: 24px; font-family: 宋体, SimSun;">&nbsp; 图形化编程不同于之前版本，V2.0只有一个语句块，此语句块用于返回识别到的命令词序号。</span>
@@ -115,25 +115,6 @@ text{
 <p>
     <span style="font-size: 24px; font-family: 宋体, SimSun;">&nbsp; 以后会用语音识别V2.0来替换V1.0模块，这样会造成一些教材和示例程序会不一样，原理上使用上V2.0会更简单，用户可稍作修改，去除V1.0的设置命令词相关程序，直接用文档中固定的命令词即可。</span>
 </p>
-
-> [!Attention]
-> <div>
-<div align=center>
-<img src="docs/electronic_modules/rj11/speech_recognition_v2/img_5.png">
-</div>
-<p>
-    <span style="font-size: 24px; font-family: 宋体, SimSun;">&nbsp; 此语句块只能是V1.0模块在线模式下使用，用于反馈识别到的字符串（拼音）而不是序号。</span>
-</p>
-<p>
-    <span style="font-size: 24px; font-family: 宋体, SimSun;">&nbsp; <strong><span style="font-size: 24px; font-family: 宋体, SimSun; background-color: rgb(255, 0, 0);">V2.0不能使用！</span></strong></span>
-</p>
-<p>
-    <strong><span style="font-size: 24px; font-family: 宋体, SimSun;">&nbsp; <span style="font-size: 24px; font-family: 宋体, SimSun; background-color: rgb(255, 0, 0);">V2.0不能使用！</span></span></strong>
-</p>
-<p>
-    <strong><span style="font-size: 24px; font-family: 宋体, SimSun;">&nbsp; </span><span style="font-size: 24px; font-family: 宋体, SimSun; background-color: rgb(255, 0, 0);">V2.0不能使用！</span></strong>
-</p>
-</div>
 
 ## **4-注意事项**
 

@@ -154,6 +154,16 @@ lang=ZH-CN>，其图形化编程指南如下：</span></span></p>
 </tr>
 </table>
 
+> [!Attention]
+> <div>
+<div align=center>
+<img src="docs/electronic_modules/rj11/speech_recognition_v1/img_5.png">
+</div>
+<p>
+    <span style="font-size: 24px; font-family: 宋体, SimSun;">&nbsp; 此语句块只能是V1.0模块在线模式下使用，用于反馈识别到的字符串（拼音）而不是序号。</span>
+</p>
+</div>
+
 ## 3.3-文本代码编程指南
 
 # 4-技巧提高
