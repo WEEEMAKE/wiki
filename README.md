@@ -105,9 +105,30 @@
 
 ### **ELF MINI V1**
 
+<div align=center>
+<img src="docs/electronic_modules/main_control_board/elf_mini/elf_mini_v1.jpg" width="50%">
+</div>
+
+> [!NOTE]
+> - <font size=5 >详情链接 **→** [ELF Mini V1详细介绍](docs/electronic_modules/main_control_board/elf_328p/elf_328p.md)</font>
+
 ### **ELF MINI V2**
 
+<div align=center>
+<img src="docs/electronic_modules/main_control_board/elf_mini/elf_mini_v2.png">
+</div>
+
+> [!NOTE]
+> - <font size=5 >详情链接 **→** [ELF Mini V2详细介绍](docs/electronic_modules/main_control_board/elf_328p/elf_328p.md)</font>
+
 ### **ELF MINI V3**
+
+<div align=center>
+<img src="docs/electronic_modules/main_control_board/elf_mini/elf_mini_v3.png">
+</div>
+
+> [!NOTE]
+> - <font size=5 >详情链接 **→** [ELF Mini V3详细介绍](docs/electronic_modules/main_control_board/elf_328p/elf_328p.md)</font>
 
 
 ### **ELF UNO**
