@@ -85,11 +85,29 @@
 
 ### **ELF 328P**
 
+<div align=center>
+<img src="docs/electronic_modules/main_control_board/elf_328p/elf_mega_328p.png">
+</div>
+
+> [!NOTE]
+> - <font size=5 >详情链接 **→** [ELF 328P详细介绍](docs/electronic_modules/main_control_board/elf_328p/elf_328p.md)</font>
 
 ### **ELF 2560**
 
+<div align=center>
+<img src="docs/electronic_modules/main_control_board/elf_2560/D37DB84E-BDD3-4529-90BE-6D187FC954E2.png">
+</div>
 
-### **ELF MINI**
+> [!NOTE]
+> - <font size=5 >详情链接 **→** [ELF 2560详细介绍](docs/electronic_modules/main_control_board/elf_328p/elf_328p.md)</font>
+
+
+
+### **ELF MINI V1**
+
+### **ELF MINI V2**
+
+### **ELF MINI V3**
 
 
 ### **ELF UNO**
