@@ -116,6 +116,10 @@ text{
 
 ### **5.1-常用接口分配明细**
 
+<div align=center>
+<img src="docs/electronic_modules/main_control_board/elf_328p/img.png" width="60%">
+</div>
+
 <table class="imagetable" style="display: table; text-align: center;">
 <tr>
     <th>项</th><th>ELF</th><th>MEGA-328P/MEGA-2560</th>
