@@ -664,7 +664,7 @@ lang=EN-US>flash</span>里面，示例中，该模型烧录在地址<span lang=E
 style='font-size:16.0pt;font-family:宋体'><a href="docs\electronic_modules\main_control_board\elf_k210\K210_AI_MainControlBoard\k210_samples.rar">下载程序</a></span></p>
 
 <p class=MsoNormal style='text-indent:32.0pt'><span style='font-size:16.0pt;
-font-family:宋体'>此程序为物体分类识别，可以分别<span lang=EN-US>20</span>种不同的物体，分别是飞机、自行车、鸟、船、瓶子、公交、汽车、猫、椅子、奶牛、餐桌、狗、马、摩托车、人、盆栽植物、羊、沙发、火车、显示器。此程序运行前需要加载人脸追踪模型“<span
+font-family:宋体'>此程序为物体分类识别，可以分别<span lang=EN-US>20</span>种不同的物体，分别是飞机、自行车、鸟、船、瓶子、公交、汽车、猫、椅子、奶牛、餐桌、狗、马、摩托车、人、盆栽植物、羊、沙发、火车、显示器。此程序运行前需要加载20种物体识别模型“<span
 lang=EN-US>20class.kmodel</span>”，将模型下载早<span lang=EN-US>SD</span>卡根目录中，然后插入主控板中再运行程序。此程序的结果是，在<span
 lang=EN-US>LCD</span>屏幕上显示拍摄的图片，并用方框表示到的物体，并把名称显示在旁边。</span></p>
 

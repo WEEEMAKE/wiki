@@ -379,6 +379,8 @@
 
 <!-- div:right-panel -->
 
+- <font size=4>[蓝牙模块](docs/electronic_modules/other_modules/bluetooth_module/bluetooth_module.md)</font><img src="">
+
 <!-- panels:end -->
 
 # **机器人套件**

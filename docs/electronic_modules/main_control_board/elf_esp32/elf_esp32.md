@@ -21,41 +21,6 @@
 
 ## **4-硬件参数**
 
-<!-- CSS goes in the document HEAD or added to your external stylesheet -->
-<style type="text/css">
-table{
-    margin: auto;
-}
-table.imagetable {
-    font-family: verdana,arial,sans-serif;
-    font-size:20px;
-    color:#333333;
-    border-width: 5px;
-    border-color: #999999;
-    border-collapse: collapse;
-}
-table.imagetable th {
-    background:#b5cfd2 url('cell-blue.jpg');
-    border-width: 2px;
-    padding: 8px;
-    border-style: solid;
-    border-color: #999999;
-    text-align: center;
-}
-table.imagetable td {
-    background:#dcddc0 url('cell-grey.jpg');
-    border-width: 2px;
-    padding: 8px;
-    border-style: solid;
-    border-color: #999999;
-    text-align: center;
-}
-text{
-	font-size: 1cm;
-	color: #7ec699;
-}
-</style>
-
 <!-- Table goes in the document BODY -->
 <table class="imagetable" style="display: table; text-align: center;">
 <tr>
