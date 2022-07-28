@@ -93,9 +93,53 @@
 
 ## **4-与主控连接方式**
 
+<p>
+    <span style="font-family: 宋体, SimSun; font-size: 24px;">&nbsp; &nbsp;当模块通电时，蓝色指示灯闪烁，当一直无连接时，会一直闪烁，当连接成功时，常亮。</span>
+</p>
+<p>
+    <span style="font-family: 宋体, SimSun; font-size: 24px;">&nbsp; &nbsp;Arduino系列主控，当通过USB数据线和主控板通讯时，蓝色指示灯灭，模块不工作。</span>
+</p>
+
+<!-- tabs:start -->
+
+### **ELF主控**
+
+<div align=center>
+<img src="docs/electronic_modules/other_modules/bluetooth_module/20200306-170407.png">
+</div>
+
+> [!Note]
+> <p>
+    <span style="font-family: 宋体, SimSun; font-size: 24px;"><b>MCU 328P和MCU 2560使用蓝牙模块可直接接插在板上。</b></span>
+</p>
+
+### **ELF MINI主控**
+
+<div align=center>
+<img src="docs/electronic_modules/other_modules/bluetooth_module/20200306-170436.png"><img src="docs/electronic_modules/other_modules/bluetooth_module/20200306-170426.png">
+</div>
+
+> [!Note]
+> <p>
+    <span style="font-family: 宋体, SimSun; font-size: 24px;"><b>ELF MINI系列的主控使用蓝牙模块可直接接插在板上。</b></span>
+</p>
+
+### **ELF ESP32 Pro主控**
+
+<div align=center>
+<img src="docs/electronic_modules/other_modules/bluetooth_module/img.png">
+</div>
+
+> [!Note]
+> <p>
+    <span style="font-family: 宋体, SimSun; font-size: 24px;"><b>ELF ESP32 Pro使用蓝牙模块只能通过RJ11外接的方式。（目前只支持使用Micropython编程）</b></span>
+</p>
+
+<!-- tabs:end -->
+
 ## **5-注意事项**
 
 > [!Attention]
 > <p>
-    <strong><span style="font-size: 24px; font-family: 宋体, SimSun;">在蓝牙模块天线附近，尽量远离金属物，以防影响通讯。</span></strong>
+    <b><span style="font-size: 24px; font-family: 宋体, SimSun;">在蓝牙模块天线附近，尽量远离金属物，以防影响通讯。</span></b>
 </p>

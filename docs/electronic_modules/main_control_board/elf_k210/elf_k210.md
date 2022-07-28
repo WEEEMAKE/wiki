@@ -279,37 +279,6 @@ lang=EN-US>K210</span>，和排母上的<span lang=EN-US>IO</span>复用。</spa
 <p class=MsoNormal align=center style='text-align:center'><b><span
 style='font-size:18.0pt;font-family:宋体'>功能模块对应<span lang=EN-US>IO</span>管脚</span></b></p>
 
-<style type="text/css">
-table.imagetable {
-    font-family: verdana,arial,sans-serif;
-    font-size:20px;
-    color:#333333;
-    border-width: 1px;
-    border-color: #999999;
-    border-collapse: collapse;
-}
-table.imagetable th {
-    background:#b5cfd2 url('cell-blue.jpg');
-    border-width: 2px;
-    padding: 8px;
-    border-style: solid;
-    border-color: #999999;
-    text-align: center;
-}
-table.imagetable td {
-    background:#dcddc0 url('cell-grey.jpg');
-    border-width: 2px;
-    padding: 8px;
-    border-style: solid;
-    border-color: #999999;
-    text-align: center;
-}
-text{
-	font-size: 1cm;
-	color: #7ec699;
-}
-</style>
-
 <table class="imagetable" style="display: table; text-align: left;">
 <tr>
     <th width=300>功能</th><th>具体模块</th><th>Arduino</th><th>K210</th>

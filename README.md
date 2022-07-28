@@ -380,6 +380,7 @@
 <!-- div:right-panel -->
 
 - <font size=4>[蓝牙模块](docs/electronic_modules/other_modules/bluetooth_module/bluetooth_module.md)</font><img src="">
+- <font size=4>[蓝牙手柄](docs/electronic_modules/other_modules/bluetooth_controller/bluetooth_controller.md)</font><img src="">
 
 <!-- panels:end -->
 
