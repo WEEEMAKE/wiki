@@ -174,6 +174,11 @@ text{
 </tr>
 </table>
 
+> [!Note]
+> <p>
+    <span style="font-family: 宋体, SimSun; font-size: 24px;"><b>主控板的A、B、C、D端口属于数字口，不能用于读取模拟值的模块（如单路巡线、土壤湿度等）。</b></span>
+</p>
+
 ### **5.2-特殊模块扩展接口**
 
 #### **5.2.1-特殊模块之环形RGB-8模块**
