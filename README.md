@@ -376,13 +376,16 @@
 <!-- panels:start -->
 <!-- div:left-panel -->
 - <font size=4>[电源管理模块](docs/electronic_modules/other_modules/power_management_module/power_management_module.md)</font><img src="docs/electronic_modules/other_modules/power_management_module/power_management_module.png">
+- <font size=4>[蓝牙适配器(Dongle拔模)](docs/electronic_modules/other_modules/bluetooth_dongle/bluetooth_dongle.md)</font><img src="docs/electronic_modules/other_modules/bluetooth_dongle/CC5F40F1-EF30-4722-9F08-14243374F3FE.png">
 
 <!-- div:right-panel -->
 
-- <font size=4>[蓝牙模块](docs/electronic_modules/other_modules/bluetooth_module/bluetooth_module.md)</font><img src="">
-- <font size=4>[蓝牙手柄](docs/electronic_modules/other_modules/bluetooth_controller/bluetooth_controller.md)</font><img src="">
+- <font size=4>[蓝牙模块](docs/electronic_modules/other_modules/bluetooth_module/bluetooth_module.md)</font><img src="docs/electronic_modules/other_modules/bluetooth_module/Picture1.jpg">
+- <font size=4>[蓝牙手柄](docs/electronic_modules/other_modules/bluetooth_controller/bluetooth_controller.md)</font><img src="docs/electronic_modules/other_modules/bluetooth_controller/20190807-160117.png">
 
 <!-- panels:end -->
+
+---
 
 # **机器人套件**
 

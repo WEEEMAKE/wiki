@@ -7,47 +7,16 @@
 <img src="docs/electronic_modules/rj11/multiple_linefollower/multiple_linefollower.png" width=30%>
 </div>
 
-<font size=4>本模块采用5个抗干扰红外截止型照度传感器，灵敏度高，线性好，温度稳定性好，内置光学滤镜，可以有效滤除红外光的干扰。相比于红外对管的巡线传感器，本模块可以用于室外或者室内靠近阳光的地方，也能较好巡线。内置5个白色LED灯用于照明，内置mcu用于快速检测，内置5个蓝色LED灯用于提示黑白线，内置一个可调电阻，方便用户直接调试阈值。本模块采用WM单总线通讯，可以反馈5个模拟值，也可以反馈5个高低值。</font>
-
+<p>
+    <span style="font-family: 宋体, SimSun; font-size: 24px;">&nbsp; &nbsp;本模块采用5个抗干扰红外截止型照度传感器，灵敏度高，线性好，温度稳定性好，内置光学滤镜，可以有效滤除红外光的干扰。相比于红外对管的巡线传感器，本模块可以用于室外或者室内靠近阳光的地方，也能较好巡线。内置5个白色LED灯用于照明，内置mcu用于快速检测，内置5个蓝色LED灯用于提示黑白线，内置一个可调电阻，方便用户直接调试阈值。本模块采用WM单总线通讯，可以反馈5个模拟值，也可以反馈5个高低值。</span>
+</p>
 
 ## **2-参数规格**
-
-<!-- CSS goes in the document HEAD or added to your external stylesheet -->
-<style type="text/css">
-table.imagetable {
-    font-family: verdana,arial,sans-serif;
-    font-size:20px;
-    color:#333333;
-    border-width: 1px;
-    border-color: #999999;
-    border-collapse: collapse;
-}
-table.imagetable th {
-    background:#b5cfd2 url('cell-blue.jpg');
-    border-width: 2px;
-    padding: 8px;
-    border-style: solid;
-    border-color: #999999;
-    text-align: center;
-}
-table.imagetable td {
-    background:#dcddc0 url('cell-grey.jpg');
-    border-width: 2px;
-    padding: 8px;
-    border-style: solid;
-    border-color: #999999;
-    text-align: center;
-}
-text{
-	font-size: 1cm;
-	color: #7ec699;
-}
-</style>
 
 <!-- Table goes in the document BODY -->
 <table class="imagetable" style="display: table; text-align: left;">
 <tr>
-    <th>参数</th><th>值/描述</th>
+    <th>项</th><th>值/描述</th>
 </tr>
 <tr>
     <td>工作电压</td><td>DC 5V</td>
@@ -77,7 +46,9 @@ text{
 
 ## **3-使用指南**
 
-<font size=4>模块安装平行于地面，距离地面高度最好1-2CM，也可以根据现场调整到最灵敏的高度（黑白线数值相差最大）。模块插上RJ11线通电后即可开启工作，可以直接读取5路巡线的模拟数值，然后程序自行判断，也可以读取5路巡线的高低值。这个5个高低值可以通过调节模块上的可调电阻器，来调整比较的阈值，模块上蓝色LED灯也会随之变化，当检测到“白线”时对应的灯亮。</font>
+<p>
+    <span style="font-family: 宋体, SimSun; font-size: 24px;">&nbsp; &nbsp;模块安装平行于地面，距离地面高度最好1-2CM，也可以根据现场调整到最灵敏的高度（黑白线数值相差最大）。模块插上RJ11线通电后即可开启工作，可以直接读取5路巡线的模拟数值，然后程序自行判断，也可以读取5路巡线的高低值。这个5个高低值可以通过调节模块上的可调电阻器，来调整比较的阈值，模块上蓝色LED灯也会随之变化，当检测到“白线”时对应的灯亮。</span>
+</p>
 
 ## **4-编程指南**
 ### **4.1-图形化编程**
