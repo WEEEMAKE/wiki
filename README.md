@@ -274,7 +274,7 @@
 <!-- panels:start -->
 <!-- div:left-panel -->
 - <font size=4>[LED面板矩阵屏]()</font>
-- <font size=4>[0.96寸OLED显示屏]()</font>
+- <font size=4>[0.96寸OLED显示屏](docs/electronic_modules/rj11/oled_display_module/oled_display_module.md)</font><img src="docs/electronic_modules/rj11/oled_display_module/20200316-181627.png">
 - <font size=4>[单色LED灯模块]()</font>
 
 <!-- div:right-panel -->
