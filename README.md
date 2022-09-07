@@ -273,13 +273,13 @@
 ### **显示类**
 <!-- panels:start -->
 <!-- div:left-panel -->
-- <font size=4>[LED面板矩阵屏]()</font>
+- <font size=4>[LED面板矩阵屏](docs/electronic_modules/rj11/led_panel_dispaly_module/led_panel_dispaly_module.md)</font><img src="docs/electronic_modules/rj11/led_panel_dispaly_module/F6C90219-0BAE-4368-9348-822CEA7B2EE6.png">
 - <font size=4>[0.96寸OLED显示屏](docs/electronic_modules/rj11/oled_display_module/oled_display_module.md)</font><img src="docs/electronic_modules/rj11/oled_display_module/20200316-181627.png">
-- <font size=4>[单色LED灯模块]()</font>
+- <font size=4>[单色LED灯模块](docs/electronic_modules/rj11/single_led_module/single_led_module.md)</font><img src="docs/electronic_modules/rj11/single_led_module/D8A728A7-5F5A-4ee9-AB15-8D259DF300DA.png">
 
 <!-- div:right-panel -->
-- <font size=4>[数码管模块]()</font>
-- <font size=4>[RGB-5模块]()</font>
+- <font size=4>[数码管模块](docs/electronic_modules/rj11/four_digital_dispaly_module/four_digital_dispaly_module.md)</font><img src="docs/electronic_modules/rj11/four_digital_dispaly_module/20200306-162304.png">
+- <font size=4>[RGB-5模块](docs/electronic_modules/rj11/rgb5_module/rgb5_module.md)</font><img src="docs/electronic_modules/rj11/rgb5_module/F94B2A40-3AC1-4bba-A7B4-C5663B59130F.png">
 
 <!-- panels:end -->
 
@@ -317,7 +317,7 @@
 ## **ELF插针类**
 <!-- panels:start -->
 <!-- div:left-panel -->
-- <font size=4>[声音传感器]()</font>
+- <font size=4>[声音传感器](docs/electronic_modules/elf_dip/sound_sensor/sound_sensor.md)</font><img src="docs/electronic_modules/elf_dip/sound_sensor/F944B39C-1A9A-49ad-811F-AC3EC77A5893.png">
 - <font size=4>[红外接收传感器]()</font>
 - <font size=4>[编码电机驱动模块]()</font>
 - <font size=4>[USB HOST模块]()</font>

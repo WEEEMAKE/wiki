@@ -35,7 +35,7 @@
     <td>控制芯片</td><td>SSD1306</td>
 </tr>
 <tr>
-    <td>模块尺寸</td><td>100mm*62mm*18.5mm(长*宽*高)</td>
+    <td>模块尺寸</td><td>55mm * 24mm * 18.5mm（长*宽*高）</td>
 </tr>
 </table>
 
