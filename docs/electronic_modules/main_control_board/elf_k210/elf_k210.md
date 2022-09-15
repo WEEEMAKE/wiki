@@ -343,11 +343,11 @@ lang=EN-US>0-180</span>°）到需要的角度。摄像头和屏幕都采用<spa
 </div>
 
 <p class=MsoNormal><span style='font-size:16.0pt;font-family:宋体'>由于主控板上有<span
-lang=EN-US>2</span>块主控芯片，所有连接电脑串口时，也会出现<span lang=EN-US>2</span>个挨着的<span
-lang=EN-US>com</span>口，一般来说第一个（数字小的比如<span lang=EN-US>com2</span>）是<span
-lang=EN-US>K210</span>芯片的<span lang=EN-US>com</span>口，第二个（数字大的比如<span
-lang=EN-US>com3</span>）是<span lang=EN-US>ESP32</span>芯片的<span lang=EN-US>com</span>口。这<span
-lang=EN-US>2</span>个<span lang=EN-US>com</span>口可以分别对<span lang=EN-US>K210</span>和<span
+lang=EN-US>2</span>块主控芯片，所以连接电脑串口时，也会出现<span lang=EN-US>2</span>个挨着的<span
+lang=EN-US>COM</span>口，一般来说第一个（数字小的比如<span lang=EN-US>COM2</span>）是<span
+lang=EN-US>K210</span>芯片的<span lang=EN-US>COM</span>口，第二个（数字大的比如<span
+lang=EN-US>COM3</span>）是<span lang=EN-US>ESP32</span>芯片的<span lang=EN-US>COM</span>口。这<span
+lang=EN-US>2</span>个<span lang=EN-US>COM</span>口可以分别对<span lang=EN-US>K210</span>和<span
 lang=EN-US>ESP32</span>下载程序和打印串口信息。</span></p>
 
 <p class=MsoNormal><span lang=EN-US style='font-size:16.0pt;font-family:宋体'>TF</span><span
