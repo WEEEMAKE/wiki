@@ -198,6 +198,7 @@
 # **电子模块**
 
 <!-- 用于在链接后显示图片 -->
+
 <style>
   li > img {
     display: none;
@@ -296,7 +297,7 @@
 
 <!-- div:right-panel -->
 
-- <font size=4>[智能红外模块](docs\electronic_modules\rj11\smart_ir_module\smart_ir_module.md)</font>![](C:\Users\LBT.YOYO\wiki\docs\electronic_modules\rj11\smart_ir_module\20201103-110603.png)
+- <font size=4>[智能红外模块](docs\electronic_modules\rj11\smart_ir_module\smart_ir_module.md)</font>![](docs\electronic_modules\rj11\smart_ir_module\20201103-110603.png)
 
 <!-- panels:end -->
 
@@ -341,14 +342,14 @@
 ## **电机/舵机**
 <!-- panels:start -->
 <!-- div:left-panel -->
-- <font size=4>[TT直流电机]()</font>
-- <font size=4>[25MM直流电机](docs\electronic_modules\motor\25mm_dc_motor\25mm_dc_motor.md)![](C:\Users\LBT.YOYO\wiki\docs\electronic_modules\motor\25mm_dc_motor\20200310-161048.png)</font>
-- <font size=4>[MG995舵机]()</font>
+- <font size=4>[TT直流电机](docs\electronic_modules\motor\tt_dc_motor\tt_dc_motor.md)</font>![](docs\electronic_modules\motor\tt_dc_motor\20200310-151819.png)
+- <font size=4>[25MM直流电机](docs\electronic_modules\motor\25mm_dc_motor\25mm_dc_motor.md)![](docs\electronic_modules\motor\25mm_dc_motor\20200310-161048.png)</font>
+- <font size=4>[MG995舵机](docs\electronic_modules\motor\mg995_sovor\mg995_sovor.md)</font>![](docs\electronic_modules\motor\mg995_sovor\20200306-182622.png)
 
 <!-- div:right-panel -->
-- <font size=4>[42步进电机]()</font>
-- <font size=4>[25MM编码电机]()</font>
-- <font size=4>[9克舵机]()</font>
+- <font size=4>[42步进电机](docs\electronic_modules\motor\42_stepper_motor\42_stepper_motor.md)</font>![](docs\electronic_modules\motor\42_stepper_motor\20200309-120839.png)
+- <font size=4>[25MM编码电机](docs\electronic_modules\motor\25mm_encoder_motor\25mm_encoder_motor.md)</font>![](docs\electronic_modules\motor\25mm_encoder_motor\20200306-182602.png)
+- <font size=4>[9克舵机](docs\electronic_modules\motor\9g_sovor\9g_sovor.md)</font>![](docs\electronic_modules\motor\9g_sovor\20200306-182617.png)
 
 <!-- panels:end -->
 
@@ -383,6 +384,7 @@
 
 <!-- panels:start -->
 <!-- div:left-panel -->
+
 - <font size=4>[电源管理模块](docs/electronic_modules/other_modules/power_management_module/power_management_module.md)</font><img src="docs/electronic_modules/other_modules/power_management_module/power_management_module.png">
 - <font size=4>[蓝牙适配器(Dongle拔模)](docs/electronic_modules/other_modules/bluetooth_dongle/bluetooth_dongle.md)</font><img src="docs/electronic_modules/other_modules/bluetooth_dongle/CC5F40F1-EF30-4722-9F08-14243374F3FE.png">
 
@@ -401,6 +403,7 @@
 
 <!-- panels:start -->
 <!-- div:left-panel -->
+
 - <font size=4>[WeeeBot mini酷跑侠](https://www.weeemake.com.cn/weeebot-mini/)</font>
 - <font size=4>[WeeeBot mini教育版](https://www.weeemake.com.cn/weeebot-mini-edu/)</font>
 - <font size=4>[WeeeBot 巡线侠](https://www.weeemake.com.cn/weeebot/)</font>
