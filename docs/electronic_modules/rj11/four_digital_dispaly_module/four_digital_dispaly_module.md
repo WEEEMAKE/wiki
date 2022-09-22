@@ -9,7 +9,7 @@
 </div>
 
 <p>
-    <span style="font-family: 宋体, SimSun; font-size: 24px;">&nbsp; &nbsp;数码管模块是一个用于显示数字的模块，显示数字范围：-999~9999，可显示浮点数。可用于数值可视化项目，如温度、湿度、计数等需要数字显示的场景。</span>
+    <span style="font-family: 宋体, SimSun; font-size: 24px;">&nbsp; &nbsp;颜色识别传感器(Color Sensor)是基于罗姆系列的色彩传感器BH1745NUC，其为带I2C总线16位数字颜色传感IC,它将检测到的红色、绿色、蓝色光转换为数字值。</span>
 </p>
 
 ## **2-参数规格**
@@ -50,7 +50,7 @@
     <td>显示数字(-999~9999)</td><td>（2个参数）端口、数字</td><td><img src="docs/electronic_modules/rj11/four_digital_dispaly_module/20200303-111729.png"></td>
 </tr>
 <tr>
-    <td>显示字符</td><td>（4个参数）端口、字符</td><td><img src="docs/electronic_modules/rj11/four_digital_dispaly_module/6A59DA87-058E-4964-ACB7-C13140739F54.png"></td>
+    <td>显示字符</td><td>（2个参数）端口、字符</td><td><img src="docs/electronic_modules/rj11/four_digital_dispaly_module/6A59DA87-058E-4964-ACB7-C13140739F54.png"></td>
 </tr>
 </table>
 
