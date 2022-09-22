@@ -4,6 +4,7 @@
 
 - <font size=5 >[**进入官网**](https://www.weeemake.com.cn)</font>
 - <font size=5 >[**进入论坛**](https://www.weeemake.com.cn/bbs/)</font>
+- <font size=5 >[**进入旧wiki**](https://www.weeemake.com.cn/wiki/doku.php?id=wm_wiki:electronic_module_list)</font>
 
 ---
 # **编程软件**
@@ -230,16 +231,17 @@
 - <font size=4>[紫外线传感器](docs/electronic_modules/rj11/uv_sensor/uv_sensor.md)</font>
 
 <!-- div:right-panel -->
+
 - <font size=4>[巡线传感器]()</font><img src="docs/electronic_modules/rj11/linefollower_sensor/20220427145858.png">
 - <font size=4>[多路巡线传感器](docs/electronic_modules/rj11/multiple_linefollower/multiple_linefollower.md)</font><img src="docs/electronic_modules/rj11/multiple_linefollower/multiple_linefollower.png">
-- <font size=4>[倾斜开关传感器]()</font>
-- <font size=4>[可燃气体传感器]()</font>
-- <font size=4>[颜色识别传感器]()</font>
-- <font size=4>[多路触摸传感器]()</font>
+- <font size=4>[倾斜开关传感器](docs\electronic_modules\rj11\tilt_switch_sensor\tilt_switch_sensor.md)</font><img src="docs/electronic_modules/rj11/tilt_switch_sensor/tilt_switch_sensor.png">
+- <font size=4>[可燃气体传感器](docs\electronic_modules\rj11\Gas_Sensor\Gas_Sensor.md)</font>
+- <font size=4>[颜色识别传感器](docs\electronic_modules\rj11\color_sensor\color_sensor.md)</font>![](docs\electronic_modules\rj11\color_sensor\20190803-154047.png)
+- <font size=4>[多路触摸传感器](docs\electronic_modules\rj11\funny_touch_sensor\funny_touch_sensor.md)</font>![](docs\electronic_modules\rj11\funny_touch_sensor\20190803-154059.png)
 - <font size=4>[电子指南针传感器](docs/electronic_modules/rj11/compass_sensor/compass_sensor.md)</font><img src="docs/electronic_modules/rj11/compass_sensor/20190511-122900.png">
-- <font size=4>[PM2.5传感器]()</font>
-- <font size=4>[手势识别传感器]()</font>
-- <font size=4>[图像识别传感器V1]()</font>
+- <font size=4>[PM2.5传感器](docs\electronic_modules\rj11\pm25_sensor\pm25_sensor.md)</font>![](docs\electronic_modules\rj11\pm25_sensor\20190803-154125.png)
+- <font size=4>[手势识别传感器](docs\electronic_modules\rj11\gesture_sensor\gesture_sensor.md)</font>![](C:\Users\LBT.YOYO\wiki\docs\electronic_modules\rj11\gesture_sensor\20190807-104621.png)
+- <font size=4>[图像识别传感器V1](docs\electronic_modules\rj11\imagerecognition_sensor\imagerecognition_sensor.md)</font>![](docs\electronic_modules\rj11\imagerecognition_sensor\20190803-154149.png)
 - <font size=4>[图像识别传感器V2]()</font>
 
 <!-- panels:end -->
@@ -247,19 +249,22 @@
 ### **操控类**
 <!-- panels:start -->
 <!-- div:left-panel -->
-- <font size=4>[4位背光按键模块]()</font>
-- <font size=4>[旋转电位器模块]()</font>
-- <font size=4>[限位开关模块]()</font>
+
+- <font size=4>[4位背光按键模块](docs\electronic_modules\rj11\four_led_button_module\four_led_button_module.md)</font>![](C:\Users\LBT.YOYO\wiki\docs\electronic_modules\rj11\four_led_button_module\20190517-120536.png)
+- <font size=4>[旋转电位器模块](docs\electronic_modules\rj11\potentiometer_module\potentiometer_module.md)</font>![](C:\Users\LBT.YOYO\wiki\docs\electronic_modules\rj11\potentiometer_module\20200304-172149.png)
+- <font size=4>[限位开关模块](docs\electronic_modules\rj11\switch_module\switch_module.md)</font>![](C:\Users\LBT.YOYO\wiki\docs\electronic_modules\rj11\switch_module\20200313-152430.png)
 
 <!-- div:right-panel -->
-- <font size=4>[全向摇杆模块]()</font>
-- <font size=4>[滑动电位器模块]()</font>
+
+- <font size=4>[全向摇杆模块](docs\electronic_modules\rj11\joystick_module\joystick_module.md)</font>![](C:\Users\LBT.YOYO\wiki\docs\electronic_modules\rj11\joystick_module\20200303-171911.png)
+- <font size=4>[滑动电位器模块](docs\electronic_modules\rj11\sliding_potentiometer_module\sliding_potentiometer_module.md)</font>![](C:\Users\LBT.YOYO\wiki\docs\electronic_modules\rj11\sliding_potentiometer_module\20200304-164405.png)
 
 <!-- panels:end -->
 
 ### **执行类**
 <!-- panels:start -->
 <!-- div:left-panel -->
+
 - <font size=4>[MP3模块](docs/electronic_modules/rj11/mp3_module/mp3_module.md)</font><img src = "docs/electronic_modules/rj11/mp3_module/20190511-165917.png">
 - <font size=4>[继电器模块](docs/electronic_modules/rj11/relay_module/relay_module.md)</font>
 - <font size=4>[语音合成模块]()</font>
@@ -278,6 +283,7 @@
 - <font size=4>[单色LED灯模块](docs/electronic_modules/rj11/single_led_module/single_led_module.md)</font><img src="docs/electronic_modules/rj11/single_led_module/D8A728A7-5F5A-4ee9-AB15-8D259DF300DA.png">
 
 <!-- div:right-panel -->
+
 - <font size=4>[数码管模块](docs/electronic_modules/rj11/four_digital_dispaly_module/four_digital_dispaly_module.md)</font><img src="docs/electronic_modules/rj11/four_digital_dispaly_module/20200306-162304.png">
 - <font size=4>[RGB-5模块](docs/electronic_modules/rj11/rgb5_module/rgb5_module.md)</font><img src="docs/electronic_modules/rj11/rgb5_module/F94B2A40-3AC1-4bba-A7B4-C5663B59130F.png">
 
@@ -286,10 +292,10 @@
 ### **通信类**
 <!-- panels:start -->
 <!-- div:left-panel -->
-- <font size=4>[WiFi模块]()</font>
+- <font size=4>[WiFi模块](docs\electronic_modules\rj11\wifi_module\wifi_module.md)</font>![](docs\electronic_modules\rj11\wifi_module\20190828-160219.png)
 
 <!-- div:right-panel -->
-- <font size=4>[智能红外模块]()</font>
+- <font size=4>[智能红外模块](docs\electronic_modules\rj11\smart_ir_module\smart_ir_module.md)</font>
 
 <!-- panels:end -->
 
