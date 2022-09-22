@@ -295,14 +295,16 @@
 - <font size=4>[WiFi模块](docs\electronic_modules\rj11\wifi_module\wifi_module.md)</font>![](docs\electronic_modules\rj11\wifi_module\20190828-160219.png)
 
 <!-- div:right-panel -->
-- <font size=4>[智能红外模块](docs\electronic_modules\rj11\smart_ir_module\smart_ir_module.md)</font>
+
+- <font size=4>[智能红外模块](docs\electronic_modules\rj11\smart_ir_module\smart_ir_module.md)</font>![](C:\Users\LBT.YOYO\wiki\docs\electronic_modules\rj11\smart_ir_module\20201103-110603.png)
 
 <!-- panels:end -->
 
 ### **转接类**
 <!-- panels:start -->
 <!-- div:left-panel -->
-- <font size=4>[RJ11转插针模块]()</font>
+
+- <font size=4>[RJ11转插针模块](docs\electronic_modules\rj11\rj11__adapter_module_v1\rj11__adapter_module_v1.md)</font>![](\docs\electronic_modules\rj11\rj11__adapter_module_v1\20200313-163021.png)
 
 <!-- div:right-panel -->
 - <font size=4>[蓝牙转接模块](docs/electronic_modules/rj11/wireless_adapter_module/wireless_adapter_module.md)</font><img src="docs/electronic_modules/rj11/wireless_adapter_module/35D730A2-87CB-49fd-AFA1-4EFEEE388A44.png">
@@ -340,7 +342,7 @@
 <!-- panels:start -->
 <!-- div:left-panel -->
 - <font size=4>[TT直流电机]()</font>
-- <font size=4>[25MM直流电机]()</font>
+- <font size=4>[25MM直流电机](docs\electronic_modules\motor\25mm_dc_motor\25mm_dc_motor.md)![](C:\Users\LBT.YOYO\wiki\docs\electronic_modules\motor\25mm_dc_motor\20200310-161048.png)</font>
 - <font size=4>[MG995舵机]()</font>
 
 <!-- div:right-panel -->

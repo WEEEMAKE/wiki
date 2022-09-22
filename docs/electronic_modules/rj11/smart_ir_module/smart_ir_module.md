@@ -11,7 +11,9 @@ style='font-size:16.0pt;font-family:宋体;color:#222222;background:white'>本�
 
 ## 2. 参数规格
 
-{{ :wm_wiki:smart_ir_module:pasted:20201103-144351.png }}
+  <p class=MsoNormal align=center style='text-align:center'><span lang=EN-US><img
+  width=705	 height=407
+  src="\docs\electronic_modules\rj11\smart_ir_module\20201103-144351.png"></span></p>
 
 <html><body>
 
@@ -175,7 +177,6 @@ style='font-size:16.0pt;font-family:宋体;color:#222222;background:white'>本�
   </td>
  </tr>
 </table>
-
 </div>
 </body></html>
 
@@ -190,7 +191,6 @@ style='font-size:16.0pt;font-family:华文楷体;color:#222222;background:white'
 white'>该模块支持的图形化编程平台目前有<span lang=EN-US>WeeeCode 3.x</span>，其图形化编程指南如下：</span></p>
 
 <div align=center>
-
 <table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0
  style='border-collapse:collapse'>
  <tr>
@@ -229,7 +229,7 @@ white'>该模块支持的图形化编程平台目前有<span lang=EN-US>WeeeCode
   padding:0cm 5.4pt 0cm 5.4pt;height:79.55pt'>
   <p class=MsoNormal align=center style='text-align:center'><span lang=EN-US><img
   width=364 height=64
-  src="https://www.weeemake.com.cn/wiki/lib/exe/fetch.php?media=wm_wiki:smart_ir_module:pasted:20201103-145132.png"></span></p>
+  src="\docs\electronic_modules\rj11\smart_ir_module\20201103-145132.png"></span></p>
   </td>
  </tr>
  <tr style='height:79.55pt'>
@@ -250,10 +250,11 @@ white'>该模块支持的图形化编程平台目前有<span lang=EN-US>WeeeCode
   padding:0cm 5.4pt 0cm 5.4pt;height:79.55pt'>
   <p class=MsoNormal align=center style='text-align:center'><span lang=EN-US><img
   width=364 height=62
-  src="https://www.weeemake.com.cn/wiki/lib/exe/fetch.php?media=wm_wiki:smart_ir_module:pasted:20201103-145138.png"></span></p>
+  src="\docs\electronic_modules\rj11\smart_ir_module\20201103-145138.png"></span></p>
   </td>
  </tr>
 </table>
+
 
 </div>
 
@@ -275,9 +276,9 @@ lang=EN-US>15</span>。）</span></p>
 <p class=MsoNormal style='text-indent:21.0pt'><span style='font-size:16.0pt'>方法二：使用编程的方法。这个建议使用在线模式，现将在线调试固件刷入主控板，然后使用<b>智能红外模块的接收积木</b>，输入一个编号（<span
 lang=EN-US>0~15</span>），点击运行，模块就进入学习状态，这时把你需要学习遥控器的按钮对着模块上的红外接收头按一次，当蓝色状态指示灯熄灭，说明已经学习完成。例如，想要将某家电的开关的遥控按钮学习并编号为<span
 lang=EN-US>1</span>，则：</span></p>
-
 <p class=MsoNormal align=center style='text-align:center;text-indent:21.0pt'><span
-lang=EN-US><img width=362 height=62 id="图片 4" src="https://www.weeemake.com.cn/wiki/lib/exe/fetch.php?media=wm_wiki:smart_ir_module:pasted:20201103-152322.png"></span></p>
+lang=EN-US><img width=362 height=62 id="图片 4" src="\docs\electronic_modules\rj11\smart_ir_module\20201103-152322.png"></span></p>
+
 
 <p class=MsoNormal style='text-indent:21.0pt'><span style='font-size:16.0pt'>演示视频：</span></p>
 
@@ -288,9 +289,9 @@ style='font-size:16.0pt'>&nbsp;</span></p>
 
 <p class=MsoTitle style='text-indent:16.0pt'><b><span style='font-size:16.0pt;
 font-family:等线;letter-spacing:0pt'>能有效进行这个操作的前提是，你在此之前已经将某个按钮学习并编号。</span></b></p>
-
 <p class=MsoTitle align=center style='text-align:center;text-indent:28.0pt'><span
-lang=EN-US><img width=399 height=375 id="图片 5" src="https://www.weeemake.com.cn/wiki/lib/exe/fetch.php?media=wm_wiki:smart_ir_module:pasted:20201103-152244.png"></span></p>
+lang=EN-US><img width=399 height=375 id="图片 5" src="\docs\electronic_modules\rj11\smart_ir_module\20201103-152244.png"></span></p>
+
 
 </body></html>
 
