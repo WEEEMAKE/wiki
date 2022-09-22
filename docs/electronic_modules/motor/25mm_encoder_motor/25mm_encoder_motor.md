@@ -1,6 +1,8 @@
-# 25MM编码电机
+<div align=center>
+<h1 class="text-center">25MM编码电机</h1>
+</div>
 
-## 1. 电机概述
+## **1-电机概述**
 
 <html><body>
 
@@ -15,7 +17,7 @@ style='font-size:16.0pt;line-height:105%;font-family:宋体'>编码电机是可�
 
   </td>
 
-## 2. 电机参数
+## **2-电机参数**
 
 <html><body>
 
@@ -23,7 +25,7 @@ style='font-size:16.0pt;line-height:105%;font-family:宋体'>编码电机是可�
 
 
 
-## 3. 编程指南
+## **3-编程指南**
 
 
 <html><body>
@@ -35,7 +37,7 @@ href="doku.php?id=wm_wiki:encoder_motor_driver:manual#%E7%BC%96%E7%A8%8B%E6%8C%8
 lang=EN-US><span lang=EN-US>传送门</span></span></a></span>）</span></b></p>
 </body></html>
 
-## 4. 注意事项
+## **4-注意事项**
 
 <html><body>
 

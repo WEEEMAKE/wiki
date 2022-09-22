@@ -235,14 +235,14 @@
 
 - <font size=4>[巡线传感器]()</font><img src="docs/electronic_modules/rj11/linefollower_sensor/20220427145858.png">
 - <font size=4>[多路巡线传感器](docs/electronic_modules/rj11/multiple_linefollower/multiple_linefollower.md)</font><img src="docs/electronic_modules/rj11/multiple_linefollower/multiple_linefollower.png">
-- <font size=4>[倾斜开关传感器](docs\electronic_modules\rj11\tilt_switch_sensor\tilt_switch_sensor.md)</font><img src="docs/electronic_modules/rj11/tilt_switch_sensor/tilt_switch_sensor.png">
-- <font size=4>[可燃气体传感器](docs\electronic_modules\rj11\Gas_Sensor\Gas_Sensor.md)</font>
-- <font size=4>[颜色识别传感器](docs\electronic_modules\rj11\color_sensor\color_sensor.md)</font>![](docs\electronic_modules\rj11\color_sensor\20190803-154047.png)
-- <font size=4>[多路触摸传感器](docs\electronic_modules\rj11\funny_touch_sensor\funny_touch_sensor.md)</font>![](docs\electronic_modules\rj11\funny_touch_sensor\20190803-154059.png)
+- <font size=4>[倾斜开关传感器](docs/electronic_modules/rj11/tilt_switch_sensor/tilt_switch_sensor.md)</font><img src="docs/electronic_modules/rj11/tilt_switch_sensor/tilt_switch_sensor.png">
+- <font size=4>[可燃气体传感器](docs/electronic_modules/rj11/Gas_Sensor/Gas_Sensor.md)</font>
+- <font size=4>[颜色识别传感器](docs/electronic_modules/rj11/color_sensor/color_sensor.md)</font><img src="docs/electronic_modules/rj11/color_sensor/20190803-154047.png">
+- <font size=4>[多路触摸传感器](docs/electronic_modules/rj11/funny_touch_sensor/funny_touch_sensor.md)</font><img src="docs/electronic_modules/rj11/funny_touch_sensor/20190803-154059.png">
 - <font size=4>[电子指南针传感器](docs/electronic_modules/rj11/compass_sensor/compass_sensor.md)</font><img src="docs/electronic_modules/rj11/compass_sensor/20190511-122900.png">
-- <font size=4>[PM2.5传感器](docs\electronic_modules\rj11\pm25_sensor\pm25_sensor.md)</font>![](docs\electronic_modules\rj11\pm25_sensor\20190803-154125.png)
-- <font size=4>[手势识别传感器](docs\electronic_modules\rj11\gesture_sensor\gesture_sensor.md)</font>![](C:\Users\LBT.YOYO\wiki\docs\electronic_modules\rj11\gesture_sensor\20190807-104621.png)
-- <font size=4>[图像识别传感器V1](docs\electronic_modules\rj11\imagerecognition_sensor\imagerecognition_sensor.md)</font>![](docs\electronic_modules\rj11\imagerecognition_sensor\20190803-154149.png)
+- <font size=4>[PM2.5传感器](docs/electronic_modules/rj11/pm25_sensor/pm25_sensor.md)</font><img src="docs/electronic_modules/rj11/pm25_sensor/20190803-154125.png">
+- <font size=4>[手势识别传感器](docs/electronic_modules/rj11/gesture_sensor/gesture_sensor.md)</font><img src="docs/electronic_modules/rj11/gesture_sensor/20190807-104621.png">
+- <font size=4>[图像识别传感器V1](docs/electronic_modules/rj11/imagerecognition_sensor/imagerecognition_sensor.md)</font><img src="docs/electronic_modules/rj11/imagerecognition_sensor/20190803-154149.png">
 - <font size=4>[图像识别传感器V2]()</font>
 
 <!-- panels:end -->
@@ -251,14 +251,14 @@
 <!-- panels:start -->
 <!-- div:left-panel -->
 
-- <font size=4>[4位背光按键模块](docs\electronic_modules\rj11\four_led_button_module\four_led_button_module.md)</font>![](C:\Users\LBT.YOYO\wiki\docs\electronic_modules\rj11\four_led_button_module\20190517-120536.png)
-- <font size=4>[旋转电位器模块](docs\electronic_modules\rj11\potentiometer_module\potentiometer_module.md)</font>![](C:\Users\LBT.YOYO\wiki\docs\electronic_modules\rj11\potentiometer_module\20200304-172149.png)
-- <font size=4>[限位开关模块](docs\electronic_modules\rj11\switch_module\switch_module.md)</font>![](C:\Users\LBT.YOYO\wiki\docs\electronic_modules\rj11\switch_module\20200313-152430.png)
+- <font size=4>[4位背光按键模块](docs/electronic_modules/rj11/four_led_button_module/four_led_button_module.md)</font><img src="docs/electronic_modules/rj11/four_led_button_module/20190517-120536.png">
+- <font size=4>[旋转电位器模块](docs/electronic_modules/rj11/potentiometer_module/potentiometer_module.md)</font><img src="docs/electronic_modules/rj11/potentiometer_module/20200304-172149.png">
+- <font size=4>[限位开关模块](docs/electronic_modules/rj11/switch_module/switch_module.md)</font><img src="docs/electronic_modules/rj11/switch_module/20200313-152430.png">
 
 <!-- div:right-panel -->
 
-- <font size=4>[全向摇杆模块](docs\electronic_modules\rj11\joystick_module\joystick_module.md)</font>![](C:\Users\LBT.YOYO\wiki\docs\electronic_modules\rj11\joystick_module\20200303-171911.png)
-- <font size=4>[滑动电位器模块](docs\electronic_modules\rj11\sliding_potentiometer_module\sliding_potentiometer_module.md)</font>![](C:\Users\LBT.YOYO\wiki\docs\electronic_modules\rj11\sliding_potentiometer_module\20200304-164405.png)
+- <font size=4>[全向摇杆模块](docs/electronic_modules/rj11/joystick_module/joystick_module.md)</font><img src="docs/electronic_modules/rj11/joystick_module/20200303-171911.png">
+- <font size=4>[滑动电位器模块](docs/electronic_modules/rj11/sliding_potentiometer_module/sliding_potentiometer_module.md)</font><img src="docs/electronic_modules/rj11/sliding_potentiometer_module/20200304-164405.png">
 
 <!-- panels:end -->
 
@@ -293,11 +293,11 @@
 ### **通信类**
 <!-- panels:start -->
 <!-- div:left-panel -->
-- <font size=4>[WiFi模块](docs\electronic_modules\rj11\wifi_module\wifi_module.md)</font>![](docs\electronic_modules\rj11\wifi_module\20190828-160219.png)
+- <font size=4>[WiFi模块](docs/electronic_modules/rj11/wifi_module/wifi_module.md)</font><img src="docs/electronic_modules/rj11/wifi_module/20190828-160219.png">
 
 <!-- div:right-panel -->
 
-- <font size=4>[智能红外模块](docs\electronic_modules\rj11\smart_ir_module\smart_ir_module.md)</font>![](docs\electronic_modules\rj11\smart_ir_module\20201103-110603.png)
+- <font size=4>[智能红外模块](docs/electronic_modules/rj11/smart_ir_module/smart_ir_module.md)</font><img src="docs/electronic_modules/rj11/smart_ir_module/20201103-110603.png">
 
 <!-- panels:end -->
 
@@ -305,7 +305,7 @@
 <!-- panels:start -->
 <!-- div:left-panel -->
 
-- <font size=4>[RJ11转插针模块](docs\electronic_modules\rj11\rj11__adapter_module_v1\rj11__adapter_module_v1.md)</font>![](\docs\electronic_modules\rj11\rj11__adapter_module_v1\20200313-163021.png)
+- <font size=4>[RJ11转插针模块](docs/electronic_modules/rj11/rj11__adapter_module_v1/rj11__adapter_module_v1.md)</font><img src="/docs/electronic_modules/rj11/rj11__adapter_module_v1/20200313-163021.png">
 
 <!-- div:right-panel -->
 - <font size=4>[蓝牙转接模块](docs/electronic_modules/rj11/wireless_adapter_module/wireless_adapter_module.md)</font><img src="docs/electronic_modules/rj11/wireless_adapter_module/35D730A2-87CB-49fd-AFA1-4EFEEE388A44.png">
@@ -342,14 +342,14 @@
 ## **电机/舵机**
 <!-- panels:start -->
 <!-- div:left-panel -->
-- <font size=4>[TT直流电机](docs\electronic_modules\motor\tt_dc_motor\tt_dc_motor.md)</font>![](docs\electronic_modules\motor\tt_dc_motor\20200310-151819.png)
-- <font size=4>[25MM直流电机](docs\electronic_modules\motor\25mm_dc_motor\25mm_dc_motor.md)![](docs\electronic_modules\motor\25mm_dc_motor\20200310-161048.png)</font>
-- <font size=4>[MG995舵机](docs\electronic_modules\motor\mg995_sovor\mg995_sovor.md)</font>![](docs\electronic_modules\motor\mg995_sovor\20200306-182622.png)
+- <font size=4>[TT直流电机](docs/electronic_modules/motor/tt_dc_motor/tt_dc_motor.md)</font><img src="docs/electronic_modules/motor/tt_dc_motor/20200310-151819.png">
+- <font size=4>[25MM直流电机](docs/electronic_modules/motor/25mm_dc_motor/25mm_dc_motor.md)</font><img src="docs/electronic_modules/motor/25mm_dc_motor/20200310-161048.png">
+- <font size=4>[MG995舵机](docs/electronic_modules/motor/mg995_sovor/mg995_sovor.md)</font><img src="docs/electronic_modules/motor/mg995_sovor/20200306-182622.png">
 
 <!-- div:right-panel -->
-- <font size=4>[42步进电机](docs\electronic_modules\motor\42_stepper_motor\42_stepper_motor.md)</font>![](docs\electronic_modules\motor\42_stepper_motor\20200309-120839.png)
-- <font size=4>[25MM编码电机](docs\electronic_modules\motor\25mm_encoder_motor\25mm_encoder_motor.md)</font>![](docs\electronic_modules\motor\25mm_encoder_motor\20200306-182602.png)
-- <font size=4>[9克舵机](docs\electronic_modules\motor\9g_sovor\9g_sovor.md)</font>![](docs\electronic_modules\motor\9g_sovor\20200306-182617.png)
+- <font size=4>[42步进电机](docs/electronic_modules/motor/42_stepper_motor/42_stepper_motor.md)</font><img src="docs/electronic_modules/motor/42_stepper_motor/20200309-120839.png">
+- <font size=4>[25MM编码电机](docs/electronic_modules/motor/25mm_encoder_motor/25mm_encoder_motor.md)</font><img src="docs/electronic_modules/motor/25mm_encoder_motor/20200306-182602.png">
+- <font size=4>[9克舵机](docs/electronic_modules/motor/9g_sovor/9g_sovor.md)</font><img src="docs/electronic_modules/motor/9g_sovor/20200306-182617.png">
 
 <!-- panels:end -->
 
