@@ -327,14 +327,14 @@
 <!-- panels:start -->
 <!-- div:left-panel -->
 - <font size=4>[声音传感器](docs/electronic_modules/elf_dip/sound_sensor/sound_sensor.md)</font><img src="docs/electronic_modules/elf_dip/sound_sensor/F944B39C-1A9A-49ad-811F-AC3EC77A5893.png">
-- <font size=4>[红外接收传感器]()</font>
+- <font size=4>[红外接收传感器](docs\electronic_modules\elf_dip\ir_sensor\ir_sensor.md)</font>
 - <font size=4>[编码电机驱动模块](docs/electronic_modules/elf_dip/encoder_motor_driver/encoder_motor_driver.md)</font><img src="docs/electronic_modules/elf_dip/encoder_motor_driver/2E331FC1-D881-4fe6-A058-9245B08761D0.png">
 - <font size=4>[USB HOST模块]()</font>
 
 <!-- div:right-panel -->
 - <font size=4>[光线传感器](docs/electronic_modules/elf_dip/light_sensor/light_sensor.md)</font><img src="docs/electronic_modules/elf_dip/light_sensor/EFF2054D-EA63-4842-85EF-59B94EAE5954.png">
 - <font size=4>[RGB-8灯环模块](docs/electronic_modules/elf_dip/rgb8_moudle/rgb8_moudle.md)</font><img src="docs/electronic_modules/elf_dip/rgb8_moudle/CECB5A9A-040F-4d6a-88BF-D1A7324754B2.png">
-- <font size=4>[步进电机驱动模块]()</font>
+- <font size=4>[步进电机驱动模块](docs\electronic_modules\elf_dip\stepper_motor_driver\stepper_motor_driver.md)</font>
 - <font size=4>[Adapter模块](docs/electronic_modules/elf_dip/adapter_module/adapter_module.md)</font><img src="docs/electronic_modules/elf_dip/adapter_module/20200312-161105.png">
 
 <!-- panels:end -->
