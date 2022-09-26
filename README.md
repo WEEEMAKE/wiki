@@ -87,10 +87,12 @@
 ### **ELF 328P**
 
 <div align=center>
-<img src="docs/electronic_modules/main_control_board/elf_328p/elf_mega_328p.png">
+<img src="docs/electronic_modules/main_control_board/elf_328p/elf_mega_328p.jpg">
 </div>
 
+
 > [!NOTE]
+>
 > - <font size=5 >详情链接 **→** [ELF 328P详细介绍](docs/electronic_modules/main_control_board/elf_328p/elf_328p.md)</font>
 
 ### **ELF 2560**
@@ -131,13 +133,25 @@
 > [!NOTE]
 > - <font size=5 >详情链接 **→** [ELF Mini V3详细介绍](docs/electronic_modules/main_control_board/elf_328p/elf_328p.md)</font>
 
-
 ### **ELF UNO**
 
+<div align=center>
+<img src="docs\electronic_modules\main_control_board\elf_uno\elf_uno.jpg">
+</div>
+
+> [!NOTE]  
+>
+> - <font size=5 >详情链接 **→** [ELF UNO详细介绍](docs\electronic_modules\main_control_board\elf_uno\elf_uno.md)</font>
 
 ### **ELF UNO Shield**
 
+<div align=center>
+<img src="docs/electronic_modules/main_control_board/elf_uno_shield/elf_uno_shield.jpg">
+</div>
 
+> [!NOTE]
+>
+> - <font size=5 >详情链接 **→** [ELF UNO Shield详细介绍](docs\electronic_modules\main_control_board\elf_uno_shield\elf_uno_shield.md)</font>
 
 <!-- tabs:end -->
 

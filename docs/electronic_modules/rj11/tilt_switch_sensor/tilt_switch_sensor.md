@@ -54,62 +54,18 @@
 <p class=MsoNormal style='text-indent:21.0pt'><span style='font-size:16.0pt;
 font-family:华文楷体;color:#222222;background:white'>&nbsp;&nbsp;&nbsp; </span><span
 lang=ZH-CN style='font-size:16.0pt;font-family:宋体;color:#222222;background:
-white'>该模块支持的图形化编程平台有WeeeCode、编程猫平台、Mixly_Arduino、MakeCode等，其图形化编程大同小异，区别不会很大。</span></span></span></p>
+white'>该模块支持的图形化编程平台有WeeeCode、编程猫平台、Mixly_Arduino、MakeCode等，其图形化编程大同小异，区别不会很大。</span></span></span></p>  
 
-
-<div align=center>
-<table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0
- style='border-collapse:collapse'>
- <tr>
-  <td width=257 valign=top style='width:192.65pt;border:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b><span
-  lang=ZH-CN style='font-size:14.0pt;font-family:华文楷体;color:windowtext;
-  background:white'>模块功能</span></b></p>
-  </td>
-  <td width=223 valign=top style='width:166.95pt;border:solid windowtext 1.0pt;
-  border-left:none;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b><span
-  lang=ZH-CN style='font-size:14.0pt;font-family:华文楷体;color:windowtext;
-  background:white'>需传参数</span></b></p>
-  </td>
-  <td width=462 valign=top style='width:346.5pt;border:solid windowtext 1.0pt;
-  border-left:none;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b><span
-  lang=ZH-CN style='font-size:14.0pt;font-family:华文楷体;color:windowtext;
-  background:white'>图形化编程块举例</span></b><b style='box-sizing: border-box;
-  font-variant-ligatures: normal;font-variant-caps: normal;orphans: 2;
-  widows: 2;-webkit-text-stroke-width: 0px;text-decoration-style: initial;
-  text-decoration-color: initial;word-spacing:0px'><span style='box-sizing: border-box'><span
-  style='font-size:14.0pt;font-family:华文楷体;color:windowtext;background:white'>(</span><span
-  lang=ZH-CN><span style='box-sizing: border-box'>其他平台图形化编程块大同小异</span></span><span
-  style='box-sizing: border-box'>)</span></span></b></p>
-  </td>
- </tr>
- <tr style='height:98.9pt'>
-  <td width=257 style='width:192.65pt;border:solid windowtext 1.0pt;border-top:
-  none;padding:0in 5.4pt 0in 5.4pt;height:98.9pt'>
-  <p class=MsoNormal align=center style='text-align:center'><span lang=ZH-CN
-  style='font-size:14.0pt;font-family:华文楷体;color:windowtext;background:white'>返回两个开关的开关值</span></p>
-  </td>
-  <td width=223 style='width:166.95pt;border-top:none;border-left:none;
-  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt;height:98.9pt'>
-  <p class=MsoNormal><span style='font-size:14.0pt;font-family:华文楷体;color:windowtext;
-  background:white'>(2<span lang=ZH-CN><span style='box-sizing: border-box;
-  font-variant-ligatures: normal;font-variant-caps: normal;orphans: 2;
-  widows: 2;-webkit-text-stroke-width: 0px;text-decoration-style: initial;
-  text-decoration-color: initial;word-spacing:0px'>个参数）端口、需要判断的状态</span></span></span></p>
-  </td>
-  <td width=462 valign=top style='width:346.5pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt;height:98.9pt'>
-  <p class=MsoNormal align=center style='text-align:center'><span
-  style='color:windowtext'><img width=407 height=136 id="图片 2"
-  src="docs\electronic_modules\rj11\tilt_switch_sensor\20200220-144052.png"></span></p>
-  </td>
- </tr>
+<table class="imagetable" style="display: table; text-align: left;">
+<tr>
+    <th>模块功能</th><th>需设参数</th><th>图形化编程块举例(其他平台图形化编程块大同小异)</th>
+</tr>
+<tr>
+    <td>返回两个开关的开关值
+</td><td>(2个参数）端口、需要判断的状态</td><td><img src="docs\electronic_modules\rj11\tilt_switch_sensor\20200220-144052.png"></td>
+</tr>
 </table>
+
 
 <p class=MsoNormal style='text-indent:21.0pt'>&nbsp;</p>
 <p class=MsoNormal style='text-indent:21.0pt'><span style='font-size:16.0pt;
@@ -120,22 +76,16 @@ font-family:宋体'>图形化编程示例：</span></p>
   src="docs\electronic_modules\rj11\tilt_switch_sensor\20200219-163015.png"></span></p>
 
 ## **3.2-文本代码编程指南**
-<p class=MsoNormal style='text-indent:21.0pt'><span style='font-size:16.0pt;
-font-family:华文楷体'>&nbsp;</span><span lang=ZH-CN style='font-size:16.0pt;
-font-family:宋体'>Arduino编程示例：</span></p>
-
-
-```
-#include<WeELF328P.h>
+<pre class="xml" style="font-family:monospace;">#include<span style="color: #009900;"><span style="color: #000000; font-weight: bold;">&lt;WeELF328P.h<span style="color: #000000; font-weight: bold;">&gt;</span></span></span>
 WeTiltSwitch tilt_D(PORT_D);
 WeRGBLed rgb_led_board(OnBoard_RGB);
 uint8_t tilt_D_value;
 void setup(){
-	delay(1000);
+delay(1000);
 }
 void loop(){
-	tilt_D_value = tilt_D.readSensor();
-	if(tilt_D_value == 2){
+tilt_D_value = tilt_D.readSensor();
+if(tilt_D_value == 2){
         rgb_led_board.setColor(1, 20, 0, 0);
         rgb_led_board.show();
     }else if(tilt_D_value == 1){
@@ -146,13 +96,7 @@ void loop(){
         rgb_led_board.show();
     }
     delay(100);
-}
-```
-
-
-
-
-
+}</pre>
 <p class=MsoNormal style='text-indent:21.0pt'><span style='font-size:16.0pt;
 font-family:华文楷体'>&nbsp;</span><span lang=ZH-CN style='font-size:16.0pt;
 font-family:宋体'>更多使用实例请前往论坛学习：倾斜开关使用示例</span></p>
