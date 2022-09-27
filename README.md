@@ -87,7 +87,7 @@
 ### **ELF 328P**
 
 <div align=center>
-<img src="docs/electronic_modules/main_control_board/elf_328p/elf_mega_328p.jpg">
+<img src="docs/electronic_modules/main_control_board/elf_328p/elf_mega_328p.jpg" width="50%">
 </div>
 
 
@@ -136,7 +136,7 @@
 ### **ELF UNO**
 
 <div align=center>
-<img src="docs\electronic_modules\main_control_board\elf_uno\elf_uno.jpg">
+<img src="docs/electronic_modules/main_control_board/elf_uno/elf_uno.jpg" width="50%">
 </div>
 
 > [!NOTE]  
@@ -146,7 +146,7 @@
 ### **ELF UNO Shield**
 
 <div align=center>
-<img src="docs/electronic_modules/main_control_board/elf_uno_shield/elf_uno_shield.jpg">
+<img src="docs/electronic_modules/main_control_board/elf_uno_shield/elf_uno_shield.jpg" width="50%">
 </div>
 
 > [!NOTE]
