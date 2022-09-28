@@ -1,4 +1,6 @@
-# 限位开关模块 
+<div align=center>
+<h1 class="text-center">限位开关模块</h1>
+</div>
 
 ## 1. 简要概述
 
@@ -18,8 +20,6 @@ background:white'>模块外观：</span></p>
 ##  2. 参数规格
 
 <html><body>
-
-<div align=center>
 
 <table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0
  style='border-collapse:collapse'>
@@ -155,7 +155,6 @@ style='font-size:16.0pt;font-family:华文楷体;color:#222222;background:white'
 </span><span style='font-size:16.0pt;font-family:宋体;color:#222222;background:
 white'>图形化编程指南以<span lang=EN-US>WeeeCode 3.0</span>图形化软件为例，其图形化编程大同小异，区别不会很大。</span></p>
 
-<div align=center>
 <table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0
  style='border-collapse:collapse'>
  <tr>
@@ -217,23 +216,5 @@ font-family:宋体;color:#222222;background:white'>图形化编程示例：</spa
 font-family:宋体;color:#222222;background:white'>Arduino编程示例：</span></p>
 </body></html>
 
-```
-switch_module_test.ino
-
-#include "WeELF328P.h"
-WeLimitSwitch limitSwitch(PORT_A);
-void setup() 
-{
-    Serial.begin(9600);
-}
-void loop()
-{
-  if(limitSwitch.read()==1)
-  {
-    Serial.println("limitSwitch DOWN");
-  }
-  delay(100);
-}
-```
-
+<div style="white-space:pre;font-family:Consolas;color:#d8dee9;background-color:#303841;-moz-tab-size:4;tab-size:4;"><span style="color:#c695c6;">#include</span> <span style="color:#5fb4b4;">"</span><span style="color:#99c794;">WeELF328P.h</span><span style="color:#5fb4b4;">"</span><br>WeLimitSwitch <span style="color:#5fb4b4;">limitSwitch</span><span style="color:#ffffff;">(</span><span style="color:#f9ae58;">PORT_A</span><span style="color:#ffffff;">)</span><span style="color:#a6acb9;">;</span><br><span style="color:#c695c6;font-style:italic;">void</span> <span style="color:#5fb4b4;">setup</span><span style="color:#ffffff;">(</span><span style="color:#ffffff;">)</span> <br><span style="color:#ffffff;">{</span><br>    Serial<span style="color:#a6acb9;">.</span><span style="color:#6699cc;">begin</span><span style="color:#ffffff;">(</span><span style="color:#f9ae58;">9600</span><span style="color:#ffffff;">)</span><span style="color:#a6acb9;">;</span><br><span style="color:#ffffff;">}</span><br><span style="color:#c695c6;font-style:italic;">void</span> <span style="color:#5fb4b4;">loop</span><span style="color:#ffffff;">(</span><span style="color:#ffffff;">)</span><br><span style="color:#ffffff;">{</span><br>  <span style="color:#c695c6;">if</span><span style="color:#ffffff;">(</span>limitSwitch<span style="color:#a6acb9;">.</span><span style="color:#6699cc;">read</span><span style="color:#ffffff;">(</span><span style="color:#ffffff;">)</span><span style="color:#f97b58;">==</span><span style="color:#f9ae58;">1</span><span style="color:#ffffff;">)</span><br>  <span style="color:#ffffff;">{</span><br>    Serial<span style="color:#a6acb9;">.</span><span style="color:#6699cc;">println</span><span style="color:#ffffff;">(</span><span style="color:#5fb4b4;">"</span><span style="color:#99c794;">limitSwitch </span><span style="color:#99c794;">DOWN</span><span style="color:#5fb4b4;">"</span><span style="color:#ffffff;">)</span><span style="color:#a6acb9;">;</span><br>  <span style="color:#ffffff;">}</span><br>  <span style="color:#6699cc;">delay</span><span style="color:#ffffff;">(</span><span style="color:#f9ae58;">100</span><span style="color:#ffffff;">)</span><span style="color:#a6acb9;">;</span><br><span style="color:#ffffff;">}</span></div>
 </sxh>

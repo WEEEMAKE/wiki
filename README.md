@@ -247,7 +247,7 @@
 
 <!-- div:right-panel -->
 
-- <font size=4>[巡线传感器]()</font><img src="docs/electronic_modules/rj11/linefollower_sensor/20220427145858.png">
+- <font size=4>[巡线传感器](docs/electronic_modules/rj11/linefollower_sensor/line_follower_sensor_v2.0.md)</font><img src="docs/electronic_modules/rj11/linefollower_sensor/20220427145858.png">
 - <font size=4>[多路巡线传感器](docs/electronic_modules/rj11/multiple_linefollower/multiple_linefollower.md)</font><img src="docs/electronic_modules/rj11/multiple_linefollower/multiple_linefollower.png">
 - <font size=4>[倾斜开关传感器](docs/electronic_modules/rj11/tilt_switch_sensor/tilt_switch_sensor.md)</font><img src="docs/electronic_modules/rj11/tilt_switch_sensor/tilt_switch_sensor.png">
 - <font size=4>[可燃气体传感器](docs/electronic_modules/rj11/Gas_Sensor/Gas_Sensor.md)</font>
@@ -319,9 +319,10 @@
 <!-- panels:start -->
 <!-- div:left-panel -->
 
-- <font size=4>[RJ11转插针模块](docs/electronic_modules/rj11/rj11__adapter_module_v1/rj11__adapter_module_v1.md)</font><img src="/docs/electronic_modules/rj11/rj11__adapter_module_v1/20200313-163021.png">
+- <font size=4>[RJ11转插针模块](docs/electronic_modules/rj11/rj11__adapter_module_v1/rj11__adapter_module_v1.md)</font><img src="docs/electronic_modules/rj11/rj11__adapter_module_v1/20200313-163021.png">
 
 <!-- div:right-panel -->
+
 - <font size=4>[蓝牙转接模块](docs/electronic_modules/rj11/wireless_adapter_module/wireless_adapter_module.md)</font><img src="docs/electronic_modules/rj11/wireless_adapter_module/35D730A2-87CB-49fd-AFA1-4EFEEE388A44.png">
 
 <!-- panels:end -->
@@ -424,6 +425,7 @@
 - <font size=4>[WeeeBot Jeep](https://www.weeemake.com.cn/weeebot-jeep/)</font>
 
 <!-- div:right-panel -->
+
 - <font size=4>[6合1探索者机器人](https://www.weeemake.com.cn/weeebot-evolution/)</font>
 - <font size=4>[12合1机器人风暴](https://www.weeemake.com.cn/12-in-1-robotstorm/)</font>
 - <font size=4>[智能家居小电子套装](https://www.weeemake.com.cn/home-inventor-kit/)</font>
@@ -435,14 +437,18 @@
 
 <!-- panels:start -->
 <!-- div:left-panel -->
+
 - <font size=4>[百变创意机械套装](https://www.weeemake.com.cn/variety-of-creative-machinery-kit/)</font>
 - <font size=4>[趣味火星探险套件](https://www.weeemake.com.cn/mars-rover-kit/)</font>
 - <font size=4>[Python编程学习套装](https://www.weeemake.com.cn/python-educational-robot-kit/)</font>
 
 <!-- div:right-panel -->
+
 - <font size=4>[全国青少年机器人等级考试一二级](https://www.weeemake.com.cn/youth-level-test-1-2/)</font>
+
 - <font size=4>[全国青少年机器人等级考试三四级](https://www.weeemake.com.cn/youth-level-test-3-4/)</font>
-- <font size=4>[AI机器学习初级套件](https://www.weeemake.com.cn/ai-machine-learning-educational-starter-kit/)</font>
+
+- <font size=4>[AI机器学习初级套件](https://www.weeemake.com.cn/ai-machine-learning-educational-starter-kit/)</font> <div style="display:none">隐藏：<font size=4>[人工智能等级考试三四级考试套装说明](docs\robot_kits\AI_edu\AI_edu.md)</font></div>
 
 <!-- panels:end -->
 
@@ -450,6 +456,7 @@
 
 <!-- panels:start -->
 <!-- div:left-panel -->
+
 - <font size=4>[气象站小套件](docs/robot_kits/Weather_Kit/Weather_Kit.md)</font><img src="docs/robot_kits/Weather_Kit/15EDD794-1AFA-4fe2-B71C-94AACE20E47D.png">
 
 <!-- div:right-panel -->

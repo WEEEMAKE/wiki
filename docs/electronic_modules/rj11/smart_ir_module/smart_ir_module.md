@@ -1,4 +1,6 @@
-# 智能红外模块
+<div align=center>
+<h1 class="text-center">智能红外模块</h1>
+</div>
 
 ## 1. 模块介绍
 

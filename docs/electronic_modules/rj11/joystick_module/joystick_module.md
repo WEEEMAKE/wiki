@@ -1,3 +1,7 @@
+<div align=center>
+<h1 class="text-center">全向摇杆模块</h1>
+</div>
+
 # 全向摇杆模块 
 
 ## 1. 模块概述 
@@ -18,8 +22,6 @@ style='font-size:16.0pt;font-family:宋体;color:#222222;background:white'><o:p>
   width=601 height=401 id="图片 1" src="docs\electronic_modules\rj11\joystick_module\20200303-171911.png"></span></p>
 
 ## 2. 参数规格
-
-<div align=center>
 
 <table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0
  style='border-collapse:collapse'>
@@ -155,7 +157,6 @@ font-variant-caps: normal;orphans: 2;text-align:start;widows: 2;-webkit-text-str
 text-decoration-style: initial;text-decoration-color: initial;word-spacing:
 0px'>等，其图形化编程大同小异，区别不会很大。</span></span></p>
 
-<div align=center>
 <table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0
  style='border-collapse:collapse'>
  <tr>
@@ -226,27 +227,7 @@ font-family:宋体'>Arduino编程示例：</span></p>
 
 </body></html>
 
-```
-joystick_test.ino
-
-#include "WeELF328P.h"
-
-WeJoystick joystick(PORT_A);
-
-void setup()
-{  
-  Serial.begin(9600);
-}
-void loop() 
-{
-  joystick.readData();
-  Serial.print("X= ");
-  Serial.println(joystick.showX());
-  Serial.print("Y= ");
-  Serial.println(joystick.showY());
-  delay(100);
-}
-```
+<div style="white-space:pre;font-family:Consolas;color:#d8dee9;background-color:#303841;-moz-tab-size:4;tab-size:4;"><span style="color:#c695c6;">#include</span> <span style="color:#5fb4b4;">"</span><span style="color:#99c794;">WeELF328P.h</span><span style="color:#5fb4b4;">"</span><br><br>WeJoystick <span style="color:#5fb4b4;">joystick</span><span style="color:#ffffff;">(</span><span style="color:#f9ae58;">PORT_A</span><span style="color:#ffffff;">)</span><span style="color:#a6acb9;">;</span><br><br><span style="color:#c695c6;font-style:italic;">void</span> <span style="color:#5fb4b4;">setup</span><span style="color:#ffffff;">(</span><span style="color:#ffffff;">)</span><br><span style="color:#ffffff;">{</span>  <br>  Serial<span style="color:#a6acb9;">.</span><span style="color:#6699cc;">begin</span><span style="color:#ffffff;">(</span><span style="color:#f9ae58;">9600</span><span style="color:#ffffff;">)</span><span style="color:#a6acb9;">;</span><br><span style="color:#ffffff;">}</span><br><span style="color:#c695c6;font-style:italic;">void</span> <span style="color:#5fb4b4;">loop</span><span style="color:#ffffff;">(</span><span style="color:#ffffff;">)</span> <br><span style="color:#ffffff;">{</span><br>  joystick<span style="color:#a6acb9;">.</span><span style="color:#6699cc;">readData</span><span style="color:#ffffff;">(</span><span style="color:#ffffff;">)</span><span style="color:#a6acb9;">;</span><br>  Serial<span style="color:#a6acb9;">.</span><span style="color:#6699cc;">print</span><span style="color:#ffffff;">(</span><span style="color:#5fb4b4;">"</span><span style="color:#99c794;">X= </span><span style="color:#5fb4b4;">"</span><span style="color:#ffffff;">)</span><span style="color:#a6acb9;">;</span><br>  Serial<span style="color:#a6acb9;">.</span><span style="color:#6699cc;">println</span><span style="color:#ffffff;">(</span>joystick<span style="color:#a6acb9;">.</span><span style="color:#6699cc;">showX</span><span style="color:#ffffff;">(</span><span style="color:#ffffff;">)</span><span style="color:#ffffff;">)</span><span style="color:#a6acb9;">;</span><br>  Serial<span style="color:#a6acb9;">.</span><span style="color:#6699cc;">print</span><span style="color:#ffffff;">(</span><span style="color:#5fb4b4;">"</span><span style="color:#99c794;">Y= </span><span style="color:#5fb4b4;">"</span><span style="color:#ffffff;">)</span><span style="color:#a6acb9;">;</span><br>  Serial<span style="color:#a6acb9;">.</span><span style="color:#6699cc;">println</span><span style="color:#ffffff;">(</span>joystick<span style="color:#a6acb9;">.</span><span style="color:#6699cc;">showY</span><span style="color:#ffffff;">(</span><span style="color:#ffffff;">)</span><span style="color:#ffffff;">)</span><span style="color:#a6acb9;">;</span><br>  <span style="color:#6699cc;">delay</span><span style="color:#ffffff;">(</span><span style="color:#f9ae58;">100</span><span style="color:#ffffff;">)</span><span style="color:#a6acb9;">;</span><br><span style="color:#ffffff;">}</span></div>
 
 </sxh>
 

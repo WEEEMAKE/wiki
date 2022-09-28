@@ -1,4 +1,6 @@
-# 可燃气体传感器
+<div align=center>
+<h1 class="text-center">可燃气体传感器</h1>
+</div>
 
 ## 1. 模块介绍
 
@@ -20,8 +22,6 @@ lang=ZH-CN style='font-size:16.0pt;font-family:宋体;color:#222222;letter-spaci
 </table>
 
 ## 2. 参数规格
-
-<div align=center>
 
 <table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0
  style='border-collapse:collapse'>
@@ -178,6 +178,7 @@ lang=ZH-CN style='font-size:16.0pt;font-family:宋体;color:#222222;letter-spaci
   </td>
  </tr>
 </table>
+
 ## 3. 编程指南
 
 ### 3.1. 模块功能及图形化编程指南
@@ -188,7 +189,6 @@ lang=ZH-CN style='font-size:16.0pt;font-family:宋体;color:#222222;background:
 white'>该模块支持的图形化编程平台有</span><span style='font-size:16.0pt;font-family:宋体;
 color:#222222;background:white'>WeeeCode<span lang=ZH-CN>、编程猫平台、</span>Mixly_Arduino<span
 lang=ZH-CN>、</span>MakeCode<span lang=ZH-CN>等，其图形化编程大同小异，区别不会很大。</span></span></p>
-<div align=center>
 <table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0
  style='border-collapse:collapse'>
  <tr>
@@ -234,7 +234,6 @@ lang=ZH-CN>、</span>MakeCode<span lang=ZH-CN>等，其图形化编程大同小�
  </tr>
 </table>
 
-
 <p class=MsoNormal align=center style='text-align:center;text-indent:21.0pt'>&nbsp;</p>
 
 <p class=MsoNormal style='text-indent:21.0pt'><span style='font-size:16.0pt;
@@ -251,28 +250,9 @@ font-family:宋体'>图形化编程示例：</span></p>
 font-family:华文楷体'>&nbsp;</span><span lang=ZH-CN style='font-size:16.0pt;
 font-family:宋体'>Arduino编程示例：</span></p>
 
-
-
-```c
-gas_sensor_test.ino
-
-#include<WeELF328P.h>
- 
-WeGasSensor gas_sensor_B(PORT_B);
-We7SegmentDisplay seven_segment_A(PORT_A);
-uint8_t value = 0;
- 
-void setup(){
-}
- 
-void loop(){
-    value = gas_sensor_B.readAnalog();
-    seven_segment_A.showNumber(_value);
-    delay(100);
-}
-
-```
+<div style="white-space:pre;font-family:Consolas;color:#d8dee9;background-color:#303841;-moz-tab-size:4;tab-size:4;"><span style="color:#c695c6;">#include</span><span style="color:#5fb4b4;">&lt;</span><span style="color:#99c794;">WeELF328P.h</span><span style="color:#5fb4b4;">></span><br> <br>WeGasSensor <span style="color:#5fb4b4;">gas_sensor_B</span><span style="color:#ffffff;">(</span><span style="color:#f9ae58;">PORT_B</span><span style="color:#ffffff;">)</span><span style="color:#a6acb9;">;</span><br>We7SegmentDisplay <span style="color:#5fb4b4;">seven_segment_A</span><span style="color:#ffffff;">(</span><span style="color:#f9ae58;">PORT_A</span><span style="color:#ffffff;">)</span><span style="color:#a6acb9;">;</span><br><span style="color:#6699cc;font-style:italic;">uint8_t</span> value <span style="color:#f97b58;">=</span> <span style="color:#f9ae58;">0</span><span style="color:#a6acb9;">;</span><br> <br><span style="color:#c695c6;font-style:italic;">void</span> <span style="color:#5fb4b4;">setup</span><span style="color:#ffffff;">(</span><span style="color:#ffffff;">)</span><span style="color:#ffffff;">{</span><br><span style="color:#ffffff;">}</span><br> <br><span style="color:#c695c6;font-style:italic;">void</span> <span style="color:#5fb4b4;">loop</span><span style="color:#ffffff;">(</span><span style="color:#ffffff;">)</span><span style="color:#ffffff;">{</span><br>    value <span style="color:#f97b58;">=</span> gas_sensor_B<span style="color:#a6acb9;">.</span><span style="color:#6699cc;">readAnalog</span><span style="color:#ffffff;">(</span><span style="color:#ffffff;">)</span><span style="color:#a6acb9;">;</span><br>    seven_segment_A<span style="color:#a6acb9;">.</span><span style="color:#6699cc;">showNumber</span><span style="color:#ffffff;">(</span>_value<span style="color:#ffffff;">)</span><span style="color:#a6acb9;">;</span><br>    <span style="color:#6699cc;">delay</span><span style="color:#ffffff;">(</span><span style="color:#f9ae58;">100</span><span style="color:#ffffff;">)</span><span style="color:#a6acb9;">;</span><br><span style="color:#ffffff;">}</span></div>
 
 <p class=MsoNormal style='text-indent:21.0pt'><span style='font-size:16.0pt;
 font-family:华文楷体'>&nbsp;</span><span lang=ZH-CN style='font-size:16.0pt;
 font-family:宋体'>更多使用实例请前往论坛学习：传送门</span></p>
+

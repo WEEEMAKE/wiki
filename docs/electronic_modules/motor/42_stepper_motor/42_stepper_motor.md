@@ -1,4 +1,6 @@
-# 42步进电机
+<div align=center>
+<h1 class="text-center">42步进电机</h1>
+</div>
 
 ## 1. 电机概述
 
@@ -166,10 +168,7 @@ line-height:105%;font-family:宋体'>步进电机可用于精确运动的场景�
 <html><body>
 
 <p class=MsoNormal style='text-indent:32.15pt'><b><span style='font-size:16.0pt;
-line-height:105%;font-family:宋体;color:#222222;background:white'>请参考步进电机驱动模块编程指南。（<span
-lang=EN-US><a
-href="doku.php?id=wm_wiki:stepper_motor_driver:manual#%E7%BC%96%E7%A8%8B%E6%8C%87%E5%8D%97"><span
-lang=EN-US><span lang=EN-US>传送门</span></span></a></span>）</span></b></p>
+line-height:105%;font-family:宋体;color:#222222;background:white'>请参考步进电机驱动模块编程指南。
 </body></html>
 
 ## 4. 注意事项

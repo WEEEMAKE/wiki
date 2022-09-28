@@ -1,4 +1,6 @@
-# TT直流电机
+<div align=center>
+<h1 class="text-center">TT直流电机</h1>
+</div>
 
 ## 1. 电机概述
 
@@ -16,11 +18,7 @@ lang=EN-US>DIY</span>，机器人制作，智能车制作环节重点动力装�
 
 ## 2. 电机参数
 
-
-
 <html><body>
-
-<div align=center>
 
 <table class=MsoTable15List5DarkAccent5 border=1 cellspacing=0 cellpadding=0
  style='border-collapse:collapse;border:none'>
@@ -158,8 +156,6 @@ lang=EN-US>DIY</span>，机器人制作，智能车制作环节重点动力装�
 </div>
 </body></html>
 
-
-
 ## 3. 编程指南
 
 ### 3.1. 模块功能及图形化编程指南
@@ -196,7 +192,6 @@ font-variant-ligatures: normal;font-variant-caps: normal;orphans: 2;text-align:
 start;widows: 2;-webkit-text-stroke-width: 0px;text-decoration-style: initial;
 text-decoration-color: initial;word-spacing:0px'>等，其图形化编程大同小异，区别不会很大。</span></span></p>
 
-<div align=center>
 <table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0
  style='border-collapse:collapse'>
  <tr style='height:24.7pt'>
@@ -297,35 +292,7 @@ line-height:105%;font-family:等线;color:#666666;background:white'>图形化编
 font-family:等线'>Arduino编程示例：</span></p>
 </body></html>
 
-<sxh cpp; first-line: 1;highlight: [3,4,13,14,16,17,19,20,22,23]; title: we_dcmotor_test.ino>
-
-```
-#include "WeELF328P.h"
-
-WeDCMotor motor1(M1);
-WeDCMotor motor2(M2);
-
-uint8_t motorSpeed = 100;
-
-void setup()
-{  
-}
-void loop() 
-{
-  motor1.run(motorSpeed);
-  motor2.run(motorSpeed);
-  delay(2000);
-  motor1.stop();
-  motor2.stop();
-  delay(500);
-  motor1.run(-motorSpeed);
-  motor2.run(-motorSpeed);
-  delay(2000);
-  motor1.stop();
-  motor2.stop();
-  delay(500);
-}
-```
+<div style="white-space:pre;font-family:Consolas;color:#d8dee9;background-color:#303841;-moz-tab-size:4;tab-size:4;"><span style="color:#c695c6;">#include</span> <span style="color:#5fb4b4;">"</span><span style="color:#99c794;">WeELF328P.h</span><span style="color:#5fb4b4;">"</span><br><br>WeDCMotor <span style="color:#5fb4b4;">motor1</span><span style="color:#ffffff;">(</span><span style="color:#f9ae58;">M1</span><span style="color:#ffffff;">)</span><span style="color:#a6acb9;">;</span><br>WeDCMotor <span style="color:#5fb4b4;">motor2</span><span style="color:#ffffff;">(</span><span style="color:#f9ae58;">M2</span><span style="color:#ffffff;">)</span><span style="color:#a6acb9;">;</span><br><br><span style="color:#6699cc;font-style:italic;">uint8_t</span> motorSpeed <span style="color:#f97b58;">=</span> <span style="color:#f9ae58;">100</span><span style="color:#a6acb9;">;</span><br><br><span style="color:#c695c6;font-style:italic;">void</span> <span style="color:#5fb4b4;">setup</span><span style="color:#ffffff;">(</span><span style="color:#ffffff;">)</span><br><span style="color:#ffffff;">{</span>  <br><span style="color:#ffffff;">}</span><br><span style="color:#c695c6;font-style:italic;">void</span> <span style="color:#5fb4b4;">loop</span><span style="color:#ffffff;">(</span><span style="color:#ffffff;">)</span> <br><span style="color:#ffffff;">{</span><br>  motor1<span style="color:#a6acb9;">.</span><span style="color:#6699cc;">run</span><span style="color:#ffffff;">(</span>motorSpeed<span style="color:#ffffff;">)</span><span style="color:#a6acb9;">;</span><br>  motor2<span style="color:#a6acb9;">.</span><span style="color:#6699cc;">run</span><span style="color:#ffffff;">(</span>motorSpeed<span style="color:#ffffff;">)</span><span style="color:#a6acb9;">;</span><br>  <span style="color:#6699cc;">delay</span><span style="color:#ffffff;">(</span><span style="color:#f9ae58;">2000</span><span style="color:#ffffff;">)</span><span style="color:#a6acb9;">;</span><br>  motor1<span style="color:#a6acb9;">.</span><span style="color:#6699cc;">stop</span><span style="color:#ffffff;">(</span><span style="color:#ffffff;">)</span><span style="color:#a6acb9;">;</span><br>  motor2<span style="color:#a6acb9;">.</span><span style="color:#6699cc;">stop</span><span style="color:#ffffff;">(</span><span style="color:#ffffff;">)</span><span style="color:#a6acb9;">;</span><br>  <span style="color:#6699cc;">delay</span><span style="color:#ffffff;">(</span><span style="color:#f9ae58;">500</span><span style="color:#ffffff;">)</span><span style="color:#a6acb9;">;</span><br>  motor1<span style="color:#a6acb9;">.</span><span style="color:#6699cc;">run</span><span style="color:#ffffff;">(</span><span style="color:#f97b58;">-</span>motorSpeed<span style="color:#ffffff;">)</span><span style="color:#a6acb9;">;</span><br>  motor2<span style="color:#a6acb9;">.</span><span style="color:#6699cc;">run</span><span style="color:#ffffff;">(</span><span style="color:#f97b58;">-</span>motorSpeed<span style="color:#ffffff;">)</span><span style="color:#a6acb9;">;</span><br>  <span style="color:#6699cc;">delay</span><span style="color:#ffffff;">(</span><span style="color:#f9ae58;">2000</span><span style="color:#ffffff;">)</span><span style="color:#a6acb9;">;</span><br>  motor1<span style="color:#a6acb9;">.</span><span style="color:#6699cc;">stop</span><span style="color:#ffffff;">(</span><span style="color:#ffffff;">)</span><span style="color:#a6acb9;">;</span><br>  motor2<span style="color:#a6acb9;">.</span><span style="color:#6699cc;">stop</span><span style="color:#ffffff;">(</span><span style="color:#ffffff;">)</span><span style="color:#a6acb9;">;</span><br>  <span style="color:#6699cc;">delay</span><span style="color:#ffffff;">(</span><span style="color:#f9ae58;">500</span><span style="color:#ffffff;">)</span><span style="color:#a6acb9;">;</span><br><span style="color:#ffffff;">}</span></div>
 
 </sxh>
 

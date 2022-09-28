@@ -1,4 +1,6 @@
-# 9克舵机
+<div align=center>
+<h1 class="text-center">9g舵机</h1>
+</div>
 
 ## 1. 舵机概述
 
@@ -265,7 +267,7 @@ line-height:105%;font-family:等线;color:#666666;background:white'>图形化编
 
   <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:.0001pt;
   text-align:center;line-height:normal'><span lang=EN-US><img width=328
-  height=340 id="图片 1" src="C:\Users\LBT.YOYO\wiki\docs\electronic_modules\motor\9g_sovor\20200310-185643.png"></span></p>
+  height=340 id="图片 1" src="docs\electronic_modules\motor\9g_sovor\20200310-185643.png"></span></p>
 
 ### 3.2. 文本代码编程指南
 
@@ -275,22 +277,7 @@ line-height:105%;font-family:等线;color:#666666;background:white'>图形化编
 font-family:等线'>Arduino编程示例：</span></p>
 </body></html>
 
-```
-#include "WeELF328P.h"
-
-Servo weservo;
-void setup() 
-{
-    weservo.attach(PORT_1);
-}
-void loop()
-{
-  weservo.write(0);                  // sets the servo position according to the scaled value 0-180
-  delay(2000);                           // waits for the servo to get there 
-  weservo.write(180);
-  delay(2000); 
-}
-```
+<div style="white-space:pre;font-family:Consolas;color:#d8dee9;background-color:#303841;-moz-tab-size:4;tab-size:4;"><span style="color:#c695c6;">#include</span> <span style="color:#5fb4b4;">"</span><span style="color:#99c794;">WeELF328P.h</span><span style="color:#5fb4b4;">"</span><br><br>Servo weservo<span style="color:#a6acb9;">;</span><br><span style="color:#c695c6;font-style:italic;">void</span> <span style="color:#5fb4b4;">setup</span><span style="color:#ffffff;">(</span><span style="color:#ffffff;">)</span> <br><span style="color:#ffffff;">{</span><br>    weservo<span style="color:#a6acb9;">.</span><span style="color:#6699cc;">attach</span><span style="color:#ffffff;">(</span>PORT_1<span style="color:#ffffff;">)</span><span style="color:#a6acb9;">;</span><br><span style="color:#ffffff;">}</span><br><span style="color:#c695c6;font-style:italic;">void</span> <span style="color:#5fb4b4;">loop</span><span style="color:#ffffff;">(</span><span style="color:#ffffff;">)</span><br><span style="color:#ffffff;">{</span><br>  weservo<span style="color:#a6acb9;">.</span><span style="color:#6699cc;">write</span><span style="color:#ffffff;">(</span><span style="color:#f9ae58;">0</span><span style="color:#ffffff;">)</span><span style="color:#a6acb9;">;</span>                  <span style="color:#a6acb9;">//</span><span style="color:#a6acb9;"> </span><span style="color:#a6acb9;">sets </span><span style="color:#a6acb9;">the </span><span style="color:#a6acb9;">servo </span><span style="color:#a6acb9;">position </span><span style="color:#a6acb9;">according </span><span style="color:#a6acb9;">to </span><span style="color:#a6acb9;">the </span><span style="color:#a6acb9;">scaled </span><span style="color:#a6acb9;">value </span><span style="color:#a6acb9;">0-180</span><br>  <span style="color:#6699cc;">delay</span><span style="color:#ffffff;">(</span><span style="color:#f9ae58;">2000</span><span style="color:#ffffff;">)</span><span style="color:#a6acb9;">;</span>                           <span style="color:#a6acb9;">//</span><span style="color:#a6acb9;"> </span><span style="color:#a6acb9;">waits </span><span style="color:#a6acb9;">for </span><span style="color:#a6acb9;">the </span><span style="color:#a6acb9;">servo </span><span style="color:#a6acb9;">to </span><span style="color:#a6acb9;">get </span><span style="color:#a6acb9;">there </span><br>  weservo<span style="color:#a6acb9;">.</span><span style="color:#6699cc;">write</span><span style="color:#ffffff;">(</span><span style="color:#f9ae58;">180</span><span style="color:#ffffff;">)</span><span style="color:#a6acb9;">;</span><br>  <span style="color:#6699cc;">delay</span><span style="color:#ffffff;">(</span><span style="color:#f9ae58;">2000</span><span style="color:#ffffff;">)</span><span style="color:#a6acb9;">;</span> <br><span style="color:#ffffff;">}</span></div>
 
 </sxh>
 

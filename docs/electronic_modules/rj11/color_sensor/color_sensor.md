@@ -58,4 +58,3 @@ lang=ZH-CN>总线</span>16<span lang=ZH-CN>位数字颜色传感</span>IC,<span 
     <td>读取需要的分量值</td><td>2个参数）端口、分量值选择</td><td><img src="docs/electronic_modules/rj11/color_sensor/20190517-171141.png"></td>
 </tr>
 </table>
-

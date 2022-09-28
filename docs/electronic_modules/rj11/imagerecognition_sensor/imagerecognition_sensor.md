@@ -1,4 +1,6 @@
-## 图像识别传感器
+<div align=center>
+<h1 class="text-center">图像识别传感器V1</h1>
+</div>
 
 <p class=MsoNormal align=center style='text-align:center'><span lang=EN-US><img
   width=799 height=336 id="图片 1" src="\docs\electronic_modules\rj11\imagerecognition_sensor\20190717-165109.png">
@@ -11,173 +13,45 @@ style='font-size:16.0pt;font-family:宋体;color:#222222;background:white'>Ardui
 lang=ZH-CN>、</span>micro:bit<span lang=ZH-CN>等主控板通讯，可用</span><b>Scratch<span
 lang=ZH-CN>、</span>Python<span lang=ZH-CN>、</span>Arduino C++</b><span
 lang=ZH-CN>等编程，方便快捷。</span></span></p>
+
 ## 2. 参数规格
 
-<div align=center>
-
-<table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0
- style='border-collapse:collapse'>
- <tr>
-  <td width=238 valign=top style='width:178.5pt;border-top:solid #5B9BD5 3.0pt;
-  border-left:solid #5B9BD5 3.0pt;border-bottom:solid white 2.25pt;border-right:
-  none;background:#5B9BD5;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b><span
-  lang=ZH-CN style='font-size:18.0pt;font-family:宋体;color:white'>参数</span></b></p>
-  </td>
-  <td width=552 valign=top style='width:5.75in;border-top:solid #5B9BD5 3.0pt;
-  border-left:none;border-bottom:solid white 2.25pt;border-right:solid #5B9BD5 3.0pt;
-  background:#5B9BD5;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b><span
-  lang=ZH-CN style='font-size:18.0pt;font-family:宋体;color:white'>值</span></b><b><span
-  style='font-size:18.0pt;font-family:宋体;color:white'>/<span lang=ZH-CN>描述</span></span></b></p>
-  </td>
- </tr>
- <tr>
-  <td width=238 valign=top style='width:178.5pt;border-top:none;border-left:
-  solid #5B9BD5 3.0pt;border-bottom:solid white 1.0pt;border-right:solid white 1.0pt;
-  background:#5B9BD5;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b><span
-  lang=ZH-CN style='font-size:18.0pt;font-family:宋体;color:white'>工作电压</span></b></p>
-  </td>
-  <td width=552 valign=top style='width:5.75in;border-top:none;border-left:
-  none;border-bottom:solid white 1.0pt;border-right:solid #5B9BD5 3.0pt;
-  background:#5B9BD5;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><span
-  style='font-size:18.0pt;font-family:宋体;color:white'>DC 5V(<span lang=ZH-CN>内置</span>3.3V<span
-  lang=ZH-CN>电平转换</span>)</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=238 valign=top style='width:178.5pt;border-top:none;border-left:
-  solid #5B9BD5 3.0pt;border-bottom:none;border-right:solid white 1.0pt;
-  background:#5B9BD5;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b><span
-  lang=ZH-CN style='font-size:18.0pt;font-family:宋体;color:white'>接口类型</span></b></p>
-  </td>
-  <td width=552 valign=top style='width:5.75in;border:none;border-right:solid #5B9BD5 3.0pt;
-  background:#5B9BD5;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><span
-  style='font-size:18.0pt;font-family:宋体;color:white'>RJ11</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=238 valign=top style='width:178.5pt;border:solid white 1.0pt;
-  border-left:solid #5B9BD5 3.0pt;background:#5B9BD5;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b><span
-  lang=ZH-CN style='font-size:18.0pt;font-family:宋体;color:white'>通信方式</span></b></p>
-  </td>
-  <td width=552 valign=top style='width:5.75in;border-top:solid white 1.0pt;
-  border-left:none;border-bottom:solid white 1.0pt;border-right:solid #5B9BD5 3.0pt;
-  background:#5B9BD5;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><span
-  style='font-size:18.0pt;font-family:宋体;color:white'>WM<span lang=ZH-CN>单总线</span></span></p>
-  </td>
- </tr>
- <tr>
-  <td width=238 valign=top style='width:178.5pt;border-top:none;border-left:
-  solid #5B9BD5 3.0pt;border-bottom:none;border-right:solid white 1.0pt;
-  background:#5B9BD5;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b><span
-  lang=ZH-CN style='font-size:18.0pt;font-family:宋体;color:white'>处理器</span></b></p>
-  </td>
-  <td width=552 valign=top style='width:5.75in;border:none;border-right:solid #5B9BD5 3.0pt;
-  background:#5B9BD5;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><span
-  style='font-size:18.0pt;font-family:宋体;color:white'>STM32<span lang=ZH-CN>高性能处理器</span>,180MHz,ARM
-  Crotex M4<span lang=ZH-CN>内核</span></span></p>
-  </td>
- </tr>
- <tr>
-  <td width=238 style='width:178.5pt;border:solid white 1.0pt;border-left:solid #5B9BD5 3.0pt;
-  background:#5B9BD5;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b><span
-  lang=ZH-CN style='font-size:18.0pt;font-family:宋体;color:white'>摄像头</span></b></p>
-  </td>
-  <td width=552 valign=top style='width:5.75in;border-top:solid white 1.0pt;
-  border-left:none;border-bottom:solid white 1.0pt;border-right:solid #5B9BD5 3.0pt;
-  background:#5B9BD5;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><span
-  style='font-size:18.0pt;font-family:宋体;color:white'>30W<span lang=ZH-CN>像素摄像头</span>,<span
-  lang=ZH-CN>视场角</span>66<span lang=ZH-CN>°</span>,<span lang=ZH-CN>最大帧率</span>60fps,<span
-  lang=ZH-CN>具有高灵敏度、镜头失光补偿、饱和度自动调节等功能</span></span></p>
-  </td>
- </tr>
- <tr>
-  <td width=238 style='width:178.5pt;border-top:none;border-left:solid #5B9BD5 3.0pt;
-  border-bottom:solid white 1.0pt;border-right:solid white 1.0pt;background:
-  #5B9BD5;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b><span
-  lang=ZH-CN style='font-size:18.0pt;font-family:宋体;color:white'>状态指示灯</span></b></p>
-  </td>
-  <td width=552 valign=top style='width:5.75in;border-top:none;border-left:
-  none;border-bottom:solid white 1.0pt;border-right:solid #5B9BD5 3.0pt;
-  background:#5B9BD5;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><span lang=ZH-CN
-  style='font-size:18.0pt;font-family:宋体;color:white'>当摄像头工作时</span><span
-  style='font-size:18.0pt;font-family:宋体;color:white'>,<span lang=ZH-CN>蓝色</span>LED<span
-  lang=ZH-CN>灯闪烁</span>,<span lang=ZH-CN>识别一次</span>,<span lang=ZH-CN>闪烁一次</span>,<span
-  lang=ZH-CN>不工作时熄灭</span></span></p>
-  </td>
- </tr>
- <tr>
-  <td width=238 style='width:178.5pt;border-top:none;border-left:solid #5B9BD5 3.0pt;
-  border-bottom:solid white 1.0pt;border-right:solid white 1.0pt;background:
-  #5B9BD5;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b><span
-  lang=ZH-CN style='font-size:18.0pt;font-family:宋体;color:white'>复位按键</span></b></p>
-  </td>
-  <td width=552 valign=top style='width:5.75in;border-top:none;border-left:
-  none;border-bottom:solid white 1.0pt;border-right:solid #5B9BD5 3.0pt;
-  background:#5B9BD5;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><span lang=ZH-CN
-  style='font-size:18.0pt;font-family:宋体;color:white'>当模块工作不正常时，可短按复位处理器</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=238 valign=top style='width:178.5pt;border-top:none;border-left:
-  solid #5B9BD5 3.0pt;border-bottom:solid white 1.0pt;border-right:solid white 1.0pt;
-  background:#5B9BD5;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b><span
-  lang=ZH-CN style='font-size:18.0pt;font-family:宋体;color:white'>功耗</span></b></p>
-  </td>
-  <td width=552 valign=top style='width:5.75in;border-top:none;border-left:
-  none;border-bottom:solid white 1.0pt;border-right:solid #5B9BD5 3.0pt;
-  background:#5B9BD5;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><span
-  style='font-size:18.0pt;font-family:宋体;color:white'>120mA~200mA</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=238 valign=top style='width:178.5pt;border-top:none;border-left:
-  solid #5B9BD5 3.0pt;border-bottom:solid white 1.0pt;border-right:solid white 1.0pt;
-  background:#5B9BD5;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b><span
-  lang=ZH-CN style='font-size:18.0pt;font-family:宋体;color:white'>工作温度</span></b></p>
-  </td>
-  <td width=552 valign=top style='width:5.75in;border-top:none;border-left:
-  none;border-bottom:solid white 1.0pt;border-right:solid #5B9BD5 3.0pt;
-  background:#5B9BD5;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><span
-  style='font-size:18.0pt;font-family:宋体;color:white'>-20<span lang=ZH-CN>℃</span>~70<span
-  lang=ZH-CN>℃</span></span></p>
-  </td>
- </tr>
- <tr>
-  <td width=238 valign=top style='width:178.5pt;border-top:none;border-left:
-  solid #5B9BD5 3.0pt;border-bottom:solid #5B9BD5 3.0pt;border-right:solid white 1.0pt;
-  background:#5B9BD5;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b><span
-  lang=ZH-CN style='font-size:18.0pt;font-family:宋体;color:white'>尺寸大小</span></b></p>
-  </td>
-  <td width=552 valign=top style='width:5.75in;border-top:none;border-left:
-  none;border-bottom:solid #5B9BD5 3.0pt;border-right:solid #5B9BD5 3.0pt;
-  background:#5B9BD5;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><span
-  style='font-size:18.0pt;font-family:宋体;color:white'>55mm*24mm*18.5mm(<span
-  lang=ZH-CN>长</span>*<span lang=ZH-CN>宽</span>*<span lang=ZH-CN>高</span>)</span></p>
-  </td>
- </tr>
+<table class="imagetable" style="display: table; text-align: left;">
+<tr>
+    <th>参数</th><th>值/描述</th>
+</tr>
+<tr>
+    <td>工作电压</td><td>DC 5V(内置3.3V电平转换)</td>
+</tr>
+<tr>
+    <td>接口类型</td><td>RJ11</td>
+</tr>
+    <tr>
+    <td>通信方式</td><td>WM单总线</td>
+</tr>
+    <tr>
+    <td>处理器</td><td>STM32高性能处理器,180MHz,ARM Crotex M4内核</td>
+</tr>
+    <tr>
+    <td>摄像头</td><td>30W像素摄像头,视场角66°,最大帧率60fps,具有高灵敏度、镜头失光补偿、饱和度自动调节等功能</td>
+</tr>
+    <tr>
+    <td>状态指示灯</td><td>当摄像头工作时,蓝色LED灯闪烁,识别一次,闪烁一次,不工作时熄灭</td>
+</tr>
+    <tr>
+    <td>复位按键</td><td>当模块工作不正常时，可短按复位处理器</td>
+</tr>
+    <tr>
+    <td>功耗</td><td>120mA~200mA</td>
+</tr>
+    <tr>
+    <td>工作温度</td><td>-20℃~70℃</td>
+</tr>
+    <tr>
+    <td>尺寸大小</td><td>55mm*24mm*18.5mm(长*宽*高)</td>
+</tr>
 </table>
+
 ##  3. 编程指南 
 
 ###  3.1. 模块软件功能说明 
@@ -209,149 +83,36 @@ style='font-size:16.0pt;font-family:宋体;color:black;background:white'>25ms</s
 
 <p class=MsoNormal style='margin-left:.5in'><span lang=ZH-CN style='font-size:
 16.0pt;font-family:宋体;color:black;background:white'>巡线模式输出：角度模式、坐标模式</span></p>
+
+
 ### 3.2. 功能模块及WeeeCode图形化编程指南
 
-<p class=MsoNormal style='text-indent:21.0pt'><span style='font-size:16.0pt;
-font-family:华文楷体;color:#222222;background:white'>&nbsp;&nbsp;&nbsp; </span><span
-lang=ZH-CN style='font-size:16.0pt;font-family:宋体;color:black;background:white'>该模块支持的图形化编程平台目前有</span><span
-style='font-size:16.0pt;font-family:宋体;color:black;background:white'>WeeeCode
-3.0<span lang=ZH-CN>，其图形化编程指南如下：</span></span></p>
-<div align=center>
-<table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0
- style='border-collapse:collapse'>
- <tr>
-  <td width=257 valign=top style='width:193.1pt;border:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b><span
-  lang=ZH-CN style='font-size:14.0pt;font-family:华文楷体;color:black;background:
-  white'>模块功能</span></b></p>
-  </td>
-  <td width=222 valign=top style='width:166.5pt;border:solid windowtext 1.0pt;
-  border-left:none;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b><span
-  lang=ZH-CN style='font-size:14.0pt;font-family:华文楷体;color:black;background:
-  white'>需传参数</span></b></p>
-  </td>
-  <td width=654 valign=top style='width:490.8pt;border:solid windowtext 1.0pt;
-  border-left:none;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b><span
-  lang=ZH-CN style='font-size:14.0pt;font-family:华文楷体;color:black;background:
-  white'>图形化编程块举例</span></b><b><span style='font-size:14.0pt;font-family:华文楷体;
-  color:black;background:white'>(</span><span lang=ZH-CN>其他平台图形化编程块大同小异</span>)</b></p>
-  </td>
- </tr>
- <tr style='height:79.55pt'>
-  <td width=257 style='width:193.1pt;border:solid windowtext 1.0pt;border-top:
-  none;padding:0in 5.4pt 0in 5.4pt;height:79.55pt'>
-  <p class=MsoNormal align=center style='text-align:center'><span lang=ZH-CN
-  style='font-size:14.0pt;font-family:华文楷体;color:black;background:white'>选择工作模式</span></p>
-  </td>
-  <td width=222 style='width:166.5pt;border-top:none;border-left:none;
-  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt;height:79.55pt'>
-  <p class=MsoNormal><span style='font-size:14.0pt;font-family:华文楷体;color:black;
-  background:white'>(2<span lang=ZH-CN>个参数）端口、选择模式</span></span></p>
-  </td>
-  <td width=654 valign=top style='width:490.8pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt;height:79.55pt'>
-  <p class=MsoNormal align=center style='text-align:center'><img width=520
-  height=122 id="图片 8" src="\docs\electronic_modules\rj11\imagerecognition_sensor\20190717-181503.png"></p>
-  </td>
- </tr>
- <tr style='height:79.55pt'>
-  <td width=257 style='width:193.1pt;border:solid windowtext 1.0pt;border-top:
-  none;padding:0in 5.4pt 0in 5.4pt;height:79.55pt'>
-  <p class=MsoNormal align=center style='text-align:center'><span lang=ZH-CN
-  style='font-size:14.0pt;font-family:华文楷体;color:black;background:white'>判断工作模式是否更新数据成功</span><span
-  style='font-size:14.0pt;font-family:华文楷体;color:black;background:white'>(<span
-  lang=ZH-CN>布尔值</span>)</span></p>
-  </td>
-  <td width=222 style='width:166.5pt;border-top:none;border-left:none;
-  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt;height:79.55pt'>
-  <p class=MsoNormal><span style='font-size:14.0pt;font-family:华文楷体;color:black;
-  background:white'>(2<span lang=ZH-CN>个参数）端口、选择模式</span></span></p>
-  </td>
-  <td width=654 valign=top style='width:490.8pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt;height:79.55pt'>
-  <p class=MsoNormal align=center style='text-align:center'><img width=640
-  height=126 id="图片 9" src="\docs\electronic_modules\rj11\imagerecognition_sensor\20190717-181512.png"></p>
-  </td>
- </tr>
- <tr style='height:66.95pt'>
-  <td width=257 style='width:193.1pt;border:solid windowtext 1.0pt;border-top:
-  none;padding:0in 5.4pt 0in 5.4pt;height:66.95pt'>
-  <p class=MsoNormal align=center style='text-align:center'><span lang=ZH-CN
-  style='font-size:14.0pt;font-family:华文楷体;color:black;background:white'>适用于巡线模式，当巡线模式更新数据成功后，获取到巡线角度偏差值</span></p>
-  </td>
-  <td width=222 style='width:166.5pt;border-top:none;border-left:none;
-  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt;height:66.95pt'>
-  <p class=MsoNormal><span style='font-size:14.0pt;font-family:华文楷体;color:black;
-  background:white'>(1<span lang=ZH-CN>个参数）端口</span></span></p>
-  </td>
-  <td width=654 valign=top style='width:490.8pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt;height:66.95pt'>
-  <p class=MsoNormal>&nbsp;</p>
-  <p class=MsoNormal align=center style='text-align:center'><img width=456
-  height=50 id="图片 10" src="\docs\electronic_modules\rj11\imagerecognition_sensor\20190717-181526.png"></p>
-  <p class=MsoNormal>&nbsp;</p>
-  </td>
- </tr>
- <tr style='height:79.55pt'>
-  <td width=257 style='width:193.1pt;border:solid windowtext 1.0pt;border-top:
-  none;padding:0in 5.4pt 0in 5.4pt;height:79.55pt'>
-  <p class=MsoNormal align=center style='text-align:center'><span lang=ZH-CN
-  style='font-size:14.0pt;font-family:华文楷体;color:black;background:white'>判断选择需要追踪的颜色块是否更新数据成功</span><span
-  style='font-size:14.0pt;font-family:华文楷体;color:black;background:white'>(<span
-  lang=ZH-CN>布尔值</span>)</span></p>
-  </td>
-  <td width=222 style='width:166.5pt;border-top:none;border-left:none;
-  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt;height:79.55pt'>
-  <p class=MsoNormal><span style='font-size:14.0pt;font-family:华文楷体;color:black;
-  background:white'>(2<span lang=ZH-CN>个参数）端口、设置要追踪颜色</span></span></p>
-  </td>
-  <td width=654 valign=top style='width:490.8pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt;height:79.55pt'>
-  <p class=MsoNormal align=center style='text-align:center'><img width=636
-  height=199 id="图片 11" src="\docs\electronic_modules\rj11\imagerecognition_sensor\20190717-181539.png"></p>
-  </td>
- </tr>
- <tr style='height:79.55pt'>
-  <td width=257 style='width:193.1pt;border:solid windowtext 1.0pt;border-top:
-  none;padding:0in 5.4pt 0in 5.4pt;height:79.55pt'>
-  <p class=MsoNormal align=center style='text-align:center'><span lang=ZH-CN
-  style='font-size:14.0pt;font-family:华文楷体;color:black;background:white'>适用于自动跟随模式及颜色追踪，更新数据成功后，可获取所追踪物块像素数量、中心点</span><span
-  style='font-size:14.0pt;font-family:华文楷体;color:black;background:white'>X<span
-  lang=ZH-CN>坐标、中心点</span>Y<span lang=ZH-CN>坐标</span></span></p>
-  </td>
-  <td width=222 style='width:166.5pt;border-top:none;border-left:none;
-  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt;height:79.55pt'>
-  <p class=MsoNormal><span style='font-size:14.0pt;font-family:华文楷体;color:black;
-  background:white'>(2<span lang=ZH-CN>个参数）端口、选择要获取的返回值</span></span></p>
-  </td>
-  <td width=654 valign=top style='width:490.8pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt;height:79.55pt'>
-  <p class=MsoNormal align=center style='text-align:center'><img width=510
-  height=153 id="图片 12" src="\docs\electronic_modules\rj11\imagerecognition_sensor\20190717-181553.png"></p>
-  </td>
- </tr>
+<table class="imagetable" style="display: table; text-align: left;">
+<tr>
+    <th>模块功能</th><th>需传参数</th><th>图形化编程块举例</th>
+</tr>
+<tr>
+    <td>选择工作模式</td><td>(2<span lang=ZH-CN>个参数）端口、选择模式</td><td><p class=MsoNormal align=center style='text-align:center'><img width=520
+  height=122 id="图片 8" src="\docs\electronic_modules\rj11\imagerecognition_sensor\20190717-181503.png"></p></td>
+</tr>
+<tr>
+    <td>判断工作模式是否更新数据成功（布尔值）</td><td>(2<span lang=ZH-CN>个参数）端口、选择模式</td><td> <p class=MsoNormal align=center style='text-align:center'><img width=640
+  height=126 id="图片 9" src="\docs\electronic_modules\rj11\imagerecognition_sensor\20190717-181512.png"></p></td>
+</tr>
+<tr>
+    <td>适用于巡线模式，当巡线模式更新数据成功后，获取到巡线角度偏差值</td><td>(1<span lang=ZH-CN>个参数）端口</td><td> <p class=MsoNormal align=center style='text-align:center'><img width=456
+  height=50 id="图片 10" src="\docs\electronic_modules\rj11\imagerecognition_sensor\20190717-181526.png"></p></td>
+</tr>
+<tr>
+    <td>判断选择需要追踪的颜色块是否更新数据成功</td><td>(2<span lang=ZH-CN>个参数）端口、设置要追踪颜色</td><td> <p class=MsoNormal align=center style='text-align:center'><img width=636
+  height=199 id="图片 11" src="\docs\electronic_modules\rj11\imagerecognition_sensor\20190717-181539.png"></p></td>
+</tr>
+<tr>
+    <td>适用于自动跟随模式及颜色追踪，更新数据成功后，可获取所追踪物块像素数量、中心点X坐标、中心点Y坐标</td><td>(2<span lang=ZH-CN>个参数）端口、选择要获取的返回值</td><td> <p class=MsoNormal align=center style='text-align:center'><img width=510
+  height=153 id="图片 12" src="\docs\electronic_modules\rj11\imagerecognition_sensor\20190717-181553.png"></p></td>
+</tr>
 </table>
 
-<p class=MsoNormal style='text-indent:21.0pt'><span style='font-size:16.0pt;
-font-family:华文楷体;color:white'>&nbsp;</span><span lang=ZH-CN style='font-size:
-16.0pt;font-family:宋体'>编程示例：</span></p>
-
-<p class=MsoNormal align=center style='text-align:center;text-indent:21.0pt'>&nbsp;</p>
-
-<p class=MsoNormal style='text-indent:21.0pt'>&nbsp;</p>
 ### 3.3. 文本代码编程指南 
 
 <p class=MsoNormal align=left style='margin-bottom:7.9pt;text-align:left;

@@ -1,4 +1,6 @@
-#  滑动电位器模块 
+<div align=center>
+<h1 class="text-center">滑动电位器模块</h1>
+</div>
 
 ## 1. 简要概述 
 
@@ -21,8 +23,6 @@ background:white'>模块值输出定义：</span></p>
 ##  2. 参数规格 
 
 <html><body>
-
-<div align=center>
 
 <table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0
  style='border-collapse:collapse;mso-yfti-tbllook:1184;mso-padding-alt:0cm 0cm 0cm 0cm'>
@@ -164,7 +164,6 @@ style='font-size:16.0pt;font-family:华文楷体;color:#222222;background:white'
 white'>该模块支持的图形化编程平台有<span lang=EN-US>WeeeCode</span>、<span lang=EN-US>Mixly_Arduino</span>、<span
 lang=EN-US>Makecode</span>等，其图形化编程大同小异，区别不会很大。</span></p>
 
-<div align=center>
 <table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0
  style='border-collapse:collapse'>
  <tr>
@@ -217,7 +216,7 @@ font-family:宋体'>图形化编程示例：</span></p>
 </body></html>
 
   <p class=MsoNormal align=center style='text-align:center'><span lang=EN-US><img
-  width=310 height=134 id="图片 1" src="docs\electronic_modules\rj11\sliding_potentiometer_module\20200304-162633.png"></span></p>
+  width=450 height=300 id="图片 1" src="docs\electronic_modules\rj11\sliding_potentiometer_module\20200304-162633.png"></span></p>
 
 ### 3.2. 文本代码编程指南 
 
@@ -228,24 +227,7 @@ style='font-size:16.0pt;font-family:宋体'>Arduino</span><span style='font-size
 16.0pt;font-family:宋体'>编程示例：</span></p>
 </body></html>
 
-```
-
-#include "WeELF328P.h"
-
-WeSlidingPotentiometer SlidingPotentiometer(PORT_A);
-
-void setup()
-{  
-  Serial.begin(9600);
-}
-void loop() 
-{
-  Serial.print("Analog Value is: ");
-  Serial.println(SlidingPotentiometer.readAnalog()); 
-  delay(100);
-}
-    
-```
+<div style="white-space:pre;font-family:Consolas;color:#d8dee9;background-color:#303841;-moz-tab-size:4;tab-size:4;"><span style="color:#c695c6;">#include</span> <span style="color:#5fb4b4;">"</span><span style="color:#99c794;">WeELF328P.h</span><span style="color:#5fb4b4;">"</span><br><br>WeSlidingPotentiometer <span style="color:#5fb4b4;">SlidingPotentiometer</span><span style="color:#ffffff;">(</span><span style="color:#f9ae58;">PORT_A</span><span style="color:#ffffff;">)</span><span style="color:#a6acb9;">;</span><br><br><span style="color:#c695c6;font-style:italic;">void</span> <span style="color:#5fb4b4;">setup</span><span style="color:#ffffff;">(</span><span style="color:#ffffff;">)</span><br><span style="color:#ffffff;">{</span>  <br>  Serial<span style="color:#a6acb9;">.</span><span style="color:#6699cc;">begin</span><span style="color:#ffffff;">(</span><span style="color:#f9ae58;">9600</span><span style="color:#ffffff;">)</span><span style="color:#a6acb9;">;</span><br><span style="color:#ffffff;">}</span><br><span style="color:#c695c6;font-style:italic;">void</span> <span style="color:#5fb4b4;">loop</span><span style="color:#ffffff;">(</span><span style="color:#ffffff;">)</span> <br><span style="color:#ffffff;">{</span><br>  Serial<span style="color:#a6acb9;">.</span><span style="color:#6699cc;">print</span><span style="color:#ffffff;">(</span><span style="color:#5fb4b4;">"</span><span style="color:#99c794;">Analog </span><span style="color:#99c794;">Value </span><span style="color:#99c794;">is: </span><span style="color:#5fb4b4;">"</span><span style="color:#ffffff;">)</span><span style="color:#a6acb9;">;</span><br>  Serial<span style="color:#a6acb9;">.</span><span style="color:#6699cc;">println</span><span style="color:#ffffff;">(</span>SlidingPotentiometer<span style="color:#a6acb9;">.</span><span style="color:#6699cc;">readAnalog</span><span style="color:#ffffff;">(</span><span style="color:#ffffff;">)</span><span style="color:#ffffff;">)</span><span style="color:#a6acb9;">;</span> <br>  <span style="color:#6699cc;">delay</span><span style="color:#ffffff;">(</span><span style="color:#f9ae58;">100</span><span style="color:#ffffff;">)</span><span style="color:#a6acb9;">;</span><br><span style="color:#ffffff;">}</span></div>
 
 </sxh>
 

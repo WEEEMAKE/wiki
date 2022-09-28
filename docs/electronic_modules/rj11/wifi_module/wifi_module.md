@@ -1,4 +1,6 @@
-# WiFi模块
+<div align=center>
+<h1 class="text-center">WIFI模块</h1>
+</div>
 
 ##  1. 模块介绍 
 
@@ -15,7 +17,7 @@ lang=ZH-CN>对多，多对多连接的设置。</span><o:p></o:p></span></p>
 ##  2. 参数规格 
 
   <p class=MsoNormal align=center style='text-align:center'><img width=854
-  height=200 id="图片 15" src="docs\electronic_modules\rj11\wifi_module\20190828-160219.png"></p>
+  height=600 id="图片 15" src="docs\electronic_modules\rj11\wifi_module\20190828-160219.png"></p>
 
 <html><body>
 
@@ -126,9 +128,9 @@ lang=ZH-CN>对多，多对多连接的设置。</span><o:p></o:p></span></p>
 </div>
 </body></html>
 
-## ===== 3. 使用指南 =====
+## 3. 使用指南
 
-### ==== 3.1. 功能模块及WeeeCode图形化编程指南 ====
+### 3.1. 功能模块及WeeeCode图形化编程指南
 
 <html><body>
 <p class=MsoNormal style='text-indent:21.0pt'><span style='font-size:16.0pt;
@@ -358,9 +360,9 @@ font-family:华文楷体;color:white'>&nbsp;</span><span lang=ZH-CN style='font-
 <p class=MsoNormal align=center style='text-align:center;text-indent:21.0pt'>&nbsp;</p>
 </body></html>
 
-### ==== 3.2. 文本代码编程指南 ====
+### 3.2. 文本代码编程指南
 
-## ===== 4. 注意事项 =====
+## 4. 注意事项
 
 <html><body>
 <p class=MsoTitle><span style='font-size:16.0pt;font-family:宋体'>1<span
