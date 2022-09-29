@@ -87,8 +87,9 @@
 ### **ELF 328P**
 
 <div align=center>
-<img src="docs/electronic_modules/main_control_board/elf_328p/elf_mega_328p.jpg" width="50%">
+<img src="docs/electronic_modules/main_control_board/elf_328p/130400 ELF Mainboard (2).jpg" width="50%">
 </div>
+
 
 
 > [!NOTE]
@@ -118,17 +119,20 @@
 ### **ELF MINI V2**
 
 <div align=center>
-<img src="docs/electronic_modules/main_control_board/elf_mini/elf_mini_v2.png">
+<img src="docs/electronic_modules/main_control_board/elf_mini/elf_mini_v2.jpg">
 </div>
 
+
 > [!NOTE]
+>
 > - <font size=5 >详情链接 **→** [ELF Mini V2详细介绍](docs/electronic_modules/main_control_board/elf_328p/elf_328p.md)</font>
 
 ### **ELF MINI V3**
 
 <div align=center>
-<img src="docs/electronic_modules/main_control_board/elf_mini/elf_mini_v3.png">
+<img src="docs/electronic_modules/main_control_board/elf_mini/elf_mini_v3.jpg">
 </div>
+
 
 > [!NOTE]
 > - <font size=5 >详情链接 **→** [ELF Mini V3详细介绍](docs/electronic_modules/main_control_board/elf_328p/elf_328p.md)</font>
@@ -139,6 +143,7 @@
 <img src="docs/electronic_modules/main_control_board/elf_uno/elf_uno.jpg" width="50%">
 </div>
 
+
 > [!NOTE]  
 >
 > - <font size=5 >详情链接 **→** [ELF UNO详细介绍](docs\electronic_modules\main_control_board\elf_uno\elf_uno.md)</font>
@@ -146,8 +151,9 @@
 ### **ELF UNO Shield**
 
 <div align=center>
-<img src="docs/electronic_modules/main_control_board/elf_uno_shield/elf_uno_shield.jpg" width="50%">
+<img src="docs/electronic_modules/main_control_board/elf_uno_shield/UNO_Shield.jpg" width="50%">
 </div>
+
 
 > [!NOTE]
 >
@@ -199,8 +205,9 @@
 ### **ELF ESP32**
 
 <div align=center>
-<img src="docs/electronic_modules/main_control_board/elf_esp32/elf_esp32.png" width=50%>
+<img src="docs/electronic_modules/main_control_board/elf_esp32/P1.png" width=50%>
 </div>
+
 
 > [!NOTE]
 > - <font size=5 >详情链接 **→** [ELF ESP32详细介绍](docs/electronic_modules/main_control_board/elf_esp32/elf_esp32.md)</font>
@@ -362,6 +369,7 @@
 - <font size=4>[MG995舵机](docs/electronic_modules/motor/mg995_sovor/mg995_sovor.md)</font><img src="docs/electronic_modules/motor/mg995_sovor/20200306-182622.png">
 
 <!-- div:right-panel -->
+
 - <font size=4>[42步进电机](docs/electronic_modules/motor/42_stepper_motor/42_stepper_motor.md)</font><img src="docs/electronic_modules/motor/42_stepper_motor/20200309-120839.png">
 - <font size=4>[25MM编码电机](docs/electronic_modules/motor/25mm_encoder_motor/25mm_encoder_motor.md)</font><img src="docs/electronic_modules/motor/25mm_encoder_motor/20200306-182602.png">
 - <font size=4>[9克舵机](docs/electronic_modules/motor/9g_sovor/9g_sovor.md)</font><img src="docs/electronic_modules/motor/9g_sovor/20200306-182617.png">
@@ -445,9 +453,7 @@
 <!-- div:right-panel -->
 
 - <font size=4>[全国青少年机器人等级考试一二级](https://www.weeemake.com.cn/youth-level-test-1-2/)</font>
-
 - <font size=4>[全国青少年机器人等级考试三四级](https://www.weeemake.com.cn/youth-level-test-3-4/)</font>
-
 - <font size=4>[AI机器学习初级套件](https://www.weeemake.com.cn/ai-machine-learning-educational-starter-kit/)</font> <div style="display:none">隐藏：<font size=4>[人工智能等级考试三四级考试套装说明](docs\robot_kits\AI_edu\AI_edu.md)</font></div>
 
 <!-- panels:end -->

@@ -17,168 +17,45 @@ style='font-size:16.0pt;font-family:宋体;color:#222222;background:white'>本�
   width=705	 height=407
   src="\docs\electronic_modules\rj11\smart_ir_module\20201103-144351.png"></span></p>
 
-<html><body>
 
-<div align=center>
-
-<table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0
- style='border-collapse:collapse'>
- <tr>
-  <td width=238 valign=top style='width:178.5pt;border-top:solid #5B9BD5 3.0pt;
-  border-left:solid #5B9BD5 3.0pt;border-bottom:solid white 2.25pt;border-right:
-  none;background:#5B9BD5;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b><span
-  style='font-size:18.0pt;font-family:宋体;color:white'>参数</span></b></p>
-  </td>
-  <td width=552 valign=top style='width:414.0pt;border-top:solid #5B9BD5 3.0pt;
-  border-left:none;border-bottom:solid white 2.25pt;border-right:solid #5B9BD5 3.0pt;
-  background:#5B9BD5;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b><span
-  style='font-size:18.0pt;font-family:宋体;color:white'>值<span lang=EN-US>/</span>描述</span></b></p>
-  </td>
- </tr>
- <tr>
-  <td width=238 valign=top style='width:178.5pt;border-top:none;border-left:
-  solid #5B9BD5 3.0pt;border-bottom:solid white 1.0pt;border-right:solid white 1.0pt;
-  background:#5B9BD5;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b><span
-  style='font-size:18.0pt;font-family:宋体;color:white'>工作电压</span></b></p>
-  </td>
-  <td width=552 valign=top style='width:414.0pt;border-top:none;border-left:
-  none;border-bottom:solid white 1.0pt;border-right:solid #5B9BD5 3.0pt;
-  background:#5B9BD5;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><span lang=EN-US
-  style='font-size:18.0pt;font-family:宋体;color:white'>DC 5V</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=238 valign=top style='width:178.5pt;border-top:none;border-left:
-  solid #5B9BD5 3.0pt;border-bottom:none;border-right:solid white 1.0pt;
-  background:#5B9BD5;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b><span
-  style='font-size:18.0pt;font-family:宋体;color:white'>接口类型</span></b></p>
-  </td>
-  <td width=552 valign=top style='width:414.0pt;border:none;border-right:solid #5B9BD5 3.0pt;
-  background:#5B9BD5;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><span lang=EN-US
-  style='font-size:18.0pt;font-family:宋体;color:white'>RJ11</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=238 valign=top style='width:178.5pt;border:solid white 1.0pt;
-  border-left:solid #5B9BD5 3.0pt;background:#5B9BD5;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b><span
-  style='font-size:18.0pt;font-family:宋体;color:white'>通信方式</span></b></p>
-  </td>
-  <td width=552 valign=top style='width:414.0pt;border-top:solid white 1.0pt;
-  border-left:none;border-bottom:solid white 1.0pt;border-right:solid #5B9BD5 3.0pt;
-  background:#5B9BD5;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><span lang=EN-US
-  style='font-size:18.0pt;font-family:宋体;color:white'>WM</span><span
-  style='font-size:18.0pt;font-family:宋体;color:white'>单总线</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=238 valign=top style='width:178.5pt;border-top:none;border-left:
-  solid #5B9BD5 3.0pt;border-bottom:none;border-right:solid white 1.0pt;
-  background:#5B9BD5;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b><span
-  lang=EN-US style='font-size:18.0pt;font-family:宋体;color:white'>MCU</span></b><b><span
-  style='font-size:18.0pt;font-family:宋体;color:white'>芯片</span></b></p>
-  </td>
-  <td width=552 valign=top style='width:414.0pt;border:none;border-right:solid #5B9BD5 3.0pt;
-  background:#5B9BD5;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><span lang=EN-US
-  style='font-size:18.0pt;font-family:宋体;color:white'>N76E003</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=238 style='width:178.5pt;border:solid white 1.0pt;border-left:solid #5B9BD5 3.0pt;
-  background:#5B9BD5;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b><span
-  style='font-size:18.0pt;font-family:宋体;color:white'>状态指示灯</span></b></p>
-  </td>
-  <td width=552 valign=top style='width:414.0pt;border-top:solid white 1.0pt;
-  border-left:none;border-bottom:solid white 1.0pt;border-right:solid #5B9BD5 3.0pt;
-  background:#5B9BD5;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><span
-  style='font-size:18.0pt;font-family:宋体;color:white'>进入学习状态时亮，学习完灭</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=238 style='width:178.5pt;border-top:none;border-left:solid #5B9BD5 3.0pt;
-  border-bottom:solid white 1.0pt;border-right:solid white 1.0pt;background:
-  #5B9BD5;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b><span
-  style='font-size:18.0pt;font-family:宋体;color:white'>数码管</span></b></p>
-  </td>
-  <td width=552 valign=top style='width:414.0pt;border-top:none;border-left:
-  none;border-bottom:solid white 1.0pt;border-right:solid #5B9BD5 3.0pt;
-  background:#5B9BD5;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><span
-  style='font-size:18.0pt;font-family:宋体;color:white'>编号<span lang=EN-US>0~F(0~15)</span>，
-  <span lang=EN-US></span>共可学习<span lang=EN-US>16</span>个按键</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=238 style='width:178.5pt;border-top:none;border-left:solid #5B9BD5 3.0pt;
-  border-bottom:solid white 1.0pt;border-right:solid white 1.0pt;background:
-  #5B9BD5;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b><span
-  style='font-size:18.0pt;font-family:宋体;color:white'>功能按钮</span></b></p>
-  </td>
-  <td width=552 valign=top style='width:414.0pt;border-top:none;border-left:
-  none;border-bottom:solid white 1.0pt;border-right:solid #5B9BD5 3.0pt;
-  background:#5B9BD5;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><span
-  style='font-size:18.0pt;font-family:宋体;color:white'>短按切换编号，长按进入学习状态</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=238 style='width:178.5pt;border-top:none;border-left:solid #5B9BD5 3.0pt;
-  border-bottom:solid white 1.0pt;border-right:solid white 1.0pt;background:
-  #5B9BD5;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b><span
-  style='font-size:18.0pt;font-family:宋体;color:white'>红外接收</span></b></p>
-  </td>
-  <td width=552 valign=top style='width:414.0pt;border-top:none;border-left:
-  none;border-bottom:solid white 1.0pt;border-right:solid #5B9BD5 3.0pt;
-  background:#5B9BD5;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><span
-  style='font-size:18.0pt;font-family:宋体;color:white'>一体化红外接收传感器</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=238 style='width:178.5pt;border-top:none;border-left:solid #5B9BD5 3.0pt;
-  border-bottom:solid white 1.0pt;border-right:solid white 1.0pt;background:
-  #5B9BD5;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b><span
-  style='font-size:18.0pt;font-family:宋体;color:white'>红外发射</span></b></p>
-  </td>
-  <td width=552 valign=top style='width:414.0pt;border-top:none;border-left:
-  none;border-bottom:solid white 1.0pt;border-right:solid #5B9BD5 3.0pt;
-  background:#5B9BD5;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><span
-  style='font-size:18.0pt;font-family:宋体;color:white'>红外发射管<span lang=EN-US>*3</span></span></p>
-  </td>
- </tr>
- <tr>
-  <td width=238 valign=top style='width:178.5pt;border-top:none;border-left:
-  solid #5B9BD5 3.0pt;border-bottom:solid white 1.0pt;border-right:solid white 1.0pt;
-  background:#5B9BD5;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b><span
-  style='font-size:18.0pt;font-family:宋体;color:white'>尺寸大小</span></b></p>
-  </td>
-  <td width=552 valign=top style='width:414.0pt;border-top:none;border-left:
-  none;border-bottom:solid white 1.0pt;border-right:solid #5B9BD5 3.0pt;
-  background:#5B9BD5;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><span lang=EN-US
-  style='font-size:18.0pt;font-family:宋体;color:white'>55mm*24mm*18.5mm(</span><span
-  style='font-size:18.0pt;font-family:宋体;color:white'>长<span lang=EN-US>*</span>宽<span
-  lang=EN-US>*</span>高<span lang=EN-US>)</span></span></p>
-  </td>
- </tr>
+<table class="imagetable" style="display: table; text-align: left;">
+<tr>
+    <th>参数</th><th>值/描述</th>
+</tr>
+<tr>
+    <td>工作电压</td><td>DC 5V</td>
+</tr>
+    <tr>
+    <td>接口类型</td><td>RJ11</td>
+</tr>
+    <tr>
+    <td>通信方式</td><td>WM单总线</td>
+</tr>
+    <tr>
+    <td>MCU芯片</td><td>N76E003</td>
+</tr>
+    <tr>
+    <td>状态指示灯</td><td>进入学习状态时亮，学习完灭</td>
+</tr>
+    <tr>
+    <td>数码管</td><td>编号0~F(0~15)， 共可学习16个按键</td>
+</tr>
+    <tr>
+    <td>功能按钮</td><td>短按切换编号，长按进入学习状态</td>
+</tr>
+    <tr>
+    <td>红外接收</td><td>一体化红外接收传感器</td>
+</tr>
+    <tr>
+    <td>红外发射</td><td>红外发射管*3</td>
+</tr>
+    <tr>
+    <td>尺寸大小</td><td>55mm*24mm*18.5mm(长*宽*高)</td>
+</tr>
 </table>
+
+
+
 </div>
 </body></html>
 
@@ -191,71 +68,22 @@ style='font-size:16.0pt;font-family:宋体;color:#222222;background:white'>本�
 style='font-size:16.0pt;font-family:华文楷体;color:#222222;background:white'>&nbsp;&nbsp;&nbsp;
 </span><span style='font-size:16.0pt;font-family:宋体;color:black;background:
 white'>该模块支持的图形化编程平台目前有<span lang=EN-US>WeeeCode 3.x</span>，其图形化编程指南如下：</span></p>
-
-<div align=center>
-<table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0
- style='border-collapse:collapse'>
- <tr>
-  <td width=257 valign=top style='width:193.1pt;border:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b><span
-  style='font-size:14.0pt;font-family:华文楷体;color:black;background:white'>模块功能</span></b></p>
-  </td>
-  <td width=222 valign=top style='width:166.5pt;border:solid windowtext 1.0pt;
-  border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b><span
-  style='font-size:14.0pt;font-family:华文楷体;color:black;background:white'>需传参数</span></b></p>
-  </td>
-  <td width=708 valign=top style='width:531.3pt;border:solid windowtext 1.0pt;
-  border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b><span
-  style='font-size:14.0pt;font-family:华文楷体;color:black;background:white'>图形化编程块举例<span
-  lang=EN-US>(</span></span>其他平台图形化编程块大同小异<span lang=EN-US>)</span></b></p>
-  </td>
- </tr>
- <tr style='height:79.55pt'>
-  <td width=257 style='width:193.1pt;border:solid windowtext 1.0pt;border-top:
-  none;padding:0cm 5.4pt 0cm 5.4pt;height:79.55pt'>
-  <p class=MsoNormal align=center style='text-align:center'><span
-  style='font-size:14.0pt;font-family:华文楷体;color:black;background:white'>红外学习并编号</span></p>
-  </td>
-  <td width=222 style='width:166.5pt;border-top:none;border-left:none;
-  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt;height:79.55pt'>
-  <p class=MsoNormal><span lang=EN-US style='font-size:14.0pt;font-family:华文楷体;
-  color:black;background:white'>(2</span><span style='font-size:14.0pt;
-  font-family:华文楷体;color:black;background:white'>个参数）端口、编号（<span lang=EN-US>0~15</span>）</span></p>
-  </td>
-  <td width=708 style='width:531.3pt;border-top:none;border-left:none;
-  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt;height:79.55pt'>
-  <p class=MsoNormal align=center style='text-align:center'><span lang=EN-US><img
+<table class="imagetable" style="display: table; text-align: left;">
+<tr>
+    <th>模块功能</th><th>需传参数</th><th>图形化编程块举例(其他平台图形化编程块大同小异)</th>
+</tr>
+<tr>
+    <td>红外学习并编号</td><td>(2个参数）端口、编号（0~15）</td><td>  <p class=MsoNormal align=center style='text-align:center'><span lang=EN-US><img
   width=364 height=64
-  src="\docs\electronic_modules\rj11\smart_ir_module\20201103-145132.png"></span></p>
-  </td>
- </tr>
- <tr style='height:79.55pt'>
-  <td width=257 style='width:193.1pt;border:solid windowtext 1.0pt;border-top:
-  none;padding:0cm 5.4pt 0cm 5.4pt;height:79.55pt'>
-  <p class=MsoNormal align=center style='text-align:center'><span
-  style='font-size:14.0pt;font-family:华文楷体;color:black;background:white'>发送对应编号的红外信息</span></p>
-  </td>
-  <td width=222 style='width:166.5pt;border-top:none;border-left:none;
-  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt;height:79.55pt'>
-  <p class=MsoNormal><span lang=EN-US style='font-size:14.0pt;font-family:华文楷体;
-  color:black;background:white'>(2</span><span style='font-size:14.0pt;
-  font-family:华文楷体;color:black;background:white'>个参数）端口、编号（<span lang=EN-US>0~15</span>）</span></p>
-  </td>
-  <td width=708 style='width:531.3pt;border-top:none;border-left:none;
-  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt;height:79.55pt'>
-  <p class=MsoNormal align=center style='text-align:center'><span lang=EN-US><img
-  width=364 height=62
-  src="\docs\electronic_modules\rj11\smart_ir_module\20201103-145138.png"></span></p>
-  </td>
- </tr>
+  src="\docs\electronic_modules\rj11\smart_ir_module\20201103-145132.png"></span></p></td>
+</tr>
+<tr>
+    <td>发送对应编号的红外信息</td><td>(2个参数）端口、编号（0~15）</td><td>  <p class=MsoNormal align=center style='text-align:center'><span lang=EN-US><img
+  width=364 height=64
+  src="\docs\electronic_modules\rj11\smart_ir_module\20201103-145132.png"></span></p></td>
+</tr>
 </table>
+
 
 
 </div>

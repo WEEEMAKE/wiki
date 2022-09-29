@@ -24,140 +24,35 @@ line-height:105%;font-family:宋体'>步进电机可用于精确运动的场景�
 
 ## 2. 电机参数
 
-<div align=center>
+<table class="imagetable" style="display: table; text-align: left;">
+<tr>
+    <th>参数</th><th>值/描述</th>
+</tr>
+<tr>
+    <td>额定电压</td><td>DC 12V</td>
+</tr>
+<tr>
+    <td>电流</td><td>1.7A/PHSE</td>
+</tr>
+    <tr>
+    <td>相位</td><td>双相</td>
+</tr>
+    <tr>
+    <td>步进角度</td><td>1.8±5%步</td>
+</tr>
+    <tr>
+    <td>静力矩</td><td>40N·cm</td>
+</tr>
+    <tr>
+    <td>保持力矩</td><td>2.2N·cm Max</td>
+</tr>
+    <tr>
+    <td>转矩
 
-<table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0
- style='border-collapse:collapse'>
- <tr>
-  <td width=173 valign=top style='width:130.1pt;border-top:solid #5B9BD5 3.0pt;
-  border-left:solid #5B9BD5 3.0pt;border-bottom:solid white 2.25pt;border-right:
-  none;background:#5B9BD5;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:.0001pt;
-  text-align:center;line-height:normal'><span style='font-size:18.0pt;
-  font-family:宋体;color:white'>参数</span></p>
-  </td>
-  <td width=395 valign=top style='width:295.9pt;border-top:solid #5B9BD5 3.0pt;
-  border-left:none;border-bottom:solid white 2.25pt;border-right:solid #5B9BD5 3.0pt;
-  background:#5B9BD5;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:.0001pt;
-  text-align:center;line-height:normal'><span style='font-size:18.0pt;
-  font-family:宋体;color:white'>值</span><span lang=EN-US style='font-size:18.0pt;
-  color:white'>/</span><span style='font-size:18.0pt;font-family:宋体;color:white'>描述</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=173 valign=top style='width:130.1pt;border-top:none;border-left:
-  solid #5B9BD5 3.0pt;border-bottom:solid white 1.0pt;border-right:solid white 1.0pt;
-  background:#5B9BD5;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:.0001pt;
-  text-align:center;line-height:normal'><b><span style='font-size:16.0pt;
-  font-family:宋体;color:white'>额定电压</span></b></p>
-  </td>
-  <td width=395 valign=top style='width:295.9pt;border-top:none;border-left:
-  none;border-bottom:solid white 1.0pt;border-right:solid #5B9BD5 3.0pt;
-  background:#5B9BD5;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:.0001pt;
-  text-align:center;line-height:normal'><span lang=EN-US style='font-size:16.0pt;
-  color:white'>12 VDC</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=173 valign=top style='width:130.1pt;border-top:none;border-left:
-  solid #5B9BD5 3.0pt;border-bottom:none;border-right:solid white 1.0pt;
-  background:#5B9BD5;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:.0001pt;
-  text-align:center;line-height:normal'><b><span style='font-size:16.0pt;
-  font-family:宋体;color:white'>电流</span></b></p>
-  </td>
-  <td width=395 valign=top style='width:295.9pt;border:none;border-right:solid #5B9BD5 3.0pt;
-  background:#5B9BD5;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:.0001pt;
-  text-align:center;line-height:normal'><span lang=EN-US style='font-size:16.0pt;
-  color:white'>1.7A/PHSE</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=173 valign=top style='width:130.1pt;border:solid white 1.0pt;
-  border-left:solid #5B9BD5 3.0pt;background:#5B9BD5;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:.0001pt;
-  text-align:center;line-height:normal'><b><span style='font-size:16.0pt;
-  font-family:宋体;color:white'>相位</span></b></p>
-  </td>
-  <td width=395 valign=top style='width:295.9pt;border-top:solid white 1.0pt;
-  border-left:none;border-bottom:solid white 1.0pt;border-right:solid #5B9BD5 3.0pt;
-  background:#5B9BD5;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:.0001pt;
-  text-align:center;line-height:normal'><span style='font-size:16.0pt;
-  font-family:宋体;color:white'>双相</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=173 valign=top style='width:130.1pt;border-top:none;border-left:
-  solid #5B9BD5 3.0pt;border-bottom:none;border-right:solid white 1.0pt;
-  background:#5B9BD5;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:.0001pt;
-  text-align:center;line-height:normal'><b><span style='font-size:16.0pt;
-  font-family:宋体;color:white'>步进角度</span></b></p>
-  </td>
-  <td width=395 valign=top style='width:295.9pt;border:none;border-right:solid #5B9BD5 3.0pt;
-  background:#5B9BD5;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:.0001pt;
-  text-align:center;line-height:normal'><span lang=EN-US style='font-size:16.0pt;
-  color:white'>1.8</span><span style='font-size:16.0pt;font-family:宋体;
-  color:white'>±</span><span lang=EN-US style='font-size:16.0pt;color:white'>5%</span><span
-  style='font-size:16.0pt;font-family:宋体;color:white'>步</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=173 valign=top style='width:130.1pt;border:solid white 1.0pt;
-  border-left:solid #5B9BD5 3.0pt;background:#5B9BD5;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:.0001pt;
-  text-align:center;line-height:normal'><b><span style='font-size:16.0pt;
-  font-family:宋体;color:white'>静力矩</span></b></p>
-  </td>
-  <td width=395 valign=top style='width:295.9pt;border-top:solid white 1.0pt;
-  border-left:none;border-bottom:solid white 1.0pt;border-right:solid #5B9BD5 3.0pt;
-  background:#5B9BD5;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:.0001pt;
-  text-align:center;line-height:normal'><span lang=EN-US style='font-size:16.0pt;
-  color:white'>40N</span><span style='font-size:16.0pt;font-family:宋体;
-  color:white'>·</span><span lang=EN-US style='font-size:16.0pt;color:white'>cm</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=173 valign=top style='width:130.1pt;border-top:none;border-left:
-  solid #5B9BD5 3.0pt;border-bottom:none;border-right:solid white 1.0pt;
-  background:#5B9BD5;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:.0001pt;
-  text-align:center;line-height:normal'><b><span style='font-size:16.0pt;
-  font-family:宋体;color:white'>保持力矩</span></b></p>
-  </td>
-  <td width=395 valign=top style='width:295.9pt;border:none;border-right:solid #5B9BD5 3.0pt;
-  background:#5B9BD5;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:.0001pt;
-  text-align:center;line-height:normal'><span lang=EN-US style='font-size:16.0pt;
-  color:white'>2.2N</span><span style='font-size:16.0pt;font-family:宋体;
-  color:white'>·</span><span lang=EN-US style='font-size:16.0pt;color:white'>cm
-  Max</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=173 valign=top style='width:130.1pt;border:solid white 1.0pt;
-  border-left:solid #5B9BD5 3.0pt;background:#5B9BD5;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:.0001pt;
-  text-align:center;line-height:normal'><b><span style='font-size:16.0pt;
-  font-family:宋体;color:white'>转矩</span></b></p>
-  </td>
-  <td width=395 valign=top style='width:295.9pt;border-top:solid white 1.0pt;
-  border-left:none;border-bottom:solid white 1.0pt;border-right:solid #5B9BD5 3.0pt;
-  background:#5B9BD5;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:.0001pt;
-  text-align:center;line-height:normal'><span lang=EN-US style='font-size:16.0pt;
-  color:white'>54G</span><span style='font-size:16.0pt;font-family:宋体;
-  color:white'>·</span><span lang=EN-US style='font-size:16.0pt;color:white'>cm2</span></p>
-  </td>
- </tr>
+</td><td>54G·cm2</td>
+</tr>
 </table>
+
 </div>
 </body></html>
 
