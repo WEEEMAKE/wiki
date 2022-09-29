@@ -15,4 +15,4 @@
   - [**全国青少年机器人等级考试一二级**](https://www.weeemake.com.cn/youth-level-test-1-2/)
   - [**全国青少年机器人等级考试三四级**](https://www.weeemake.com.cn/youth-level-test-3-4/)
   - [**AI机器学习初级套件**](https://www.weeemake.com.cn/ai-machine-learning-educational-starter-kit/)
-  
+- [**FAQ**](docs/FAQ.md)

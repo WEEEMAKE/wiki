@@ -463,3 +463,5 @@
 
 <!-- panels:end -->
 
+# **FAQ**
+- <font size=5 >[**FAQ**](docs/FAQ.md)</font>
