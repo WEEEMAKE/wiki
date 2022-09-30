@@ -114,7 +114,8 @@
 </div>
 
 > [!NOTE]
-> - <font size=5 >详情链接 **→** [ELF Mini V1详细介绍](docs/electronic_modules/main_control_board/elf_328p/elf_328p.md)</font>
+>
+> - <font size=5 >详情链接 **→** [ELF Mini V1详细介绍](docs/electronic_modules/main_control_board/elf_mini/v1.md)</font>
 
 ### **ELF MINI V2**
 
@@ -125,7 +126,7 @@
 
 > [!NOTE]
 >
-> - <font size=5 >详情链接 **→** [ELF Mini V2详细介绍](docs/electronic_modules/main_control_board/elf_328p/elf_328p.md)</font>
+> - <font size=5 >详情链接 **→** [ELF Mini V2详细介绍](docs/electronic_modules/main_control_board/elf_mini/v2.md)</font>
 
 ### **ELF MINI V3**
 
@@ -135,7 +136,7 @@
 
 
 > [!NOTE]
-> - <font size=5 >详情链接 **→** [ELF Mini V3详细介绍](docs/electronic_modules/main_control_board/elf_328p/elf_328p.md)</font>
+> - <font size=5 >详情链接 **→** [ELF Mini V3详细介绍](docs/electronic_modules/main_control_board/elf_mini/v3.md)</font>
 
 ### **ELF UNO**
 
@@ -263,8 +264,8 @@
 - <font size=4>[电子指南针传感器](docs/electronic_modules/rj11/compass_sensor/compass_sensor.md)</font><img src="docs/electronic_modules/rj11/compass_sensor/20190511-122900.png">
 - <font size=4>[PM2.5传感器](docs/electronic_modules/rj11/pm25_sensor/pm25_sensor.md)</font><img src="docs/electronic_modules/rj11/pm25_sensor/20190803-154125.png">
 - <font size=4>[手势识别传感器](docs/electronic_modules/rj11/gesture_sensor/gesture_sensor.md)</font><img src="docs/electronic_modules/rj11/gesture_sensor/20190807-104621.png">
-- <font size=4>[图像识别传感器V1](docs/electronic_modules/rj11/imagerecognition_sensor/imagerecognition_sensor.md)</font><img src="docs/electronic_modules/rj11/imagerecognition_sensor/20190803-154149.png">
-- <font size=4>[图像识别传感器V2]()</font>
+- <font size=4>[图像识别传感器V1](docs/electronic_modules/rj11/imagerecognition_sensor_v1/imagerecognition_sensor_v1.md)</font><img src="docs/electronic_modules/rj11/imagerecognition_sensor_v1/20190803-154149.png">
+- <font size=4>[图像识别传感器V2](docs/electronic_modules/rj11/imagerecognition_sensor_v2/imagerecognition_sensor_v2.md)</font>![](docs/electronic_modules/rj11/imagerecognition_sensor_v1/20190803-154149.png)
 
 <!-- panels:end -->
 
@@ -330,15 +331,21 @@
 
 <!-- div:right-panel -->
 
-- <font size=4>[蓝牙转接模块](docs/electronic_modules/rj11/wireless_adapter_module/wireless_adapter_module.md)</font><img src="docs/electronic_modules/rj11/wireless_adapter_module/35D730A2-87CB-49fd-AFA1-4EFEEE388A44.png">
+<div style="display:none">- <font size=4>[蓝牙转接模块](docs/electronic_modules/rj11/wireless_adapter_module/wireless_adapter_module.md)</font><img src="docs/electronic_modules/rj11/wireless_adapter_module/35D730A2-87CB-49fd-AFA1-4EFEEE388A44.png">
+</div>
+
+<div style="display:none">- <font size=4>[rj11转接模块](docs\electronic_modules\rj11\rj11_transfer\rj11_transfer.md)</font><img src="docs\electronic_modules\rj11\rj11_transfer\1719.png">
+</div>
 
 <!-- panels:end -->
 
 ### **驱动类**
 <!-- panels:start -->
 <!-- div:left-panel -->
+
 - <font size=4>[6路舵机驱动模块](docs/electronic_modules/rj11/six_servo_driver_module/six_servo_driver_module.md)</font><img src="docs/electronic_modules/rj11/six_servo_driver_module/six_servo_driver_module.png">
-- <font size=4>[无刷电机转接模块](docs/electronic_modules/rj11/brushless_motor_adapter/brushless_motor_adapter.md)</font><img src="docs/electronic_modules/rj11/brushless_motor_adapter/brushless_motor_adapter.png">
+
+<div style="display:none"> <font size=4>[无刷电机转接模块](docs/electronic_modules/rj11/brushless_motor_adapter/brushless_motor_adapter.md)</font><img src="docs/electronic_modules/rj11/brushless_motor_adapter/brushless_motor_adapter.png"> </div>
 
 <!-- div:right-panel -->
 - <font size=4>[大功率编码电机驱动模块](docs/electronic_modules/rj11/36encoder_motor_driver/36encoder_motor_driver.md)</font><img src="docs/electronic_modules/rj11/36encoder_motor_driver/img.png">
@@ -366,7 +373,9 @@
 <!-- div:left-panel -->
 - <font size=4>[TT直流电机](docs/electronic_modules/motor/tt_dc_motor/tt_dc_motor.md)</font><img src="docs/electronic_modules/motor/tt_dc_motor/20200310-151819.png">
 - <font size=4>[25MM直流电机](docs/electronic_modules/motor/25mm_dc_motor/25mm_dc_motor.md)</font><img src="docs/electronic_modules/motor/25mm_dc_motor/20200310-161048.png">
+- <font size=4>[36MM编码电机](docs\electronic_modules\motor\36mm_encoder_motor\36mm_encoder_motor.md)</font><img src="docs\electronic_modules\motor\36mm_encoder_motor\1739.png">
 - <font size=4>[MG995舵机](docs/electronic_modules/motor/mg995_sovor/mg995_sovor.md)</font><img src="docs/electronic_modules/motor/mg995_sovor/20200306-182622.png">
+
 
 <!-- div:right-panel -->
 
@@ -380,6 +389,7 @@
 
 <!-- panels:start -->
 <!-- div:left-panel -->
+
 - <font size=4>[声音传感器](docs/electronic_modules/kf2510/sound_sensor/sound_sensor.md)</font><img src="docs/electronic_modules/kf2510/sound_sensor/sound_sensor.png">
 - <font size=4>[红外接收传感器](docs/electronic_modules/kf2510/ir_receiver_sensor/ir_receiver_sensor.md)</font><img src="docs/electronic_modules/kf2510/ir_receiver_sensor/IR_Receiver_Sensor.png">
 - <font size=4>[LM35温度传感器]()</font>
@@ -408,14 +418,17 @@
 <!-- panels:start -->
 <!-- div:left-panel -->
 
-- <font size=4>[电源管理模块](docs/electronic_modules/other_modules/power_management_module/power_management_module.md)</font><img src="docs/electronic_modules/other_modules/power_management_module/power_management_module.png">
 - <font size=4>[蓝牙适配器(Dongle拔模)](docs/electronic_modules/other_modules/bluetooth_dongle/bluetooth_dongle.md)</font><img src="docs/electronic_modules/other_modules/bluetooth_dongle/CC5F40F1-EF30-4722-9F08-14243374F3FE.png">
-
+- <font size=4>[蓝牙手柄](docs/electronic_modules/other_modules/bluetooth_controller/bluetooth_controller.md)</font><img src="C:\Users\LBT.YOYO\Desktop\20190807-160117.png">
 <!-- div:right-panel -->
 
 - <font size=4>[蓝牙模块](docs/electronic_modules/other_modules/bluetooth_module/bluetooth_module.md)</font><img src="docs/electronic_modules/other_modules/bluetooth_module/Picture1.jpg">
-- <font size=4>[蓝牙手柄](docs/electronic_modules/other_modules/bluetooth_controller/bluetooth_controller.md)</font><img src="docs/electronic_modules/other_modules/bluetooth_controller/20190807-160117.png">
 
+
+<div style="display:none"><font size=4>[电源管理模块](docs/electronic_modules/other_modules/power_management_module/power_management_module.md)</font><img src="docs/electronic_modules/other_modules/power_management_module/power_management_module.png"></div>
+
+<div style="display:none"><font size=4>[击打模块](docs/electronic_modules/other_modules/hit_module/hit_module.md)</font><img src="docs\electronic_modules\other_modules\hit_module\09301626.png
+"></div>
 <!-- panels:end -->
 
 ---
@@ -454,7 +467,11 @@
 
 - <font size=4>[全国青少年机器人等级考试一二级](https://www.weeemake.com.cn/youth-level-test-1-2/)</font>
 - <font size=4>[全国青少年机器人等级考试三四级](https://www.weeemake.com.cn/youth-level-test-3-4/)</font>
-- <font size=4>[AI机器学习初级套件](https://www.weeemake.com.cn/ai-machine-learning-educational-starter-kit/)</font> <div style="display:none">隐藏：<font size=4>[人工智能等级考试三四级考试套装说明](docs\robot_kits\AI_edu\AI_edu.md)</font></div>
+- <font size=4>[AI机器学习初级套件](https://www.weeemake.com.cn/ai-machine-learning-educational-starter-kit/)</font>
+
+<div style="display:none"><font size=4>[人工智能等级考试三四级考试套装说明](docs\robot_kits\AI_edu\AI_edu.md)</font></div>
+
+<div style="display:none"><font size=4>[大学比赛硬件器材使用说明](docs\robot_kits\university_hardware\university_hardware.md)</font></div>
 
 <!-- panels:end -->
 
@@ -470,4 +487,4 @@
 <!-- panels:end -->
 
 # **FAQ**
-- <font size=5 >[**FAQ**](docs/FAQ.md)</font>
+- <font size = 4 >[FAQ](docs/FAQ.md)</font>

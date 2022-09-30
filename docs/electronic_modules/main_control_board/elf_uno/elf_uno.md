@@ -30,20 +30,10 @@ ATMEGA328P-AU，一种集成电路 (IC)，核心处理器是AVR，闪存容量�
 <embed class="pdfobject" src="docs\electronic_modules\main_control_board\elf_uno\Atmel-7810-Automotive-Microcontrollers-ATmega328P_Datasheet.pdf" style="overflow: auto; width: 100%; height: 40rem;">
 
 ## 2 编程软件介绍
-主控板目前支持图形化和C/C++编程。图形化编程使用weeecode软件，C/C++编程使用arduino IDE。入门和体验可以从图形化开始，下面是使用weeecode软件制作的一些简单案例。
+主控板目前支持图形化和C/C++编程。图形化编程使用weeecode软件，C/C++编程使用arduino IDE。入门和体验可以从图形化开始，更详细的weeecode软件介绍可以点击
+ [传送门](docs/software_usage/weeecode/weeecode.md) 前往页面进行进一步了解。
 
-<!-- tabs:start -->
-
-### **2.1 WEEECODE软件界面介绍**
-
-### **2.2 WEEECODE软件相关积木块介绍**
-
-### **2.3 一个简单的示例程序**
-
-
-<!-- tabs:end -->
-
-## 3 主控板拿到以后做什么？🙌
+## 3 主控板拿到以后首先做什么？🙌
 
 1. 用一根USB-A数据线连接电脑。看到接口旁的红色LED指示灯亮了！✨
 <div align=center>
@@ -59,10 +49,10 @@ ATMEGA328P-AU，一种集成电路 (IC)，核心处理器是AVR，闪存容量�
 <div align=center>
 <img src="docs/electronic_modules/main_control_board/elf_uno/1823.png" width="50%">
 </div>
-<div align=center>
-<img src="docs/electronic_modules/main_control_board/elf_uno/1826.png" width="50%">
-</div>
+
 4. 等待固件上传完成，完成后点击程序块就可以愉快地玩耍啦！😊（主板正常，操作步骤没有遗漏的情况下，电机会处于转动1s然后停止1s的状态中，两颗板载RGB灯会被点亮）
 <div align=center>
 <img src="docs/electronic_modules/main_control_board/elf_uno/1833.png" width="50%">
 </div>
+
+## 3 主控板还能做什么？🙌
