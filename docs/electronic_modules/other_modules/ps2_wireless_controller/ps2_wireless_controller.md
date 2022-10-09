@@ -15,6 +15,15 @@ font-family:宋体;mso-bidi-font-family:Calibri;color:#222222;background:white'>
 class=SpellE><span lang=EN-US></span></span><span
 class=SpellE><span lang=EN-US></span></span></span></p>
 
+<div align=center>
+<img src="docs\electronic_modules\other_modules\ps2_wireless_controller\20200225-154139.png">
+</div>
+
+<div align=center>
+<img src="docs\electronic_modules\other_modules\ps2_wireless_controller\20200225-154618.png">
+</div>
+
+
 ## 2 参数规格 
 
 <table class="imagetable" style="display: table; text-align: left;">
