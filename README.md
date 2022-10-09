@@ -358,7 +358,8 @@
 - <font size=4>[声音传感器](docs/electronic_modules/elf_dip/sound_sensor/sound_sensor.md)</font><img src="docs/electronic_modules/elf_dip/sound_sensor/F944B39C-1A9A-49ad-811F-AC3EC77A5893.png">
 - <font size=4>[红外接收传感器](docs\electronic_modules\elf_dip\ir_sensor\ir_sensor.md)</font>
 - <font size=4>[编码电机驱动模块](docs/electronic_modules/elf_dip/encoder_motor_driver/encoder_motor_driver.md)</font><img src="docs/electronic_modules/elf_dip/encoder_motor_driver/2E331FC1-D881-4fe6-A058-9245B08761D0.png">
-- <font size=4>[USB HOST模块]()</font>
+- <font size=4>[USB	 HOST模块](docs\electronic_modules\elf_dip\usb_host\usb_host.md)</font>
+
 
 <!-- div:right-panel -->
 - <font size=4>[光线传感器](docs/electronic_modules/elf_dip/light_sensor/light_sensor.md)</font><img src="docs/electronic_modules/elf_dip/light_sensor/EFF2054D-EA63-4842-85EF-59B94EAE5954.png">
@@ -420,13 +421,12 @@
 
 - <font size=4>[蓝牙适配器(Dongle拔模)](docs/electronic_modules/other_modules/bluetooth_dongle/bluetooth_dongle.md)</font><img src="docs/electronic_modules/other_modules/bluetooth_dongle/CC5F40F1-EF30-4722-9F08-14243374F3FE.png">
 - <font size=4>[蓝牙手柄](docs/electronic_modules/other_modules/bluetooth_controller/bluetooth_controller.md)</font><img src="C:\Users\LBT.YOYO\Desktop\20190807-160117.png">
+
 <!-- div:right-panel -->
 
 - <font size=4>[蓝牙模块](docs/electronic_modules/other_modules/bluetooth_module/bluetooth_module.md)</font><img src="docs/electronic_modules/other_modules/bluetooth_module/Picture1.jpg">
-
-
+- <font size=4>[PS2无线手柄](docs/electronic_modules/other_modules/ps2_wireless_controller/ps2_wireless_controller.md)</font><img src="docs/electronic_modules/other_modules/ps2_wireless_controller/ps2_wireless_controller.jpg">
 <div style="display:none"><font size=4>[电源管理模块](docs/electronic_modules/other_modules/power_management_module/power_management_module.md)</font><img src="docs/electronic_modules/other_modules/power_management_module/power_management_module.png"></div>
-
 <div style="display:none"><font size=4>[击打模块](docs/electronic_modules/other_modules/hit_module/hit_module.md)</font><img src="docs\electronic_modules\other_modules\hit_module\09301626.png
 "></div>
 <!-- panels:end -->
