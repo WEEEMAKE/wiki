@@ -3,9 +3,9 @@
 > 本文档介绍了此次比赛器材中电子模块和软件的基本使用方法。电子模块由4大部分组成，其中包括：
 >
 > - 电源系统
->	 - [电源管理模块](docs/electronic_modules/other_modules/power_management_module/power_management_module.md)
->	 - [击打模块](docs\electronic_modules\other_modules\hit_module\hit_module.md)
->	 - [无刷电机驱动模块](docs/electronic_modules/rj11/brushless_motor_adapter/brushless_motor_adapter.md)
+> 	 - [电源管理模块](docs/electronic_modules/other_modules/power_management_module/power_management_module.md)
+> 	 - [击打模块](docs\electronic_modules\other_modules\hit_module\hit_module.md)
+> 	 - [无刷电机驱动模块](docs/electronic_modules/rj11/brushless_motor_adapter/brushless_motor_adapter.md)
 > - 控制系统
 > 	- [ELF ESP32 Pro主控板](docs/electronic_modules/main_control_board/elf_esp32_pro/elf_esp32_pro.md)
 > 	- [蓝牙手柄](docs/electronic_modules/other_modules/bluetooth_controller/bluetooth_controller.md)
@@ -13,9 +13,8 @@
 > - 动力系统
 > 	- [大功率编码电机驱动模块](docs/electronic_modules/rj11/36encoder_motor_driver/36encoder_motor_driver.md)
 > 	- [6路舵机驱动模块](docs/electronic_modules/rj11/six_servo_driver_module/six_servo_driver_module.md)
-> 	- 无刷电调
 > 	- [36编码电机](docs\electronic_modules\motor\36mm_encoder_motor\36mm_encoder_motor.md)
-> 	- 无刷马达
+> 	- [无刷马达](docs\electronic_modules\motor\brushless_motor\brushless_motor.md)
 > 	- [舵机](docs/electronic_modules/motor/mg995_sovor/mg995_sovor.md)
 > 	- 25/37电机等
 > - 传感系统
@@ -92,9 +91,7 @@
 
 官方提供了一个简易的搭建和得分方案，本程序时在此基础上编写的。程序分为2部分，首先是自动阶段的程序（分2部分，在2台车上跑），然后是手动阶段的程序。
 
->  <a href="docs/robot_kits/university_hardware/大学机器人比赛.zip" target="_blank">示例代码下载</a>
-
- 
+ >  <a href="docs/robot_kits/university_hardware/大学机器人比赛.zip" target="_blank">示例代码下载</a>
 
  
 

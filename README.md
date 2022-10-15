@@ -4,7 +4,9 @@
 
 - <font size=5 >[**进入官网**](https://www.weeemake.com.cn)</font>
 - <font size=5 >[**进入论坛**](https://www.weeemake.com.cn/bbs/)</font>
-- <font size=5 >[**进入旧wiki**](https://www.weeemake.com.cn/wiki/doku.php?id=wm_wiki:electronic_module_list)</font>
+<div style="display:none">- <font size=5 >[**进入旧wiki**](https://www.weeemake.com.cn/wiki/doku.php?id=wm_wiki:electronic_module_list)</font>
+</div>
+
 
 ---
 # **编程软件**
@@ -43,6 +45,7 @@
 ## **编程猫——源码编辑器**
 
 > [!NOTE]
+>
 > - <font size=5 >支持的主控板：</font><font size=5 color=green >ELF MINI</font>
 >
 > - <font size=5 >详情链接 **→** [编程猫——源码编辑器介绍])</font>
@@ -348,6 +351,7 @@
 <div style="display:none"> <font size=4>[无刷电机转接模块](docs/electronic_modules/rj11/brushless_motor_adapter/brushless_motor_adapter.md)</font><img src="docs/electronic_modules/rj11/brushless_motor_adapter/brushless_motor_adapter.png"> </div>
 
 <!-- div:right-panel -->
+
 - <font size=4>[大功率编码电机驱动模块](docs/electronic_modules/rj11/36encoder_motor_driver/36encoder_motor_driver.md)</font><img src="docs/electronic_modules/rj11/36encoder_motor_driver/img.png">
 
 <!-- panels:end -->
@@ -420,7 +424,7 @@
 <!-- div:left-panel -->
 
 - <font size=4>[蓝牙适配器(Dongle拔模)](docs/electronic_modules/other_modules/bluetooth_dongle/bluetooth_dongle.md)</font><img src="docs/electronic_modules/other_modules/bluetooth_dongle/CC5F40F1-EF30-4722-9F08-14243374F3FE.png">
-- <font size=4>[蓝牙手柄](docs/electronic_modules/other_modules/bluetooth_controller/bluetooth_controller.md)</font><img src="C:\Users\LBT.YOYO\Desktop\20190807-160117.png">
+- <font size=4>[蓝牙手柄](docs/electronic_modules/other_modules/bluetooth_controller/bluetooth_controller.md)</font><img src="docs\electronic_modules\other_modules\bluetooth_controller\20190807-160117.png">
 
 <!-- div:right-panel -->
 
