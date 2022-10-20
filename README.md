@@ -133,6 +133,8 @@
 
 ### **ELF MINI V3**
 
+
+
 <div align=center>
 <img src="docs/electronic_modules/main_control_board/elf_mini/elf_mini_v3.jpg">
 </div>
@@ -180,6 +182,29 @@
 
 <!-- tabs:end -->
 
+## **树莓派系列**
+
+<!-- tabs:start -->
+
+### **树莓派AI套件**
+
+<div align=center>
+<img src="docs\electronic_modules\main_control_board\raspberry_pi/20201102-114950.png" width = 50%>
+</div>
+
+> [!NOTE]
+> - <font size=5 >详情链接 **→** [树莓派AI套件详细介绍](docs\electronic_modules\main_control_board\raspberry_pi/ai_suite.md)</font>
+
+### **树莓派拓展板**
+
+<div align=center>
+<img src="docs\electronic_modules\main_control_board\raspberry_pi/20201102-101827.png" width = 50%>
+</div>
+
+> [!NOTE]
+> - <font size=5 >详情链接 **→** [树莓派拓展板详细介绍](docs\electronic_modules\main_control_board\raspberry_pi/expansion_board.md)</font>
+
+<!-- tabs:end -->
 
 ## **micro:bit系列**
 
@@ -187,11 +212,26 @@
 
 ### **micro:bit v1**
 
+<div align=center>
+<img src="docs\electronic_modules\main_control_board\micro_bit/20190730-154230.png" width = 50%>
+</div>
+
+> [!NOTE]
+> - <font size=5 >详情链接 **→** [micro:bit v1详细介绍](docs\electronic_modules\main_control_board\micro_bit/micro_bit_v1.md)</font>
+
 ### **micro:bit v2**
 
 ### **micro:bit Shield v1**
 
+<div align=center>
+<img src="docs\electronic_modules\main_control_board\micro_bit/20190803-153413.png" width = 50%>
+</div>
+
+> [!NOTE]
+> - <font size=5 >详情链接 **→** [micro:bit Shield v1详细介绍](docs\electronic_modules\main_control_board\micro_bit/micro_bit_Shield_v1.md)</font>
+
 ### **micro:bit Shield v2**
+
 
 <!-- tabs:end -->
 
