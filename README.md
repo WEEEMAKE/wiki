@@ -198,8 +198,9 @@
 ### **树莓派拓展板**
 
 <div align=center>
-<img src="docs\electronic_modules\main_control_board\raspberry_pi/20201102-101827.png" width = 50%>
+<img src="docs\electronic_modules\main_control_board\raspberry_pi/20201030-184231.png" width = 50%>
 </div>
+
 
 > [!NOTE]
 > - <font size=5 >详情链接 **→** [树莓派拓展板详细介绍](docs\electronic_modules\main_control_board\raspberry_pi/expansion_board.md)</font>
