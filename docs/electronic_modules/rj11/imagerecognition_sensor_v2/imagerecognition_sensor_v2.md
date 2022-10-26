@@ -96,11 +96,15 @@ z_degress：摄像头和apriltag码的旋转角度[0°,360°]，正对着是0°�
 
 
 
-#### 4.6 关于y_degress指的是二维码上平行于绿边的方向上与摄像头的夹角。如下图y轴与摄像头平行时，y_degress值会在0-10或者350-359之间跳动。
+#### 4.6 如下图y轴与摄像头平行时，y_degress值会在0-10或者350-359之间跳动。
 
 <img src="docs/electronic_modules/rj11/imagerecognition_sensor_v2/a06532907beefa86d66ce1b2bef7b68.jpg" alt="a06532907beefa86d66ce1b2bef7b68" style="zoom: 25%;" />
 
+#### 关于y_degress指的是二维码上建立的直角坐标系中，以y轴为轴心旋转时二维码的角度变化量。同样的，x_degress和z_degress都是以对应坐标轴方向为轴心旋转时，二维码的角度变化量。
+
 <img src="docs/electronic_modules/rj11/imagerecognition_sensor_v2/image-20221026173845891.png" alt="image-20221026173845891" style="zoom:50%;" />
+
+#### 图为对齐后，y_degress的串口打印界面。
 
 ![image-20221026161448952](image-20221026161448952.png)
 
