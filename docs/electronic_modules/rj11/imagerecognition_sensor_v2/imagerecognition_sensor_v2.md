@@ -100,6 +100,8 @@ z_degress：摄像头和apriltag码的旋转角度[0°,360°]，正对着是0°�
 
 <img src="docs/electronic_modules/rj11/imagerecognition_sensor_v2/a06532907beefa86d66ce1b2bef7b68.jpg" alt="a06532907beefa86d66ce1b2bef7b68" style="zoom: 25%;" />
 
+<img src="docs/electronic_modules/rj11/imagerecognition_sensor_v2/image-20221026173845891.png" alt="image-20221026173845891" style="zoom:50%;" />
+
 ![image-20221026161448952](image-20221026161448952.png)
 
 
