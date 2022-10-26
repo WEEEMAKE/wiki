@@ -68,43 +68,45 @@ z_degress：摄像头和apriltag码的旋转角度[0°,360°]，正对着是0°�
 
 ## 4 示例程序
 
-#### 4.1 编写如图代码
+4.1 编写如图代码
 
 <img src="docs/electronic_modules/rj11/imagerecognition_sensor_v2/image-20221026121728214-16667584479031.png" alt="image-20221026121728214" style="zoom: 67%;" />
 
-#### 4.2 准备如图1号tag标签
+4.2 准备如图1号tag标签
+
 <img src="docs/electronic_modules/rj11/imagerecognition_sensor_v2/image-20221026121834293-16667584824622.png" style="zoom:50%;" />
 
-#### 4.3 连接好主板和图像识别传感器模块，打开串口调试代码。倘若没有识别到标签，串口打印0；当识别到标签后，串口打印1。现象如图所示：
+4.3 连接好主板和图像识别传感器模块，打开串口调试代码。倘若没有识别到标签，串口打印0；当识别到标签后，串口打印1。现象如图所示：
+
 没有识别到：
 
-<img src="docs/electronic_modules/rj11/imagerecognition_sensor_v2/image-20221026122413771-16667584857673.png" alt="image-20221026122413771"  />
+<img src="docs/electronic_modules/rj11/imagerecognition_sensor_v2/image-20221026122413771-16667584857673.png" alt="image-20221026122413771"/>
 
 识别到以后：
 
 ![image-20221026122449378](image-20221026122449378-16667584877164.png)
 
-#### 4.4 模块测试成功，不仅需要识别出二维码，还需要矫正机器人的姿态以确保机械爪在抓取二维码方块的时候是正对着它的。因此，我们需要得到二维码的中心点坐标参数以判断二维码是否于机器人视野居中。下图代码示例返回二维码中心点的坐标参数。最后根据机器人结构的细微差异调整代码。
+4.4 模块测试成功，不仅需要识别出二维码，还需要矫正机器人的姿态以确保机械爪在抓取二维码方块的时候是正对着它的。因此，我们需要得到二维码的中心点坐标参数以判断二维码是否于机器人视野居中。下图代码示例返回二维码中心点的坐标参数。最后根据机器人结构的细微差异调整代码。
 
 ![image-20221026154945042](image-20221026154945042.png)
 
+#### 
 
-
-#### 4.5 当图像识别传感器识别到April Tag码值为1的图片时，打印出这个码的y_degress角度值，同学们可以通过调整二维码方块的位置观察该值的变化。
+4.5 当图像识别传感器识别到April Tag码值为1的图片时，打印出这个码的y_degress角度值，同学们可以通过调整二维码方块的位置观察该值的变化。
 
 ![image-20221026154703358](image-20221026154703358.png)
 
 
 
-#### 4.6 如下图y轴与摄像头平行时，y_degress值会在0-10或者350-359之间跳动。
+4.6 关于y_degress指的是二维码上建立的直角坐标系中，以y轴为轴心旋转时二维码的角度变化量。同样的，x_degress和z_degress都是以对应坐标轴方向为轴心旋转时，二维码的角度变化量。
 
-<img src="docs/electronic_modules/rj11/imagerecognition_sensor_v2/a06532907beefa86d66ce1b2bef7b68.jpg" alt="a06532907beefa86d66ce1b2bef7b68" style="zoom: 25%;" />
+<img src="docs/electronic_modules/rj11/imagerecognition_sensor_v2/image-20221026173845891.png" alt="image-20221026173845891"  />
 
-#### 关于y_degress指的是二维码上建立的直角坐标系中，以y轴为轴心旋转时二维码的角度变化量。同样的，x_degress和z_degress都是以对应坐标轴方向为轴心旋转时，二维码的角度变化量。
+例如，当二维码块没有正对摄像头时就会产生y_degress偏移量。这时我们通过y_degress来调整位置，使得机械爪能够顺利抓取。
 
-<img src="docs/electronic_modules/rj11/imagerecognition_sensor_v2/image-20221026173845891.png" alt="image-20221026173845891" style="zoom:50%;" />
+![image-20221026181548077](image-20221026181548077.png)
 
-#### 图为对齐后，y_degress的串口打印界面。
+如下图y_degress的串口打印界面，当y轴对齐，y_degress值会在0-10或者350-359之间跳动。
 
 ![image-20221026161448952](image-20221026161448952.png)
 
