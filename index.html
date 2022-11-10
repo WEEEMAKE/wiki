@@ -10,6 +10,7 @@
   <link rel="icon" href="img/favicon.ico">
   <link rel="stylesheet" href="css/vue.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/toTopStyle.css">
   <!-- CSS goes in the document HEAD or added to your external stylesheet -->
   <style type="text/css">
   table.imagetable {
@@ -57,6 +58,7 @@
 
 <body >
 <div id="app"></div>
+<a class="to-top">Top</a>
 <script>
   window.$docsify = {
     name: 'WEEEMAKE WIKI',
@@ -89,6 +91,7 @@
           '<p>',
           'Copyright © 2022 <span><a href="https://www.weeemake.com.cn" style="font-size:80%;color:blue;" target="_blank">Weeemake</a></span> , All rights reserved.<span></span>',
           '</p>',
+          '<span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv"></span>次</span>',
           '</footer>'
         ].join('');
         hook.afterEach(function (html) {
@@ -104,11 +107,10 @@
     ],
     search: {
         paths: 'auto',
-        placeholder: '搜索',
-        noData: '找不到结果',
-        depth: 3,
+        placeholder: '🔍 搜索',
+        noData: '😒 找不到结果',
+        depth: 4,
       },
-
   }
 </script>
 
@@ -121,9 +123,22 @@
 <script src="js/docsify-themeable.min.js"></script>
 <script src="js/zoom-image.min.js"></script>
 <script src="js/index.js"></script>
-<script src="js/docsify-scroll-to-top.min.js"></script>
 <script src="js/search.min.js"></script>
 <script src="js/docsify-copy-code"></script>
+<!-- docsify表情包 -->
+<script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>
+<!--  置顶插件-->
+<script src="js/jquery-1.11.3.min.js"></script>
+<script src="js/jquery.toTop.min.js"></script>
+<script>
+  $('.to-top').toTop();
+</script>
+
+<!-- 访问量统计 -->
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+<!-- Markdown 引用样式美化 -->
+<script src="//cdn.jsdelivr.net/npm/docsify-plugin-flexible-alerts/dist/docsify-plugin-flexible-alerts.min.js"></script>
 
 </body>
 </html>
