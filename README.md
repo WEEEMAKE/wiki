@@ -285,6 +285,7 @@
 ### **传感类**
 <!-- panels:start -->
 <!-- div:left-panel -->
+
 - <font size=4>[RGB超声波传感器](docs/electronic_modules/rj11/rgb_ultrasonic_sensor/rgb_ultrasonic_sensor.md)</font><img src="docs/electronic_modules/rj11/rgb_ultrasonic_sensor/rgb_ultrasonic_sensor.png">
 - <font size=4>[温湿度传感器](docs/electronic_modules/rj11/temperature_and_humidity/temperature_and_humidity.md)</font><img src="docs/electronic_modules/rj11/temperature_and_humidity/20190515-154203.png">
 - <font size=4>[火焰传感器](docs/electronic_modules/rj11/flame_sensor/flame_sensor.md)</font><img src="docs/electronic_modules/rj11/flame_sensor/20220427150517.png">
@@ -438,8 +439,8 @@
 
 - <font size=4>[声音传感器](docs/electronic_modules/kf2510/sound_sensor/sound_sensor.md)</font><img src="docs/electronic_modules/kf2510/sound_sensor/sound_sensor.png">
 - <font size=4>[红外接收传感器](docs/electronic_modules/kf2510/ir_receiver_sensor/ir_receiver_sensor.md)</font><img src="docs/electronic_modules/kf2510/ir_receiver_sensor/IR_Receiver_Sensor.png">
-- <font size=4>[LM35温度传感器]()</font>
-- <font size=4>[单色LED灯模块]()</font>
+- <font size=4>[LM35温度传感器](docs\electronic_modules\kf2510\LM35_temperature\LM35_temperature.md)</font>
+- <font size=4>[单色LED灯模块](docs\electronic_modules\kf2510\led\led.md)</font>
 - <font size=4>[限位开关模块]()</font>
 - <font size=4>[旋转电位器模块]()</font>
 - <font size=4>[无源蜂鸣器模块]()</font>
@@ -447,9 +448,10 @@
 - <font size=4>[数码管模块]()</font>
 
 <!-- div:right-panel -->
+
 - <font size=4>[光线传感器]()</font>
 - <font size=4>[按键模块]()</font>
-- <font size=4>[温湿度传感器]()</font>
+- <font size=4>[温湿度传感器](docs\electronic_modules\kf2510\Temperature_and_humidity_sensor\Temperature_and_humidity_sensor.md)</font>
 - <font size=4>[RGB彩灯模块]()</font>
 - <font size=4>[全向摇杆模块]()</font>
 - <font size=4>[巡线传感器]()</font>
@@ -466,6 +468,7 @@
 
 - <font size=4>[蓝牙适配器(Dongle拔模)](docs/electronic_modules/other_modules/bluetooth_dongle/bluetooth_dongle.md)</font><img src="docs/electronic_modules/other_modules/bluetooth_dongle/CC5F40F1-EF30-4722-9F08-14243374F3FE.png">
 - <font size=4>[蓝牙手柄](docs/electronic_modules/other_modules/bluetooth_controller/bluetooth_controller.md)</font><img src="docs\electronic_modules\other_modules\bluetooth_controller\20190807-160117.png">
+- <font size=4>[蓝牙手柄（白色）](docs/electronic_modules/other_modules/bluetooth_controller_white/bluetooth_controller_white.md)</font><img src="docs/electronic_modules/other_modules/bluetooth_controller_white/正面.jpg">
 
 <!-- div:right-panel -->
 

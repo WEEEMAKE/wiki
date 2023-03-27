@@ -41,8 +41,8 @@ text{
 	color: #7ec699;
 }
 </style>
-
 <!-- Table goes in the document BODY -->
+
 <table class="imagetable" style="display: table; text-align: left;">
 <tr>
     <th>参数</th><th>值/描述</th>
@@ -60,5 +60,3 @@ text{
     <td>模块尺寸</td><td>100mm*32mm*30mm(长*宽*高)</td>
 </tr>
 </table>
-
-# **3-参数规格**
