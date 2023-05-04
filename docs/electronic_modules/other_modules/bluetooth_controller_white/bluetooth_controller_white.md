@@ -13,6 +13,9 @@
 </p>
 <div align=center>
 <img src="docs/electronic_modules/other_modules/bluetooth_controller_white/侧面.jpg"><br>
+<div align=center>
+<img src="docs/electronic_modules/other_modules/bluetooth_controller_white/蓝牙手柄键位图.jpg"><br>
+
 
 
 
@@ -91,6 +94,7 @@
 ### **3.2-手柄使用说明**
 
 <!-- Table goes in the document BODY -->
+
 <table class="imagetable" style="display: table; text-align: left;">
 <tr>
     <th>项</th><th>值/描述</th>
@@ -118,6 +122,9 @@
 同时按住<img src="docs/electronic_modules/other_modules/bluetooth_controller_white/L1.png">+<img src="docs/electronic_modules/other_modules/bluetooth_controller_white/setting.png">+<img src="docs/electronic_modules/other_modules/bluetooth_controller_white/home.png">进入校验模式，蓝灯快闪，此时最大摇动摇杆，蓝灯再次慢闪时，结束校验。</td>
 </tr>
 </table>
+
+
+
 
 ### **3.3-按键/摇杆编程宏定义**
 
