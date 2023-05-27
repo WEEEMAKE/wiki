@@ -158,9 +158,10 @@ lang=EN-US style='font-size:16.0pt;font-family:宋体'>K210</span></b><b><span
 style='font-size:16.0pt;font-family:宋体'>芯片</span></b><span style='font-size:
 16.0pt;font-family:宋体'>。勘智<span lang=EN-US>K210</span>是集成机器视觉与机器听觉能力的系统级芯片，它使用了超低功耗的<span
 lang=EN-US>28</span>纳米先进制程，具有<span lang=EN-US>64</span>位处理器，总算力可达<span
-lang=EN-US>1TOPS</span>，内置多种硬件加速单元（<span lang=EN-US>KUP</span>、<span
+lang=EN-US>0.23TOPS</span>，内置多种硬件加速单元（<span lang=EN-US>KUP</span>、<span
 lang=EN-US>FPU</span>、<span lang=EN-US>FFT</span>等），主频<span lang=EN-US>400MHz</span>。<span
 lang=EN-US>K210</span>模组内置<span lang=EN-US>8M</span>的<span lang=EN-US>SRAM</span>。</span></p>
+
 
 <p class=MsoNormal><b><span style='font-size:16.0pt;font-family:宋体;color:#0070C0'>②</span></b><b><span
 lang=EN-US style='font-size:16.0pt;font-family:宋体'>ESP32</span></b><b><span
