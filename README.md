@@ -297,6 +297,7 @@
 - <font size=4>[语音识别传感器V1](docs/electronic_modules/rj11/speech_recognition_v1/speech_recognition_v1.md)</font><img src="docs/electronic_modules/rj11/speech_recognition_v1/Picture1.png">
 - <font size=4>[语音识别传感器V2](docs/electronic_modules/rj11/speech_recognition_v2/speech_recognition_v2.md)</font><img src="docs/electronic_modules/rj11/speech_recognition_v2/img.png">
 - <font size=4>[紫外线传感器](docs/electronic_modules/rj11/uv_sensor/uv_sensor.md)</font>
+- <font size=4>[蜂眼智瞳](docs/electronic_modules/rj11/V831_image_recognitionV3.0/V831_image_recognitionV3.0.md)</font><img src="docs/electronic_modules/rj11/V831_image_recognitionV3.0/0.png">
 
 <!-- div:right-panel -->
 

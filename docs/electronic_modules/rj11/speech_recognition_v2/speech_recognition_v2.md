@@ -1,7 +1,6 @@
 <div align=center>
 <h1 class="text-center">语音识别传感器V2</h1>
 </div>
-
 ## **1-简要介绍**
 
 <div align=center>
@@ -10,7 +9,6 @@
 <p>
     <span style="font-size: 24px; font-family: 宋体, SimSun;">&nbsp; 本模块为语音识别传感器V1.0的升级版，和之前版本一样不需要事先训练和录音，不需要联网。不同之处是，V2.0语音识别更加准确，灵敏度更高，并可在轻度嘈杂的环境中很好识别，同时识别后还可以发声，但此版本不支持用户修改识别指令。</span>
 </p>
-
 ## **2-参数规格**
 
 <div align=center>
@@ -87,6 +85,7 @@
 ## **4-注意事项**
 
 > [!Note]
+>
 > <div>
 <p>
     <span style="font-family: 宋体, SimSun; font-size: 24px;">&nbsp; 本模块使用SU-03T语音识别方案，如果用户知道如何生成语音文件及下载，可以用模块上的排母自行更新下载，下载串口采用的是B6和B7，通讯口也是这2个。</span>
