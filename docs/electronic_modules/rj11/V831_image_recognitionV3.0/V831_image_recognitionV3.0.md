@@ -28,5 +28,7 @@
 
 
 ## 3 教学资料
-
- [09~10第九至十课 视觉模块.pptx](docs/electronic_modules/rj11/V831_image_recognitionV3.0/09~10第九至十课 视觉模块.pptx) 
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><span style='font-size:16.0pt;font-family:宋体'>以下示例程序相关资料下载：<b><span
+lang=EN-US><a
+href="docs/electronic_modules/rj11/V831_image_recognitionV3.0/09~10第九至十课 视觉模块.pptx">蜂眼智瞳课程下载</a></span></b></span></p>
